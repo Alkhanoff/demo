@@ -1,0 +1,12 @@
+.titleText {font-family: Arial; font-size: 12pt; font-weight: bold;}
+.mainText {font-family: Arial; font-size: 10pt}
+.instructionText {font-family: Arial; font-size: 10pt; color:#999999; }
+.pageNumText {font-family: Arial; font-size: 10pt;}
+.initialText {font-family: Arial; font-size: 10pt}
+
+
+#background{position:absolute; left:0px; top:0px; width:440px; height:350px; z-index:1; }
+#postBackground{position:absolute; left:85px; top:5px; width:440px; height:350px; z-index:2; }
+#postPage1Text{position:absolute; left:100px; top:30px; width:440px; height:350px; z-index:2; }
+#postDetails{font-family: Arial; font-size: 10pt;position:absolute; left:0px; top:0px; width:440px; height:350px; z-index:3;}
+#postBody{font-family: Arial; font-size: 10pt;position:absolute; left:5px; top:85px; width:440px; height:350px; z-index:3; }

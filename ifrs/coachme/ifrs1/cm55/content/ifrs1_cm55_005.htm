@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Mandatory exception: estimates</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/tabbedscreen.css">
+<script language="JavaScript" src="../../../../js/content/tabbedscreen.js"></script>
+<script language="JavaScript">
+var transparentImage = "../../../../images/content/trans.gif";
+
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+imagePath = "../../../../images/content/";
+var initialAudioFile = "";
+var noOfTabs = 2;
+
+var hotTypeOnThisTab = new Array()
+hotTypeOnThisTab[1] = 0;
+hotTypeOnThisTab[2] = 0;
+
+var theInstructionText = "That completes this <b>Coach me</b> session. Click on another <b>Coach me</b> session or click <b>Close</b>.";
+	
+var audioOnPage = false;
+var theInitialInstructionText = "Click each tab to find out more.";
+
+var tabTypesArray = new Array();
+
+
+
+tabTypesArray[1] = "Text only";
+
+
+
+tabTypesArray[2] = "Text only";
+
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/coachme/cm_main.gif"></div>
+			<div id="titleLayer" name="titleLayer" class="titleText">Mandatory exception: estimates</div>
+			
+			
+			<div id="mainTabDiv" class="mainTabNoInitialText">
+		<div id="tabBottomImage" name="tabBottomImage" class="tabBottomImageNoInitialText"><img border="0" src="../../../../images/content/tabbedscreen/coachme/tabbottom.gif"></div>
+		<div id="tabBackgroundImage" name="tabBackgroundImage" class="tabBackgroundImageNoInitialText" style="background-image:url(../../../../images/content/tabbedscreen/coachme/tabbackground1px.gif);"><img border="0" src="../../../../images/content/trans.gif"></div>
+		<div id="tabTitles" name="tabTitles">
+<table cellpadding="10" cellspacing="0" border="0" height="55"><tr>
+<td class="tabTitles" id="tabTitle1" width="99">Previous estimates</td>
+<td class="tabTitles" id="tabTitle2" width="99">Estimates not required</td>
+</tr></table></div>
+		<div id="tabTitlesClickableImages" name="tabTitlesClickableImages">
+<table cellpadding="0" cellspacing="0" border="0" height="55"><tr>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(1);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(2);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+</tr></table></div>
+		
+		<div class="tabBars" id="tab1topBarDIV" style="visibility:visible;"><img border="0" width="598" height="55" id="tab1topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_1h.gif"></div>
+<div class="textCol1" id="tab1textColumn1" style="visibility:visible;">An entity&#146;s estimates under IFRS, at the date of transition to IFRS, shall be consistent with estimates made for the same date under the previous GAAP (after adjustments to reflect any difference in accounting policies), unless there is objective evidence that those estimates were in error.</div>
+<div class="textCol2" id="tab1textColumn2" style="visibility:visible;">
+<p>An entity may receive information after the date of transition to IFRS about estimates that it had made under the previous GAAP. </p><p>Under the previous paragraph, an entity shall treat the receipt of that information in the same way as non-adjusting events after the reporting period, under <i>IAS 10,</i><i>Events after the Reporting Period</i>.</p><span class="instructionText" id="tab1ieOnlyInstructionText"></span></div>
+		<div class="tabBars" id="tab2topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab2topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_2h.gif"></div>
+<div class="textCol1" id="tab2textColumn1" style="visibility:hidden;">
+<p>An entity may need to make estimates under IFRS at the date of transition to IFRS that were not required at that date under the previous GAAP. </p><p>To achieve consistency with <i>IAS 10</i>, those estimates under IFRS shall reflect conditions that existed at the date of transition to IFRS.  In particular, estimates at the date of transition to IFRS of market prices, interest rates or foreign exchange rates shall reflect market conditions at that date.</p></div>
+<div class="textCol2" id="tab2textColumn2" style="visibility:hidden;">
+<p>Previous paragraphs apply to the opening IFRS statement of financial position. </p><p>They also apply to a comparative period presented in an entity&#146;s first IFRS financial statements, in which case the references to the date of transition to IFRS are replaced by references to the end of that comparative period.</p><span class="instructionText" id="tab2ieOnlyInstructionText"></span></div>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

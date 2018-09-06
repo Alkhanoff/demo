@@ -1,0 +1,24 @@
+.initialText {
+	position:absolute; 
+	left:15; 
+	top:30; 
+	width:605px; 
+	height:30px;
+}
+
+.captionText
+, .initialText
+, .mainTextNoInitialText
+, .mainTextWithInitialText
+{
+	font-family: Calibri, Arial; 
+	font-size: 11pt;
+}
+
+.mainTextNoInitialText {
+	top: 30px;
+}
+
+.mainTextWithInitialText {
+	top: 60px;
+}

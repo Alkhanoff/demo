@@ -1,0 +1,7 @@
+.titleText {font-family: Calibri, Verdana; font-size: 13pt; font-weight: 900;}
+.captionText {font-family: Calibri, Verdana; font-size: 10pt; padding:0px 1px 0px 1px;}
+.instructionText {font-family: Calibri, Verdana; font-size: 10pt; color:#663366; }
+.pageNumText {font-family: Calibri, Verdana; font-size: 10pt}
+A.clickableAudioImage:link, A.clickableAudioImage:visited, A.clickableAudioImage:active {font-family: Verdana; font-size: 9pt; text-decoration: none; color:blue}
+.initialText {font-family: Calibri, Verdana; font-size: 10pt}
+.numbering {font-family: Calibri, Verdana; font-size: 19pt; font-weight:bold;}

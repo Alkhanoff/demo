@@ -1,0 +1,63 @@
+<html lang="en" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xql="#xql-functions" xmlns:auto-ns1="http://www.w3.org/TR/WD-xsl" xmlns:global="#local-functions" xmlns:local="#local-functions">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Quick thinking</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/wordmatchgraphiclandscape.css">
+
+<script language="JavaScript" src="../../../../js/content/wordmatchgraphiclandscape.js"></script>
+<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+<script language="javaScript">
+commsArray = null;
+	hintText = "If you need help, find out about the Presentation and disclosure requirements in the <b>Coach me</b> section.";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+var hintText = "If you need help, find out about the Presentation and disclosure requirements in the <b>Coach me</b> section.";
+var correctFeedbackText = "The Board now understands the presentation and disclosure requirements, and look impressed with your performance. But Patrick has something else to say...";	
+var finalIncorrectFeedback= "<p>Check the correct answers before moving on. Patrick looks like he&#146;s got something more to say...</p>";	
+var retryFeedbackOptional= "";	
+var instructionOnIncorrectAttempt = "<p>Before you can make your second and final attempt at this question, ask about <a href=\"javascript:appTop.launchIntoCoachMe(\'cm65\');\">Presentation and disclosure</a>  in <b>Coach me</b>. You can also click <b>Clue</b> for additional help.</p>";
+var instructionOnFinalIncorrectAttempt = "Click <b>Show Me</b> to see the correct order, or click <b>Next</b> to continue.";
+var afterModelAnswerInstruction = "Click <b>Your Answer</b> to see what you chose, or click <b>Next</b> to continue.";
+var instructionText = "Click <b>Next</b> to continue.";
+var numOfDropDowns =  6;
+var numOfAttemps = 2;
+var imagePath = "../../../../images/content/";
+var isWordMatchGraphicLarge = false;
+</script></head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onunload="pageUnload()" onload="initialise()">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Quick thinking</div>
+<div id="mainContent">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td colspan="2">
+<div id="questionArea" name="questionArea"><span id="questionText" name="questionText" style="position:relative; visibility:inherit"><font class="question"><b>Patrick:</b> &#147;That&#146;s a good summary of what we need to know, but there&#146;s one issue you haven&#146;t covered...What are the presentation and disclosure requirements for Clover Group as a first-time adopter?&#148;<br>There are <b>six</b> requirements. To make these as clear as possible for Patrick and the rest of the Board, Garrett suggests you write these up on the white board. This also gives you more time to gather your thoughts. </font></span> <span class="instructionText" id="initialInstructionText">Select the correct answers from the drop-down boxes.</span></div><img height="10px" src="../../../../images/content/white1px.gif"></td></tr><tr><td colspan="2">
+<div id="mainGraphicArea" name="mainGraphicArea"><img border="0" id="mainGraphic" src="images/ifrs1_s20_t05_010.gif"></div>
+</td></tr>
+</table></div>
+<div id="feedbackText" class="feedbackLandscape"></div>
+<div id="listArea" name="listArea">
+<form name="mainForm">
+<div id="selectList_1Div" name="selectList_1Div" style="position:absolute; left:130px; top: 19px; z-index:2; visibility:hidden;"><select id="selectList_1" onchange="javascript:updateAnswerArray(this,'W3',1)" class="option" style="position:relative; top:2px; z-index:3"><option value=""></option><option value="opt_1">provides</option><option value="opt_2">sometimes provides</option><option value="opt_3">does not provide</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_1" name="markImg_1" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_2Div" name="selectList_2Div" style="position:absolute; left:338px; top: 75px; z-index:2; visibility:hidden;"><select id="selectList_2" onchange="javascript:updateAnswerArray(this,'W2',2)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">6 months</option><option value="opt_2">at least one year</option><option value="opt_3">two years</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_2" name="markImg_2" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_3Div" name="selectList_3Div" style="position:absolute; left:131px; top: 113px; z-index:2; visibility:hidden;">
+<p><select id="selectList_3" onchange="javascript:updateAnswerArray(this,'W3',3)" class="option" style="position:relative; top:2px; z-index:3"><option value=""></option><option value="opt_1"> financial position and cash flows</option><option value="opt_2">financial position and financial performance</option><option value="opt_3">financial position, financial performance and cash flows</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_3" name="markImg_3" style="position:relative; top:2px;">&nbsp;</p></div>
+<div id="selectList_4Div" name="selectList_4Div" style="position:absolute; left:272px; top: 134px; z-index:2; visibility:hidden;"><select id="selectList_4" onchange="javascript:updateAnswerArray(this,'W3',4)" class="option" style="position:relative; top:2px; z-index:3"><option value=""></option><option value="opt_1">equity</option><option value="opt_2">total comprehensive income</option><option value="opt_3">equity and total comprehensive income</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_4" name="markImg_4" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_5Div" name="selectList_5Div" style="position:absolute; left:60px; top: 173px; z-index:2; visibility:hidden;"><select id="selectList_5" onchange="javascript:updateAnswerArray(this,'W1',5)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">additional</option><option value="opt_2">no additional</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_5" name="markImg_5" style="position:relative; top:2px;">&nbsp;<b></b></div>
+<div id="selectList_6Div" name="selectList_6Div" style="position:absolute; left:380px; top: 190px; z-index:2; visibility:hidden;"><select id="selectList_6" onchange="javascript:updateAnswerArray(this,'W1',6)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">presents</option><option value="opt_2">does not present</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_6" name="markImg_6" style="position:relative; top:2px;">&nbsp;</div>
+</form>
+</div>
+<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

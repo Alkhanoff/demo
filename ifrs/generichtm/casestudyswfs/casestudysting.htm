@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+<TITLE></TITLE>
+<link rel="stylesheet" href="../../css/popup/common.css">
+<script language="JavaScript" src="../../js/apptop.js"></script>
+<script language="JavaScript" src="../../js/common.js"></script>
+<script language="JavaScript">
+var imagePath = "../../images/"; // The path of the image directory relative to the page 
+var popupClose_h = new Image();
+var popupClose_n = new Image();
+
+function init()
+{
+	parent.intPageType = parent.CASESTUDYSTING;
+	parent.booContentLoaded = true;
+}
+
+</script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" onload="init()">
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:637px; height:378px; background-image:URL(../../images/popups/examples/ex_main.gif); z-index:0"></div>
+<div id="instructionL" style="position:absolute; font-family:Arial; font-size:10pt; color:#008fd3; left:15px; top:10px">< Click an item to begin.</div>
+<img style="position:absolute; left:320px; top:88px" src="case_studies.jpg" alt="">
+<div id="popupLayer" style="background:url(../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="parent.hidePopupLayer();" onmouseover="parent.changeImage('popupClose_h')" onmouseout="parent.changeImage('popupClose_n')"><img alt="close" width="62" border="0" height="18" id="popupCloseImg" name="popupCloseImg" src="../../images/content/close_btn_n.gif"></a></div>
+	<div id="popupContent">
+		<div align="left"><img src="../../images/content/popup_titles/help.gif" alt="Help"/></div>
+		<div style="position:absolute; left:16px; top:55px; overflow: auto; padding:5px; width:340px; height:222px"></div>
+	</div>
+</div>
+<div id="popupMask"><img width="773" height="442" src="../../images/content/white1px.gif"></div></BODY>
+</BODY>
+</HTML>

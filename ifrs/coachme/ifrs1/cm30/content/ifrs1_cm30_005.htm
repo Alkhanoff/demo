@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>The effects of change</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/tabbedscreen.css">
+<script language="JavaScript" src="../../../../js/content/tabbedscreen.js"></script>
+<script language="JavaScript">
+var transparentImage = "../../../../images/content/trans.gif";
+
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+imagePath = "../../../../images/content/";
+var initialAudioFile = "";
+var noOfTabs = 2;
+
+var hotTypeOnThisTab = new Array()
+hotTypeOnThisTab[1] = 0;
+hotTypeOnThisTab[2] = 1;
+
+var theInstructionText = "That completes this <b>Coach me</b> session. Click on another <b>Coach me</b> session or click <b>Close</b>.";
+	
+var audioOnPage = false;
+var theInitialInstructionText = "Click each tab to find out more.";
+
+var tabTypesArray = new Array();
+
+
+
+tabTypesArray[1] = "Text with small graphic";
+
+
+
+tabTypesArray[2] = "Hot text";
+
+
+var tab2GraphicsInFeedback = false;
+
+var tab2theInitialText = "";
+var tab2numberOfHotTexts=2;
+var tab2displayTextOverwritesInitialText = false;
+
+var tab2theInitialInstructionText = "Click the bullet points to find out more.";
+var tab2displayTextArray = new Array();
+
+tab2displayTextArray[1] = "<p>The cumulative translation differences for all foreign operations are deemed to be zero at the date of transition to IFRS.<i></i></p>";
+tab2displayTextArray[2] = "<p>The gain or loss on a subsequent disposal of any foreign operation shall exclude translation differences that arose before the date of transition to IFRS and shall include later translation differences.</p><p><b>In a lot of cases, entities will have no other choice than to apply the exemption as it will be very difficult to apply <i>IAS 21</i> retroactively.</b></p>";
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/coachme/cm_main.gif"></div>
+			<div id="titleLayer" name="titleLayer" class="titleText">The effects of change</div>
+			
+			
+			<div id="mainTabDiv" class="mainTabNoInitialText">
+		<div id="tabBottomImage" name="tabBottomImage" class="tabBottomImageNoInitialText"><img border="0" src="../../../../images/content/tabbedscreen/coachme/tabbottom.gif"></div>
+		<div id="tabBackgroundImage" name="tabBackgroundImage" class="tabBackgroundImageNoInitialText" style="background-image:url(../../../../images/content/tabbedscreen/coachme/tabbackground1px.gif);"><img border="0" src="../../../../images/content/trans.gif"></div>
+		<div id="tabTitles" name="tabTitles">
+<table cellpadding="10" cellspacing="0" border="0" height="55"><tr>
+<td class="tabTitles" id="tabTitle1" width="99"><i>IAS 21</i> guidance</td>
+<td class="tabTitles" id="tabTitle2" width="99">Exemption</td>
+</tr></table></div>
+		<div id="tabTitlesClickableImages" name="tabTitlesClickableImages">
+<table cellpadding="0" cellspacing="0" border="0" height="55"><tr>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(1);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(2);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+</tr></table></div>
+		
+		<div class="tabBars" id="tab1topBarDIV" style="visibility:visible;"><img border="0" width="598" height="55" id="tab1topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_1h.gif"></div>
+<div class="graphicWithTextLeftArea" id="tab1mainText" style="visibility:visible;">
+<p><i>IAS 21,</i><i>The effects of changes in foreign exchange rates</i> requires an entity:</p><ul><li>to classify some translation differences as a separate component of equity; and</li><li>on disposal of a foreign operation, to transfer the cumulative translation difference for that foreign operation (including, if applicable, gains and losses on related hedges) to the statement of comprehensive income as part of the gain or loss on disposal</li></ul><span class="instructionText" id="tab1ieOnlyInstructionText"></span></div>
+<div id="tab1mainGraphic" class="graphicWithTextRightArea" style="visibility:visible;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab1graphic" src="images/ifrs1_cm30_005_tab1.gif"></td></tr></table>
+</div>
+		<div class="tabBars" id="tab2topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab2topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_2h.gif"></div>
+<div id="tab2hotTextArea" class="hotTextArea" style="visibility:hidden;">
+<table cellpadding="0" cellspacing="0" align="left" border="0" width="100%">
+<tr>
+<td class="hotTextinitialTextLayer" id="tab2HotTextInitialTextLayer">However, a first-time adopter need not comply with these requirements for cumulative translation differences that existed at the date of transition to IFRS. If a first-time adopter uses this exemption:</td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(1)" id="tab2hotTextLink1"><ul><li>Cumulative translation differences</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(2)" id="tab2hotTextLink2"><ul><li>Gain or loss</li></ul></a></td>
+</tr>
+<tr>
+<td class="postTextLayer"><p class="indented"> </p><span class="instructionText" id="tab2initialInstructionText"> Click the bullet points to find out more.</span></td>
+</tr>
+</table></div>
+<div id="tab2displayTextArea" class="hotTextDisplayTextAtTop" style="visibility:hidden;"></div>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

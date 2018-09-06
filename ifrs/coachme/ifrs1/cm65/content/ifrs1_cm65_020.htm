@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Reconciliations</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/hottext.css">
+<script language="JavaScript" src="../../../../js/content/hottext.js"></script>
+<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	var initialAudioFile = "";
+var audioOnPage = false;
+var theInitialText = "";
+var theInstructionText = "<p>Click <b>Next</b> to continue.</p>";
+var theInitialInstructionText = "<p>Click each item to find out more.</p>";
+var imagePath = "../../../../images/content/";
+var numberOfHotTexts=5;
+var displayTextArray = new Array();
+displayTextArray[1] = "<p>An entity should include a reconciliation of its <b>equity</b> reported under the previous GAAP to its equity under IFRS, for both of the following dates:</p><ul><li>the date of transition to IFRS</li><li>the end of the latest period presented in the entity&#146;s most recent annual financial statements under previous GAAP</li></ul>";
+displayTextArray[2] = "<p>An entity should include a reconciliation of the total comprehensive income under the previous GAAP for the latest period in the entity&#146;s most recent annual financial statements to its total comprehensive income under IFRS for the same period.<b></b></p>";
+displayTextArray[3] = "<p>If the entity recognised or reversed any <b>impairment losses</b> for the first time in preparing its opening IFRS statement of financial position, an entity&#146;s first IFRS financial statements shall include the disclosures that <i>IAS 36,  Impairment of assets</i> would have required if the entity had recognised those impairment losses or reversals in the period beginning with the date of transition to IFRS.</p>";
+displayTextArray[4] = "<p>IAS 8 does not apply to the changes in accounting policies an entity makes when it adopts IFRSs or to changes in those policies until after it presents its first IFRS financial statements. Therefore, IAS 8&#146;s requirements about changes in accounting policies do not apply in an entity&#146;s first IFRS financial statements.</p><p>If during the period covered by its first IFRS financial statements an entity changes its accounting policies or its use of the exemptions contained in this IFRS, it shall explain the changes between its first IFRS interim financial report and its first IFRS financial statements and it shall update the reconciliations.</p>";
+displayTextArray[5] = "<p>If an entity presented a statement of cash flows under its previous GAAP, it shall also explain the material adjustments to the statement of cash flows.</p>";
+displayTextArray[6] = "";
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/coachme/cm_main.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Reconciliations</div>
+<div id="hotTextArea" class="hotTextAreaSpanning">
+<table cellpadding="0" cellspacing="0" align="left" border="0" width="100%">
+<tr>
+<td class="initialTextLayer">An entity&#146;s first IFRS financial statements shall include:</td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(1)" id="hotText1">Equity reconciliation</a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(2)" id="hotText2"><u>Comprehensive income reconciliation</u></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(3)" id="hotText3">Impairment losses disclosures</a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(4)" id="hotText4">Errors under previous GAAP</a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(5)" id="hotText5">Statement of cash flows</a></td>
+</tr>
+<tr>
+<td class="postTextLayer"><p class="indented"> </p><span class="instructionText" id="initialInstructionText"> <p>Click each item to find out more.</p></span></td>
+</tr>
+</table></div>
+<div id="displayTextArea" class="hotTextDisplayText"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

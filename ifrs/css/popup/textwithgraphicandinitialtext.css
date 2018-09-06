@@ -1,0 +1,7 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;;; position:absolute; left:10; top:10; width:720px; height:20px;}
+.initialText {font-family: Arial; font-size: 10pt; position:absolute; left:10; top:40; width:605px; height:30px;}
+#textLayer {font-family: Arial; font-size: 10pt}
+.leftArea {position:absolute; left:10px; top:100px; width:280; height:300;}
+.rightArea {position:absolute; left:310px; top:100px; width:280; height:300;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+

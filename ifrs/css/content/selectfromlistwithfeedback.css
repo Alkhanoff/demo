@@ -1,0 +1,77 @@
+.question {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px 5px 5px 5px
+}
+
+.option {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	text-decoration:none; 
+	z-index:5;
+}
+
+#feedbackText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px 5px 5px 5px; 
+	height:250px; 
+	overflow-y:auto; 
+}
+
+.confirmButton {
+	position:absolute; 
+	left:535px; 
+	top:410px; 
+	width:90px; 
+	height:30px; 
+	z-index:10;
+}
+
+#questionDiv {
+	position:absolute; 
+	left:12px; 
+	top:25px; 
+	width:650px; 
+	height:300px; 
+	z-index:1
+}
+
+#titlePos {
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	width:600px; 
+	height:20px;
+}
+
+.inputBox {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	z-index:3; 
+	padding:5px 5px 5px 5px; 
+	border:1px solid #B3B3B3; 
+	width:210px; 
+	height:200px;
+}
+
+#feedbackImage {
+	position:absolute; 
+	left:10px; 
+	top:0px; 
+	width:422px; 
+	height:260px; 
+	z-index:10;
+	background-color:#ffffff;
+	visibility:hidden; 
+}
+
+#feedbackText a {
+	color:#932617;
+	text-decoration:underline; 
+}
+
+#feedbackText a:hover {
+	color:#15377E;
+	text-decoration:underline; 
+}

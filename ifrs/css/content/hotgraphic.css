@@ -1,0 +1,7 @@
+#initialTextLayer {font-family: Calibri, Arial; font-size: 11pt; z-index:5}
+.leftArea {position:absolute; left:20px; top:50px; width:350; height:300; z-index:5;}
+.leftAreaWithInitialText {position:absolute; left:20px; top:93px; width:350; height:300}
+.rightArea {position:absolute; left:370px; top:50px; width:275; height:300;}
+#displayTextArea {font-family: Calibri, Arial; font-size: 11pt; z-index:3}
+.baseArea {font-family: Calibri, Arial; font-size: 11pt;position:absolute; left:20px; top:345px; width:630px; height:50px;}
+.topArea {font-family: Calibri, Arial; font-size: 11pt;position:absolute; left:20px; top:30px; width:630px; height:50px;}

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title>Bookmarks</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../js/constants.js"></script>
+<script language="JavaScript" src="../js/popupwindowpopuplayers.js"></script>
+<script language="JavaScript">
+var strImagePath = "../images/"; // The path of the image directory relative to the page 
+var booContentLoaded = false;
+var booNavLoaded = false;
+var objOpener;
+var objOpenerTop;
+var objCourse;
+var strCourseID;
+var intAlternate;
+var intPageType;
+var objContentFrame;
+
+function initialise()
+{
+	objOpener = window.opener;
+	objOpenerTop = objOpener.appTop
+	strCourseID = objOpenerTop.strCourseID;
+	objCourse = objOpenerTop.objCourse;
+	intPageType = BOOKMARK;
+
+	objContentFrame = window["content"];
+    preloadPopupImages();
+	
+	window["title"].location = "bookmarktitle.htm";
+}
+
+function showBookmark()
+{
+	var _strBookmark = "";
+	var _intCounter = 1;
+	intAlternate = 1;
+
+	for (i in objCourse)
+	{
+		if (objCourse[i].objBookmarks != null)
+		{
+			for (j in objCourse[i].objBookmarks)
+			{
+				if (objCourse[i].objBookmarks[j] != null)
+				{
+					_strBookmark += "<div id=\"item" + _intCounter + "\" style=\"position:relative; left:0px; top:0px; width:553; z-index:8; visibility:visible\">\n" +
+					"<table width=\"550\" style=\"font-family:Arial; font-size:10pt\" border=\"0\">\n" +
+					"<tr>\n<td width=\"465\" align=\"left\" valign=\"center\">\n" +
+					"<a href=\"JavaScript:parent.goPage('" + j + "')\" border=\"0\">" + objCourse[i].objBookmarks[j] + "</a>" +
+					"</td>\n<td width=\"75\" align=\"center\" valign=\"center\">\n" +
+					"<img id=\"delete" + _intCounter + "Img\" src=\"../images/popups/bookmark/delete_n.gif\" width=\"68\" height=\"18\" border=\"0\" style=\"cursor:pointer\" onClick=\"parent.removeBookmark('" + j + "')\" onMouseOver=\"changeImage('delete" + _intCounter + "_h')\" onMouseOut=\"changeImage('delete" + _intCounter + "_n')\">\n" +
+					"</td>\n</tr>\n" +
+					"</table></div>";
+					if (intAlternate == 1)
+						intAlternate = 2;
+					else
+						intAlternate = 1;
+					_intCounter++;
+				}
+			}
+		}
+	}
+
+	objContentFrame.document.getElementById("bookmarkL").innerHTML = _strBookmark;
+}
+
+function removeBookmark(_strPageID)
+{
+	objCourse[strCourseID].removeBookmark(_strPageID);
+	showBookmark();
+}
+
+function goPage(_strPageID)
+{
+	objOpenerTop.goBookmarkPage(_strPageID);
+	top.window.close();
+}
+
+</script>
+</head>
+<frameset rows="71,*,51" border="0" frameborder"0" noresize framespacing="0" onload="initialise()">
+	<frame name="title" src="white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="0" framespacing="0">
+	<frame name="content" src="white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="0" framespacing="0">
+	<frame name="nav" src="white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="0" framespacing="0">
+</frameset>
+<noframes>
+<body bgcolor="#000000">
+</body>
+</noframes>
+</html>

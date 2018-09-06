@@ -1,0 +1,94 @@
+.initialText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	left:20px; 
+	top:30px; 
+	width:635px; 
+	height:30px;
+}
+
+.captionText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:0px 1px 0px 1px;
+}
+
+A.clickableAudioImage:link
+, A.clickableAudioImage:visited
+, A.clickableAudioImage:active 
+{
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	text-decoration:underline;
+}
+
+.numbering {
+	font-family: Calibri, Arial; 
+	font-size: 19pt; 
+	font-weight:800;
+}
+
+.cells {
+	font-family: Calibri, Arial; 
+	font-size: 11pt;
+}
+
+#storyBoardCell1 {
+	position:absolute; 
+	left:20px; 
+	top:95px; 
+	width:190px; 
+	height:250px;
+}
+
+#storyBoardCell2 {
+	position:absolute; 
+	left:240px; 
+	top:95px; 
+	width:190px; 
+	height:250px; 
+	visibility:hidden;
+}
+
+#storyBoardCell3 {
+	position:absolute; 
+	left:460px; 
+	top:95px; 
+	width:190px; 
+	height:250px; 
+	visibility:hidden;
+}
+
+#moreButton1 {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	left:240px; 
+	top:280px; 
+	width:230px; 
+	height:250px; 
+	z-index:5;
+}
+
+#moreButton2 {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	left:465px; 
+	top:280px; 
+	width:230px; 
+	height:250px; 
+	z-index:5; 
+	visibility:hidden;
+}
+
+#finalInstruction {
+	position:absolute; 
+	left:460px; 
+	top:400px; 
+	width:195px; 
+	height:250px; 
+	z-index:5; 
+	visibility:hidden;
+}

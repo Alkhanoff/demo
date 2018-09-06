@@ -1,0 +1,98 @@
+body {
+	padding:0px;
+}
+
+#mainContent {
+	position:absolute; 
+	top:25px; 
+	left:10px; 
+	width:644px; 
+	height:10px; 
+	z-index:5;
+}
+
+#questionArea {
+	padding: 5px 5px 5px 10px
+}
+
+#mainGraphicArea {
+	position:relative; 
+	width:10px; 
+	height:10px; 
+	top:-5px; 
+}
+
+#resultGraphicArea {
+	position:absolute; 
+	left:10px; 
+	top:0px; 
+	width:442px; 
+	z-index:6; 
+	visibility:hidden;
+}
+
+#listArea {
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	width:660px; 
+	z-index:7; 
+}
+
+.question {
+	font-family: Calibri, Arial; 
+	font-size: 11pt
+}
+
+.option {
+	font-family: Calibri, Arial; 
+	font-size: 8pt; 
+	font-weight:600; 
+	text-decoration:none; 
+	line-height:150%; 
+	padding:3px;
+}
+.optionLandscape {
+	font-family: Calibri, Arial; 
+	font-size: 10pt; 
+	text-decoration:none; 
+	color:black; 
+	line-height:150%; 
+}
+
+.feedback {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px; 
+}
+
+.feedbackLandscape {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px;
+	position:absolute; 
+	top:330px; 
+	overflow-y:auto; 
+	left: 20px; 
+	width:480px; 
+	height:50px;
+}
+
+.confirmButton {
+	position:absolute; 
+	left:535; 
+	top:390; 
+	width:90px; 
+	height:30px; 
+	z-index:10;
+}
+
+.bottomCell {
+	border-bottom:2px solid #D0D0F0; 
+	border-left:2px solid #D0D0F0;
+}
+
+.spacerRow {
+	height:3px;
+}
+

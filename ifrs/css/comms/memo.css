@@ -1,0 +1,14 @@
+
+.titleText {font-family: Arial; font-size: 12pt; font-weight: bold;}
+.mainText {font-family: Arial; font-size: 10pt}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+.initialText {font-family: Arial; font-size: 10pt}
+
+#memoPage1Subject{font-family: Arial; font-size: 10pt;position:absolute; left:132px; top:99px; width:440px; height:350px; z-index:1}
+#memoPage1Text{font-family: Arial; font-size: 10pt;position:absolute; left:67px; top:126px; width:490px; height:170px; z-index:1; overflow:auto;}
+
+#memoPage2Text{font-family: Arial; font-size: 10pt;position:absolute; left:67px; top:55px; width:490px; height:350px; z-index:1; visibility:hidden; overflow:auto;}
+
+#memoPage3Text{font-family: Arial; font-size: 10pt;position:absolute; left:67px; top:55px; width:490px; height:350px; z-index:1; visibility:hidden; overflow:auto;}
+
+#memoPage4Text{font-family: Arial; font-size: 10pt;position:absolute; left:67px; top:55px; width:490px; height:350px; z-index:1; visibility:hidden; overflow:auto;}

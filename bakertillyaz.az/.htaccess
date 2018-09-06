@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^bakertillyaz\.az$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bakertillyaz\.az$
+RewriteRule ^/?$ "http\:\/\/www\.bakertilly\.az\/" [R=301,L]
+

@@ -1,0 +1,4 @@
+function initialise()
+{
+	parent.initialiseInbox();
+}

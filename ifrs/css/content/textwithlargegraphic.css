@@ -1,0 +1,17 @@
+.initialText {
+	padding:0px 0px 0px 5px;
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+}
+
+#textLayer {
+	font-family: Calibri, Arial; 
+	font-size: 11pt
+}
+
+#mainArea {
+	position:absolute; 
+	left:10px; 
+	top:25px; 
+	width:635px;
+}

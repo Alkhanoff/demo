@@ -1,0 +1,10 @@
+
+.titleText {font-family: Arial; font-size: 12pt; font-weight: bold;}
+.mainText {font-family: Arial; font-size: 10pt}
+.instructionText {font-family: Arial; font-size: 10pt; color:#999999; }
+.pageNumText {font-family: Arial; font-size: 10pt;}
+.initialText {font-family: Arial; font-size: 10pt}
+
+#postitTime{text-align: right; font-family: Comic sans ms; font-size: 12pt;position:absolute; left:110px; top:30px; width:400px; height:305px; z-index:1}
+#postitText{font-family: Comic sans ms; font-size: 12pt;position:absolute; left:110px; top:70px; width:400px; height:305px; z-index:1}
+#postitFrom{font-family: Comic sans ms; font-size: 12pt;position:absolute; left:110px; top:300px; width:400px; height:305px; z-index:1}

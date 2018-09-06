@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Performance feedback</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/storyboardthree.css">
+<script language="JavaScript" src="../../../../js/content/storyboardthree.js"></script>
+<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+var firstSymbol = "More";
+var secondSymbol = "More";
+var initialAudioFile = "";
+
+imagePath = "../../../../images/content/";
+timedReveal = false;
+var revealTime = 5;
+var noOfCells = 3;
+initialAudio = false;
+
+var revealOnAudioEnd = false;
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Performance feedback</div>
+<div class="initialText" id="initialTextLayer">Your presentation is over and you&#146;ve answered all the Board&#146;s questions about the transition. You&#146;ve now laid the foundations for making a correct transition to IFRS. Everyone starts to leave the Boardroom, with Garrett leaving closely behind you.<span class="instructionText" id="initialInstructionText"> </span></div>
+<div class="cells" id="storyBoardCell1"><span> <!-- [orkhan] <img border="0" name="cellImage1" src="images/ifrs1_s20_t10_010_1.jpg"> --> </span><br><br><span><b>Garrett:</b> &#147;Good job...I think the transition looks easier after all this hard work you&#146;ve done.&#148;</span></div>
+<div id="moreButton1"><a onfocus="this.blur();" onclick="return true;" class="captionText" href="javascript:revealNextCell(2);">More</a></div>
+<div class="cells" id="storyBoardCell2"><span> <!-- [orkhan] <img border="0" name="cellImage2" src="images/ifrs1_s20_t10_010_2.jpg"> --> </span><br><br><span><b>Garrett: </b>&#147;By the end of that meeting the Board were looking really relaxed &#150; they understood your explanation of the opening IFRS statement of financial position, the voluntary and mandatory exemptions, and the presentation and disclosure requirements.&#148;</span></div>
+<div id="moreButton2"><a onfocus="this.blur();" onclick="return true;" class="captionText" href="javascript:revealNextCell(3);">More</a></div>
+<div class="cells" id="storyBoardCell3"><span> <!-- [orkhan] <img border="0" name="cellImage3" src="images/ifrs1_s20_t10_010_3.jpg"> --> </span><br><br><span><b>Garrett: </b>&#147;Let&#146;s briefly catch up tomorrow to discuss our next steps to begin the transition itself.&#148;</span></div>
+<div id="finalInstruction">That completes this <b>Scenario</b>, now click the highlighted link.</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="en" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xql="#xql-functions" xmlns:auto-ns1="http://www.w3.org/TR/WD-xsl" xmlns:global="#local-functions" xmlns:local="#local-functions">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Kick-off meeting</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/wordmatchgraphiclandscape.css">
+
+<script language="JavaScript" src="../../../../js/content/wordmatchgraphiclandscape.js"></script>
+<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+<script language="javaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+var hintText = "";
+var correctFeedbackText = "<br><br>IFRS 1 is effective for an entity&#146;s first IFRS financial statements covering a period beginning on or after <b>1 July 2009</b>. ";	
+var finalIncorrectFeedback= "";	
+var retryFeedbackOptional= "<br><br>Before you can make your second and final attempt at this question, ask about <a href=\"javascript:appTop.launchIntoCoachMe(\'cm05\');\">Main features of IFRS1</a> in <b>Coach me</b>.";	
+var instructionOnIncorrectAttempt = "";
+var instructionOnFinalIncorrectAttempt = "Click <b>Show Me</b> to see the correct order, or click <b>Next</b> to continue.";
+var afterModelAnswerInstruction = "Click <b>Your Answer</b> to see what you chose, or click <b>Next</b> to continue.";
+var instructionText = "<p>Click <b>Next</b> to continue.</p>";
+var numOfDropDowns =  4;
+var numOfAttemps = 2;
+var imagePath = "../../../../images/content/";
+var isWordMatchGraphicLarge = false;
+</script></head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onunload="pageUnload()" onload="initialise()">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Kick-off meeting</div>
+<div id="mainContent">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td colspan="2">
+<div id="questionArea" name="questionArea"><span id="questionText" name="questionText" style="position:relative; visibility:inherit"><font class="question"><b>Monday, 10am<br></b>The meeting has just begun. The CFO, Garrett Murphy, starts by explaining the nature of the meeting. You&#146;ve got some notes in your notebook, but some of the words are missing.<br></font></span> <span class="instructionText" id="initialInstructionText">Fill the blanks by selecting the correct options from the drop-down boxes. Then click <b>Submit</b>.</span></div><img height="10px" src="../../../../images/content/white1px.gif"></td></tr><tr><td colspan="2">
+<div id="mainGraphicArea" name="mainGraphicArea"><img border="0" id="mainGraphic" src="images/ifrs1_s05_t05_010.gif"></div>
+</td></tr>
+</table></div>
+<div id="feedbackText" class="feedbackLandscape"></div>
+<div id="listArea" name="listArea">
+<form name="mainForm">
+<div id="selectList_1Div" name="selectList_1Div" style="position:absolute; left:297px; top:46px; z-index:2; visibility:hidden;"><select id="selectList_1" onchange="javascript:updateAnswerArray(this,'W2',1)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">public</option><option value="opt_2">internal</option><option value="opt_3">private</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_1" name="markImg_1" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_2Div" name="selectList_2Div" style="position:absolute; left:52px; top:132px; z-index:2; visibility:hidden;"><select id="selectList_2" onchange="javascript:updateAnswerArray(this,'W4',2)" class="option" style="position:relative; top:2px; z-index:4"><option value=""></option><option value="opt_1">1 January 2008</option><option value="opt_2">1 July 2008</option><option value="opt_3">1 January 2009</option><option value="opt_4">1 July 2009</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_2" name="markImg_2" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_3Div" name="selectList_3Div" style="position:absolute; left:197px; top:149px; z-index:2; visibility:hidden;"><select id="selectList_3" onchange="javascript:updateAnswerArray(this,'W1',3)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">beginning</option><option value="opt_2">mid-point</option><option value="opt_3">end</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_3" name="markImg_3" style="position:relative; top:2px;">&nbsp;</div>
+<div id="selectList_4Div" name="selectList_4Div" style="position:absolute; left:185px; top:167px; z-index:2; visibility:hidden;"><select id="selectList_4" onchange="javascript:updateAnswerArray(this,'W2',4)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">all</option><option value="opt_2">the first</option><option value="opt_3">any</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_4" name="markImg_4" style="position:relative; top:2px;">&nbsp;</div>
+</form>
+</div>
+<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+.dragDivs {font-family: Calibri, Arial; font-size:10pt; position:absolute; top:20px; width:200px; height:30px; z-index:6; border: 1px solid #CCCCCC; padding:1px; cursor:hand; visibility:hidden}
+#drag1Div {left:15px; top:107px;}
+#drag2Div {left:217px; top:107px;}
+#drag3Div {left:419px; top:107px;}
+#drag4Div {left:15px; top:139px;}
+#drag5Div {left:217px; top:139px;}
+#drag6Div {left:419px; top:139px;}
+#drag7Div {left:15px; top:171px;}
+#drag8Div {left:217px; top:171px;}
+
+.targetDivs {position:absolute; width:200px; height:124px; z-index:2; border: 1px #CCCCCC solid;}
+#target1Div {left:15px; top:225px;}
+#target2Div {left:217px; top:225px;}
+#target3Div {left:419px; top:225px;}
+
+#questionArea {position:absolute; left:20px; top:30px; z-index:2; width:635px}
+.confirmButton {position:absolute; left:535; top:390; width:90px; height:30px; z-index:10;}
+.question {font-family: Calibri, Arial; font-size: 11pt;}
+.feedbackStyle { position:absolute; left:17px; top:435px; z-index:20; width:660; height:50; visibility:hidden; font-family: Calibri, Arial; font-size: 11pt }
+#feedbackText {font-family: Calibri, Arial; font-size: 11pt; position:absolute; top:115px; overflow:auto; left:20px; width:635px; height:90px;}
+#col1Heading {background-color:#CCCCCC;  text-align:center; position:absolute; left:15px; top:209px; width:200px; z-index:2; font-family: Calibri, Arial; font-size:11pt; font-weight:bold }
+#col2Heading {background-color:#CCCCCC;  text-align:center; position:absolute; left:217px; top:209px; width:200px; z-index:2; font-family: Calibri, Arial; font-size:11pt; font-weight:bold }
+#col3Heading {background-color:#CCCCCC;  text-align:center; position:absolute; left:419px; top:209px; width:200px; z-index:2; font-family: Calibri, Arial; font-size:11pt; font-weight:bold }
+
+#markCol1 {position:absolute; left:15px; top:367px; width:20px; height:20px; z-index:9;}
+#markCol2 {position:absolute; left:217px; top:367px; width:20px; height:20px; z-index:9;}
+#markCol3 {position:absolute; left:419px; top:367px; width:20px; height:20px; z-index:9;}

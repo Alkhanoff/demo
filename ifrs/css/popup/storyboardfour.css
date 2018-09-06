@@ -1,0 +1,7 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;;}
+.captionText {font-family: Arial; font-size: 10pt; padding:0px 1px 0px 1px;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+.pageNumText {font-family: Arial; font-size: 10pt;}
+A.clickableAudioImage:link, A.clickableAudioImage:visited, A.clickableAudioImage:active {font-family: Arial; font-size: 10pt; text-decoration: none; color:blue}
+.initialText {font-family: Arial; font-size: 10pt;}
+.numbering {font-family: Verdana; font-size: 18pt; font-weight:bold;}

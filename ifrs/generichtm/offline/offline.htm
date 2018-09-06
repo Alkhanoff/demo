@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+
+img {
+	border:0px;
+}
+
+#titleL {
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	width:800px; 
+	height:111px; 
+	background-image:URL(../../images/top_bar.gif); 
+	border-bottom:1px solid #E6E6E6;
+}
+
+#contentL {
+	position:absolute; 
+	left:90px; 
+	top:123px;
+}
+
+#navL {
+	position:absolute; 
+	left:0px; 
+	top:552px; 
+	width:800px; 
+	height:48px; 
+	background-image:URL(../../images/btm_bar2.gif); 
+}
+
+#okL {
+	position:absolute; 
+	width:55px; 
+	height:18px; 
+	left:600px; 
+	top:477px; 
+	z-index:5; 
+}
+
+#exitL {
+	position:absolute; 
+	width:55px; 
+	height:18px; 
+	left:17px; 
+	top:566px; 
+	z-index:5; 
+}
+
+</style>
+<script language="JavaScript">
+var strImagePath = "../../images/"; // The path of the image directory relative to the page 
+var exit_h = new Image();
+var exit_n = new Image();
+var ok_h = new Image();
+var ok_n = new Image();
+
+function initialise()
+{
+	preloadImages();
+}
+
+function preloadImages()
+{
+    exit_h.src = strImagePath + "exit_btn_h.gif";
+    exit_n.src = strImagePath + "exit_btn_n.gif";
+    ok_h.src = strImagePath + "ok_h.gif";
+    ok_n.src = strImagePath + "ok_n.gif";
+}
+
+function changeImage( _strImgState)
+{
+    var _objImgStateArray = _strImgState.split("_");
+    document.getElementById(_objImgStateArray[0]+"Img").src = eval(_strImgState).src;
+    return;
+}
+
+function exit()
+{
+	if (confirm("Are you sure you want to exit the program?"))
+		top.window.close();
+}
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="titleL"></div>
+<div id="contentL"><img src="download_info.gif" width="620" height="408"/></div>
+<div id="navL"></div>
+<div id="okL"><a href="JavaScript:parent.continueNormal()" onfocus="changeImage('ok_h')" onblur="changeImage('ok_n')"><img id="okImg" src="../../images/ok_n.gif" onmouseover="changeImage('ok_h')" onmouseout="changeImage('ok_n')" width="55px" height="18px" alt="OK"></a></div>
+<div id="exitL"><a href="JavaScript:exit()" onfocus="changeImage('exit_h')" onblur="changeImage('exit_n')"><img id="exitImg" src="../../images/exit_btn_n.gif" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" alt="Exit"></a></div>
+</body>
+</html>

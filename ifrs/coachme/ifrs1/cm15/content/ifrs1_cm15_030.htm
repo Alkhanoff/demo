@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Goodwill</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/tabbedscreen.css">
+<script language="JavaScript" src="../../../../js/content/tabbedscreen.js"></script>
+<script language="JavaScript">
+var transparentImage = "../../../../images/content/trans.gif";
+
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+imagePath = "../../../../images/content/";
+var initialAudioFile = "";
+var noOfTabs = 3;
+
+var hotTypeOnThisTab = new Array()
+hotTypeOnThisTab[1] = 1;
+hotTypeOnThisTab[2] = 0;
+hotTypeOnThisTab[3] = 0;
+
+var theInstructionText = "Click <b>Next</b> to continue.";
+
+var audioOnPage = false;
+var theInitialInstructionText = "Click each tab to find out more.";
+
+var tabTypesArray = new Array();
+
+
+
+tabTypesArray[1] = "Hot text";
+
+
+var tab1GraphicsInFeedback = false;
+
+var tab1theInitialText = "";
+var tab1numberOfHotTexts=2;
+var tab1displayTextOverwritesInitialText = false;
+
+var tab1theInitialInstructionText = "Click the bullet points to find out more.";
+var tab1displayTextArray = new Array();
+
+tab1displayTextArray[1] = "<p>The first-time adopter shall increase the carrying amount of goodwill when it reclassifies an item that it recognised as an intangible asset under previous GAAP.</p><p>Similarly, if the first-time adopter was required to recognise an intangible asset that was subsumed in the recognised goodwill under previous GAAP, the first-time adopter shall decrease the carrying amount of goodwill accordingly (and, if applicable, adjust deferred tax and minority interests).</p>";
+tab1displayTextArray[2] = "<p>Regardless of whether there is any indication that the goodwill may be impaired, the first-time adopter shall apply <i>IAS 36, Impairment of Assets</i>, in testing the goodwill for impairment at the date of transition to IFRS and in recognising any resulting impairment loss in retained earnings (or, if so required by <i>IAS 36</i>, in revaluation surplus).  </p><p>The impairment test shall be based on conditions at the date of transition to IFRS.</p>";
+
+
+tabTypesArray[2] = "Text only";
+
+
+
+tabTypesArray[3] = "Text with small graphic";
+
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/coachme/cm_main.gif"></div>
+			<div id="titleLayer" name="titleLayer" class="titleText">Goodwill</div>
+			
+			
+			<div id="mainTabDiv" class="mainTabNoInitialText">
+		<div id="tabBottomImage" name="tabBottomImage" class="tabBottomImageNoInitialText"><img border="0" src="../../../../images/content/tabbedscreen/coachme/tabbottom.gif"></div>
+		<div id="tabBackgroundImage" name="tabBackgroundImage" class="tabBackgroundImageNoInitialText" style="background-image:url(../../../../images/content/tabbedscreen/coachme/tabbackground1px.gif);"><img border="0" src="../../../../images/content/trans.gif"></div>
+		<div id="tabTitles" name="tabTitles">
+<table cellpadding="10" cellspacing="0" border="0" height="55"><tr>
+<td class="tabTitles" id="tabTitle1" width="99">2 adjustments</td>
+<td class="tabTitles" id="tabTitle2" width="99">Adjustments <b>not</b> to be made</td>
+<td class="tabTitles" id="tabTitle3" width="99">Past treatment</td>
+</tr></table></div>
+		<div id="tabTitlesClickableImages" name="tabTitlesClickableImages">
+<table cellpadding="0" cellspacing="0" border="0" height="55"><tr>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(1);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(2);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(3);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+</tr></table></div>
+		
+		<div class="tabBars" id="tab1topBarDIV" style="visibility:visible;"><img border="0" width="598" height="55" id="tab1topBarIMG" src="../../../../images/content/tabbedscreen/coachme/3_tab_1h.gif"></div>
+<div id="tab1hotTextArea" class="hotTextArea" style="visibility:visible;">
+<table cellpadding="0" cellspacing="0" align="left" border="0" width="100%">
+<tr>
+<td class="hotTextinitialTextLayer" id="tab1HotTextInitialTextLayer">The carrying amount of goodwill in the opening IFRS statement of financial position shall be its carrying amount under previous GAAP at the date of transition to IFRS, after these two adjustments.<br><span class="instructionText" id="tab1initialInstructionText"> Click the bullet points to find out more.</span></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(1)" id="tab1hotTextLink1"><ul><li>Adjustment (i)</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(2)" id="tab1hotTextLink2"><ul><li>Adjustment (ii)</li></ul></a></td>
+</tr>
+</table></div>
+<div id="tab1displayTextArea" class="hotTextDisplayTextAtTop" style="visibility:visible;"></div>
+		<div class="tabBars" id="tab2topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab2topBarIMG" src="../../../../images/content/tabbedscreen/coachme/3_tab_2h.gif"></div>
+<div class="mainText" id="tab2textColumn1" style="position:absolute; left:50px; top:100px; width:555px; height:220px; z-index:3; 		visibility:hidden;">
+<p>No other adjustments shall be made to the carrying amount of goodwill at the date of transition to IFRS:<br></p><p>For example, the first-time adopter shall not restate the carrying amount of goodwill to:</p><ul><li>exclude in-process research and development acquired in that business combination (unless the related intangible asset would qualify for recognition under <i>IAS 38</i> in the separate statement of financial position of the acquiree)</li><li>adjust previous amortisation of goodwill</li><li>reverse adjustments to goodwill that <i>IFRS 3</i> would not permit, but were made under previous GAAP because of adjustments to assets and liabilities between the date of the business combination and the date of transition to IFRS</li></ul><span class="instructionText" id="tab2ieOnlyInstructionText"></span></div>
+		<div class="tabBars" id="tab3topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab3topBarIMG" src="../../../../images/content/tabbedscreen/coachme/3_tab_3h.gif"></div>
+<div class="tabInitialText" id="tab3initialText" style="visibility:hidden;">If the first-time adopter recognised goodwill under previous GAAP as a deduction from equity:</div>
+<div class="graphicWithTextLeftAreaAndInitialText" id="tab3mainText" style="visibility:hidden;">
+<ul><li>It shall not recognise that goodwill in its opening IFRS statement of financial position. Furthermore, it shall not transfer that goodwill to the statement of comprehensive income if it disposes of the subsidiary or if the investment in the subsidiary becomes impaired</li><li>Adjustments resulting from the subsequent resolution of a contingency affecting the purchase consideration shall be recognised in retained earnings</li></ul><span class="instructionText" id="tab3ieOnlyInstructionText"></span></div>
+<div id="tab3mainGraphic" class="graphicWithTextRightAreaAndInitialText" style="visibility:hidden;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab3graphic" src="images/ifrs1_cm15_030_tab3.gif"></td></tr></table>
+</div>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

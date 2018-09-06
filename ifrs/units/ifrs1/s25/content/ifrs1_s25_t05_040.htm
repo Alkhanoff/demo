@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Question 8</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/quizwordmatch.css">
+
+<script language="JavaScript" src="../../../../js/content/quizwordmatch.js"></script>
+<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+<script language="javaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+var correctFeedbackText = "";	
+
+var finalIncorrectFeedback= "";	
+var retryFeedbackOptional= "";	
+var instructionOnIncorrectAttempt = "";
+var instructionOnFinalIncorrectAttempt = "";
+var afterModelAnswerInstruction = "";
+var instructionText = "";
+var numOfDropDowns = 5;
+var numOfAttemps = 1;
+var imagePath = "../../../../images/content/";
+
+var relatedUnit = "cm65";
+scoreWeight = 1;
+
+</script></head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleText" class="titleText">Question 8</div>
+<div id="mainContent">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td colspan="2" width="100%" class="spacerRow"><img border="0" src="../../../../images/content/trans.gif"></td></tr>
+<tr><td colspan="2" width="100%" class="question" id="question">What are the requirements for a first-time adopter in connection with comparative information?<br><br><span class="instructionText" id="initialInstructionText"> Select the correct answers from the drop-down boxes.</span></td></tr>
+<tr><td colspan="2" width="100%" class="spacerRow"><img border="0" src="../../../../images/content/trans.gif"></td></tr>
+<tr>
+<td width="70%" class="listBox" valign="top">
+<form name="mainForm" id="mainForm">In addition to an opening statement of financial position, a first-time adopter of IFRS is required to present comparative information under IFRS of <select id="selectList_1" onchange="javascript:updateAnswerArray(this,'W2',1)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">6 months</option><option value="opt_2">at least one year</option><option value="opt_3">2 years</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_1" name="markImg_1" style="position:relative; top:2px;">&nbsp;. <i></i>Some entities present historical summaries of selected data for periods before the first period for which they present full comparative information under <i>IFRS</i>.  This Standard <select id="selectList_2" onchange="javascript:updateAnswerArray(this,'W3',2)" class="option" style="position:relative; top:2px; z-index:3"><option value=""></option><option value="opt_1">requires</option><option value="opt_2">normally requires</option><option value="opt_3">does not require</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_2" name="markImg_2" style="position:relative; top:2px;">&nbsp;such summaries to comply with the recognition and measurement requirements of <i>IFRS</i>.  In any financial statements containing historical summaries or comparative information under previous GAAP, an entity <select id="selectList_3" onchange="javascript:updateAnswerArray(this,'W1',3)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">shall label</option><option value="opt_2">doesn&#146;t need to label</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_3" name="markImg_3" style="position:relative; top:2px;">&nbsp; the previous GAAP information prominently as not being prepared under IFRS and disclose <select id="selectList_4" onchange="javascript:updateAnswerArray(this,'W1',4)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">but need not quantify</option><option value="opt_2">and always quantify</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_4" name="markImg_4" style="position:relative; top:2px;">&nbsp;the nature of <select id="selectList_5" onchange="javascript:updateAnswerArray(this,'W2',5)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">all</option><option value="opt_2">the main</option><option value="opt_3">the unusual</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_5" name="markImg_5" style="position:relative; top:2px;">&nbsp;adjustments that would make it comply with IFRS.</form>
+</td>
+<td width="30%" valign="top">
+<div id="feedbackText"></div>
+</td>
+</tr>
+</table>
+</div>
+<div style="position:absolute; left:0; top:0; visibility:hidden;" id="spare" name="spare"></div>
+<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

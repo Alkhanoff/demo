@@ -1,0 +1,28 @@
+#mainText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	left:20px; 
+	top:30px; 
+	width:620px; 
+	height:400px;
+}
+
+#textLayer {
+	font-family: Calibri, Arial; 
+	font-size: 11pt
+}
+
+.feedbackText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:relative; 
+	padding:0px; 
+	margin:0px; 
+	left:0px; 
+	top:10px; 
+	width:620px; 
+	height:250px; 
+	overflow-y:auto; 
+	overflow-x:none
+}

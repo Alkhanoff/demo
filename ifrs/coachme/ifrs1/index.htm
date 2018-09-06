@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Coach Me</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../../js/apptop.js"></script>
+<script language="JavaScript" src="../../js/constants.js"></script>
+<script language="JavaScript" src="../../js/coachme.js"></script>
+<script language="JavaScript" src="../../js/coachmeobjects.js"></script>
+<script language="JavaScript" src="../../js/popupwindowpopuplayers.js"></script>
+<script language="JavaScript" src="coachmestructure.js"></script>
+<script language="JavaScript" src="cm01navdata.js"></script>
+<script language="JavaScript" src="cm05navdata.js"></script>
+<script language="JavaScript" src="cm10navdata.js"></script>
+<script language="JavaScript" src="cm15navdata.js"></script>
+<script language="JavaScript" src="cm20navdata.js"></script>
+<script language="JavaScript" src="cm25navdata.js"></script>
+<script language="JavaScript" src="cm30navdata.js"></script>
+<script language="JavaScript" src="cm35navdata.js"></script>
+<script language="JavaScript" src="cm40navdata.js"></script>
+<script language="JavaScript" src="cm45navdata.js"></script>
+<script language="JavaScript" src="cm50navdata.js"></script>
+<script language="JavaScript" src="cm55navdata.js"></script>
+<script language="JavaScript" src="cm60navdata.js"></script>
+<script language="JavaScript" src="cm65navdata.js"></script>
+<script language="JavaScript">
+
+objOpener = window.opener;
+objOpenerTop = objOpener.appTop;
+
+if ((!objOpenerTop.booFromQuickFind) && (!objOpenerTop.booFromKeyword))
+{
+	objCurrentUnit = objOpenerTop.objCurrentState.objUnit;
+	intTaskStatusIndex = objCurrentUnit.intTaskStatusIndex;
+	booDoCoachMeCheck = objCurrentUnit.booDoCoachMeCheck;
+	booDoFilter = true;
+}
+</script>
+</head>
+<frameset rows="438, 47" border="0" frameborder="NO" framespacing="0" onload="initialise()">
+	<frameset cols="136, 637,0" border="0" frameborder="NO" framespacing="0">
+		<frame name="menuF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+			<frameset rows="60,378" border="0" frameborder="NO" framespacing="0">
+				<frame name="titleF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+				<frame name="contentF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+			</frameset>
+			<frame name="printF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+	</frameset>
+	<frame name="nav" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+</frameset>
+
+<noframes>
+<body bgcolor="#000000">
+</body>
+</noframes>
+</html>

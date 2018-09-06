@@ -1,0 +1,32 @@
+
+body {
+	font-family:Arial;
+	font-size:10pt;
+}
+
+a {
+	font-family:Arial;
+	font-size:10pt;
+	color:#932617;
+	text-decoration:underline; 
+	font-weight:800;
+}
+
+a:hover {
+	color:#15377E;
+	text-decoration:underline;
+	font-weight:800;
+}
+
+#backgroundL {position:absolute; left:0; top:0; width:1; height:1; z-index:0}
+#commsL {background-color:#ffffff; border:1px solid #000000; position:absolute; left:36; top:51; width:271; height:282; z-index:2; overflow-x:none; overflow-y:scroll; font-family:Arial; font-size:10pt}
+#resourceL {background-color:#ffffff; border:1px solid #000000; position:absolute; left:335; top:51; width:271; height:282; z-index:2; overflow-x:none; overflow-y:scroll; font-family:Arial; font-size:10pt}
+
+#popupLayer { position:absolute; top:5px; left:137px;width:376px;height:333px;visibility:hidden; z-index:51; border:1px solid #999999}
+#closeButton {position:absolute; top:300px; left:11px;width:86px;height:26px; z-index:53;}
+#popupContent {position:absolute; top:0px; left:0px;width:375px;height:250px; z-index:52;font-family: Arial; font-size: 10pt;}
+#popupMask {position:absolute; top:0px; left:0px;width:664px;height:442px;visibility:hidden; z-index:50;	
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}

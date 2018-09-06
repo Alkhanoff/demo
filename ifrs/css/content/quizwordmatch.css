@@ -1,0 +1,63 @@
+body {
+	padding:3px;
+}
+
+#mainContent {
+	position:absolute; 
+	top:25px; 
+	left:10px; 
+	width:644px; 
+	height:10px; 
+	z-index:5;
+}
+
+.question {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px 5px 5px 10px;
+}
+
+.listBox {
+	font-family: Calibri, Arial; 
+	font-size: 10pt; 
+	border-top:2px solid #B3B3B3; 
+	border-right:2px solid #B3B3B3; 
+	border-left:2px solid #B3B3B3; 
+	border-bottom:2px solid #B3B3B3; 
+	padding:3px 3px 0px 5px; 
+	line-height:150%;
+}
+
+.option {
+	font-family: Calibri, Arial; 
+	font-size: 10pt; 
+	text-decoration:none; 
+	z-index:5;  
+}
+
+#feedbackText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	padding:5px 0px 5px 7px;  
+	position:relative; 
+	height:0px; 
+	overflow-y:auto;
+}
+
+.confirmButton {
+	position:absolute; 
+	left:535; 
+	top:390; 
+	width:90px; 
+	height:30px; 
+	z-index:10;
+}
+
+.bottomCell {
+	border-bottom:2px solid #D0D0F0; 
+	border-left:2px solid #D0D0F0;
+}
+
+.spacerRow {
+	height:3px;
+}

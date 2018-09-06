@@ -1,0 +1,122 @@
+td {
+	font: normal 13px Tahoma;
+	vertical-align: top;
+	color: #444;
+}
+a{
+	font: normal 13px Tahoma;
+	color: #79b1d4;
+}
+a img {
+	border:none;
+}
+.users_heading {
+	color: #555555;
+	font-size : 16px;	
+}
+.user_details_field{
+	padding-left: 10px;
+	text-align:left;
+}
+.user_details_caption{
+	padding-left: 2px;
+	font-weight: bold;
+	color: #555555;
+	text-align:left;
+}
+.both_required{
+	color: #f00;
+}
+.users_list_table {
+	border: 1px solid #bbb;
+	background-color: #f2f2f2;
+}
+.users_list_table td{
+	border: 1px dotted #bbb;
+}
+.row_countable{
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+.row_countable:hover{
+	background-color: #B2CAFF;
+	cursor: pointer;
+}
+.row_uncountable{
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+.row_uncountable:hover{
+	background-color: #B2CAFF;
+	cursor: pointer;
+}
+.user_details_table {
+	border: 1px solid #bbb;
+	background-color: #f2f2f2;
+}
+.form_error{
+	padding-left:5px;
+	color: #f00;
+	font-style: normal;
+	font-size : smaller;
+}
+abbr{
+    border-bottom-color: rgb(170, 170, 170);
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    cursor: help;
+    color: #777;
+}
+em{
+    font-style:normal;
+    color:#777;
+}
+.settings_header{
+    font-size:larger;
+    color:#777;
+    padding-bottom:5px;
+}
+#loading{
+    position: fixed;
+    font: normal 13px Tahoma;
+    top: 0;
+    right: 0;
+    z-index: 5000;
+    background-color: #777;
+    color: white;
+    padding: 2px;
+}
+.submenu_item{
+    font: normal 13px Tahoma;
+    padding-left:10px;
+    background: url(../../images/admin/menu/arrow.png) no-repeat;
+    background-position: -4px 1px;
+}
+
+#header_bar {
+	background: #233137 url(../../../images/user_navigation.png) repeat-x bottom;
+	padding: 0;
+	padding-top: 6px;
+	padding-right: 5px;
+	text-align: right;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	height: 25px;
+	-webkit-box-shadow: 0px 3px 8px 0px #47626E;
+	-moz-box-shadow: 0px 3px 8px 0px #47626e;
+	box-shadow: 0px 3px 8px 0px #47626E;
+	color: #79B1D4;
+	font: normal 13px Tahoma;
+}
+#header_bar a {
+	color: #79B1D4;
+	text-decoration: underline;
+}
+#header_bar abbr {
+	color: #79B1D4;	
+}

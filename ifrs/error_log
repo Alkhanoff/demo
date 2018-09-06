@@ -1,0 +1,10 @@
+[16-May-2013 01:42:17] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 33
+[16-May-2013 01:43:54] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 33
+[16-May-2013 01:47:28] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 33
+[16-May-2013 01:47:42] PHP Fatal error:  Call to undefined function  checklogin() in /home2/huseynov/public_html/bt/ifrs/index.php on line 58
+[16-May-2013 01:48:34] PHP Fatal error:  Call to undefined function  site_url() in /home2/huseynov/public_html/bt/ifrs/index.php on line 59
+[16-May-2013 01:49:48] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 33
+[16-May-2013 01:51:26] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 24
+[16-May-2013 01:51:48] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 24
+[16-May-2013 01:53:11] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/ifrs/index.php on line 24
+[16-May-2013 01:56:53] PHP Fatal error:  Cannot use [] for reading in /home2/huseynov/public_html/bt/ifrs/index.php on line 7

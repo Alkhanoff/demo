@@ -1,0 +1,36 @@
+
+var options = "toolbar=no,menubar=no,status=yes,scrollbars=no,resizable=no,top=0,left=0";
+var screenWidth = screen.availWidth;
+var screenHeight = screen.availHeight;
+var allowOpen = true;
+var screenWarning = "IFRS\n\nSorry, this programme requires a screen resolution of at least 800x600 to run. The programme will not launch at this time.";
+var win;
+
+function initialise() {
+
+	if (screenWidth > 800) {
+		options += ", width=" + (screenWidth-11) + ", height=" + (screenHeight-30) + ", resizable=yes, status=no";
+	} else if (screenWidth == 800) {
+		options += ", width=800, height=600, fullscreen=yes";
+	} else {
+		allowOpen = false;
+	}
+	
+	if (allowOpen) {
+		//if (web)
+//			{
+			var sURL = new String(document.location);
+			var iPos = sURL.toLowerCase().indexOf('elearn');
+			var sURL2 = sURL.substring(0, iPos+6);
+
+			win=window.open(sURL2 + "/" + course + "/index.htm","winone",options);
+
+//			}
+		//else
+		//	win=window.open(course + "/index.htm","winone",options);
+		win.moveTo(0,0);
+		win.focus();
+	} else {
+		alert(screenWarning);
+	}
+}

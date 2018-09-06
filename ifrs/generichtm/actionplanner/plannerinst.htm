@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+var strImagePath = "../../images/action_planner/"; // The path of the image directory relative to the page 
+var ok_h = new Image();
+var ok_n = new Image();
+var booContentLoaded = false;
+
+function initialise()
+{
+	preloadImages();
+	booContentLoaded = true;
+}
+
+function preloadImages()
+{
+    ok_h.src = strImagePath + "action_planner_ok_h.gif";
+    ok_n.src = strImagePath + "action_planner_ok_n.gif";
+}
+
+function changeImage(_strImgState)
+{
+    var _objImgStateArray = _strImgState.split("_");
+
+    if (booContentLoaded)
+    {
+	    document.getElementById(_objImgStateArray[0]+"Img").src = eval(_strImgState).src;
+    }
+    return;
+}
+
+function downloadZip()
+{
+	window.opener.downloadZip();
+	window.close();
+}
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="backgroundL" style="position:absolute; left:0px; top:0px; width:600px; height:450px; background-image:URL(../../images/action_planner/action_planner_bg.gif); z-index:0"></div>
+
+<div id="textL" style="position:absolute; left:40px; top:85px; width:520px; height:310px; z-index:5; background-color:#FFFFFF; border:1px solid black; overflow-y:auto;">
+	<div id="textContentL" style="position:relative; left:10px; top:10px; width:490px; font-family:Arial; font-size:10pt">
+	To use the Action Planner you first need to download the file 'action_planner.zip. To do this follow the instructions below:
+	<br><br>
+	1. Click OK.<br>
+	2. Select Open this file from its current location.<br>
+	3. Click the Extract button in your zip software.<br>
+	4. Select the location as 'C:\'.<br>
+	5. Click Extract.<br>
+	6. Then close the zip software.
+	<br><br>
+	If you are working in XP follow these instructions:
+	<br><br>
+	1. Click OK.<br>
+	2. Click Extract all files.<br>
+	3. Click next.<br>
+	4. Select the location as 'C:\'.<br>
+	5. Click Finish.<br>
+	6. Then close the zip software.
+	<br><br>
+	Next time you click on Action Planner, a Word document will open. Once you have made your notes, save these in the default location and using the default word document name, i.e. click 'Save', not 'Save as...'. When you work through a module the Action Planner button will access these notes assuming you are working on the same computer.
+	<br><br>
+	<!--
+	<b>Note:</b> The Action planner does not work when using IE 6 or 7 with XP SP2. If you are accessing the modules with this Operating System and Service Pack, you will need to open MS Word and enter any notes manually.
+	-->
+	</div>
+</div>
+
+<div id="okL" style="position:absolute; width:81px; height:26px; left:465px; top:410px; z-index:5"><a href="JavaScript:downloadZip()" onfocus="changeImage('ok_h')" onblur="changeImage('ok_n')"><img id="okImg" src="../../images/action_planner/action_planner_ok_n.gif" onmouseover="changeImage('ok_h')" onmouseout="changeImage('ok_n')" border="0" alt="Ok"></a></div>
+</body>
+</html>

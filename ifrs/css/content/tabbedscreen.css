@@ -1,0 +1,349 @@
+/*
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: 900; position:absolute; left:5; top:5; width:720px; height:20px;}
+.instructionText {font-family: Verdana; font-size: 9pt; color:#663366; }
+.instructionText {font-family: Verdana; font-size: 9pt; color:#663366; }
+.pageNumText {font-family: Verdana; font-size: 9pt}
+
+*/
+.postTextLayer {
+	font-family: Calibri, Arial;
+	font-size: 11pt;
+	z-index:1;
+	width:300px;
+}
+
+.initialText {
+	font-family: Calibri, Arial;
+	font-size: 11pt;
+	position:absolute;
+	left:15px;
+	top:30px;
+	width:600px;
+	height:30px;
+}
+
+a.hotText:link
+, a.hotText:visited
+, a.hotTextHighlight:link
+, a.hotTextVisited:link
+{
+	font-family: Calibri, Arial;
+	font-size: 11pt;
+	text-decoration: underline;
+	color:#932617;
+}
+
+a.hotTextHighlight:visited
+, a.hotTextVisited:visited
+, a.hotText:hover
+{
+	font-family: Calibri, Arial;
+	font-size: 11pt;
+	text-decoration: underline;
+	color:#15377E;
+}
+
+.linePadder {
+	padding:0px 0px 10px 0px;
+}
+
+
+.hotTextDisplayText {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:335px;
+	top:160px;
+	width:260px;
+	height:350px;
+	z-index:3;
+}
+
+.hotTextDisplayTextAtTop {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:335px;
+	top:90px;
+	width:260px;
+	height:350px;
+	z-index:3;
+}
+
+#hotTextArea {
+	z-index:3;
+}
+
+.hotTextAreaSpanning {
+	position:absolute;
+	left:50px;
+	top:90px;
+	width:670px;
+	height:350px;
+	z-index:3;
+}
+
+.hotTextArea {
+	position:absolute;
+	left:50px;
+	top:90px;
+	width:270px;
+	z-index:3;
+}
+
+.hotTextRows {
+	width:300px;
+}
+
+.hotTextinitialTextLayer {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	z-index:1;
+	padding:0px 0px 10px 0px;
+}
+
+.mainTabWithInitialText {
+	position:absolute;
+	left:0px;
+	top:50px;
+	z-index:1;
+	width:700px;
+	height:400px;
+}
+
+.mainTabNoInitialText {
+	position:absolute;
+	left:0px;
+	top:10px;
+	z-index:1;
+	width:700px;
+	height:400px;
+}
+
+.tabBackgroundImageWithInitialText {
+	position:absolute;
+	left:30px;
+	top:85px;
+	z-index:1;
+	width:598px;
+	height:255px;
+}
+
+.tabBackgroundImageNoInitialText {
+	position:absolute;
+	left:30px;
+	top:85px;
+	z-index:1;
+	width:598px;
+	height:295px;
+}
+
+.tabBottomImageWithInitialText {
+	position:absolute;
+	left:30px;
+	top:340px;
+	width:598px;
+	height:23px;
+	z-index:1;
+}
+
+.tabBottomImageNoInitialText {
+	position:absolute;
+	left:30px;
+	top:380px;
+	width:598px;
+	height:23px;
+	z-index:1;
+}
+
+.mainText {
+	font-family: Calibri, Arial;
+	font-size: 10pt
+}
+
+.tabTitles {
+	font-family: Calibri, Arial;
+	font-size: 9pt;
+	color:#FFFFFF;
+	font-weight:800;
+	line-height:95%;
+}
+
+.tabInitialText {
+	font-family: Calibri, Arial;
+	font-size:10pt;
+	position:absolute;
+	left:50px;
+	top:140px;
+	width:570px;
+	height:40px;
+	z-index:3;
+}
+
+.tabInitialTextAtBottom {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:355px;
+	width:560px;
+	height:40px;
+	z-index:3;
+}
+
+.graphicWithTextLeftArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:100px;
+	width:280px;
+	height:220;
+	z-index:3;
+}
+
+.graphicWithTextRightArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:340px;
+	top:100px;
+	width:280px;
+	height:220;
+	z-index:3;
+}
+
+.graphicWithTextLeftAreaAndInitialText {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:100px;
+	width:280px;
+	height:220;
+	z-index:3;
+}
+
+.graphicWithTextRightAreaAndInitialText {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:325px;
+	top:100px;
+	width:280px;
+	height:220;
+	z-index:3;
+}
+
+.graphicOnlyTab {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:100px;
+	width:310;
+	height:220;
+	z-index:3;
+}
+
+.rightArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:360px;
+	top:90px;
+	width:300;
+	height:300;
+	z-index:3;
+}
+
+.baseArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:400px;
+	width:550px;
+	height:50px;
+	z-index:3;
+}
+
+.topArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:90px;
+	width:550px;
+	height:50px;
+	z-index:3;
+}
+
+.leftArea {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:90px;
+	width:300;
+	height:300;
+	z-index:3;
+}
+
+#tabTitles{
+	position:absolute;
+	left:30;
+	top:22;
+	height:55px;
+	z-index:2;
+}
+
+#tabTitlesClickableImages {
+	position:absolute;
+	left:30;
+	top:30;
+	height:55px;
+	z-index:99;
+}
+
+.tabBars{
+	position:absolute;
+	left:30px;
+	top:30px;
+	width:598px;
+	height:55px;
+	z-index:1;
+}
+
+/*text only - 2 columns*/
+.textCol1 {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:50px;
+	top:100px;
+	width:270px;
+	height:220px;
+	z-index:3;
+}
+
+.textCol2 {
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	position:absolute;
+	left:340px;
+	top:100px;
+	width:270px;
+	height:220px;
+	z-index:3;
+}
+
+.hotText ul
+, .hotTextHighlight ul
+, .hotTextVisited ul
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+p, ul {font-family: Calibri, Arial; font-size:11pt; margin-top: 0px; margin-bottom: 8px;}

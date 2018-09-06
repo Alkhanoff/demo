@@ -1,0 +1,5 @@
+.initialText {font-family: Calibri, Arial; font-size: 11pt; position:absolute; left:20; top:30; width:655px; height:65px;}
+.leftLayerStyle {position:absolute; left:15px; top:100px; width:275px; height:330px; overflow:auto; font-family: Calibri, Arial; font-size: 11pt}
+.rightLayerStyle {position:absolute; left:320px; top:100px; width:320px; height:250px; font-family: Calibri, Arial; font-size: 11pt}
+.pageNumText {font-family: Calibri, Arial; font-size: 11pt}
+.inputBox {font-family: Calibri, Arial; font-size: 11pt; z-index:3; visibility:visible; padding:5px 5px; border:1px solid #A2A9C1; width:335px; height:320px;}

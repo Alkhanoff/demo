@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+
+document.onkeypress = keyPressed;
+document.onkeydown = keyDown;
+document.onkeyup = keyUp;
+
+function keyPressed(e)
+{
+	var ieKey;
+	ieKey = event.keyCode;
+	if (ieKey == 8)
+		window.event.keyCode = 32;
+}
+
+function keyDown(e)
+{
+	var ieKey;
+	ieKey = event.keyCode;
+	if (ieKey == 8)
+		window.event.keyCode = 32;
+}
+
+function keyUp(e)
+{
+	var ieKey;
+	ieKey = event.keyCode;
+	if (ieKey == 8)
+		window.event.keyCode = 32;
+}
+
+</script>
+</head>
+
+<body bgcolor="#000000">
+</body>
+</html>

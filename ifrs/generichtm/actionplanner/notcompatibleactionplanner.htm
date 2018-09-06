@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../../js/apptop.js"></script>
+<script language="JavaScript">
+var strZipToLoad = appTop.strBaseURL + appTop.strCourseID + "/action_planner.zip";
+
+function initialise()
+{
+	var x = (screen.width - 600) / 2;
+	var y = (screen.height - 450) / 2;
+	window.open("notcompatibleplannerinst.htm","plannerInstWin","width=600,height=470,left="+x+",top="+y+",toolbar=no,menubar=no,status=no,scrollbars=no,resizable=no,fullscreen=no");
+}
+
+function downloadZip()
+{
+	window.open(strZipToLoad,"zipWin","width=100,height=100,left=0,top=0,toolbar=yes,menubar=yes,status=yes,scrollbars=yes,resizable=yes,fullscreen=no");
+}
+
+</script>
+</head>
+
+<body bgcolor="#000000" onload="initialise()">
+</body>
+</html>

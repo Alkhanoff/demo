@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../js/quickfindmain.js"></script>
+<link rel="stylesheet" href="../css/popup/common.css">
+<style>
+#popupLayer { position:absolute; top:80px; left:200px;width:376px;height:333px;visibility:hidden; z-index:51; border:1px solid #999999}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="backgroundL" style="position:absolute; width:773px; height:485px; left:0px; top:0px; z-index:0">
+<img src="../images/popups/quickfind/quickfind_bg.gif" width="773" height="485" border="0"></div>
+<div id="filterL" style="position:absolute; left:2px; top:125; width:170; height:30; z-index:5">
+<form name="filterForm" onSubmit="return false">
+<table width="170" cellpadding="2" cellspacing="0" height="30" border="0" style="font-family:Arial; font-size:10pt">
+<tr>
+<td width="70" align="right" valign="center">
+Filter By:
+</td>
+<td width="100" align="left" valign="center">
+<select name="filters" id="filters" onchange="parent.doFilter()" style="font-family:Arial; font-size:10pt; width:100">
+<option value="s">Scenario</option>
+<option value="c">Coach Me</option>
+<option value="e">Examples</option>
+</select>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div id="resultsL" style="position:absolute; font-family:Arial; font-size:10pt; background-color:white; overflow-x:none; overflow-y:scroll; left:14; top:168; width:342; height:222; z-index:5; border:1px solid black">
+</div>
+<div id="instL" style="position:absolute; left:14; top:400; width:342; z-index:7" class="instructionText">
+Click an item on the above list.
+</div>
+
+<div id="desL" style="position:absolute; font-family:Arial; font-size:10pt; left:406; top:100; width:360; z-index:5; padding:5">
+</div>
+<div id="routeB" style="position:absolute; font-family:Arial; font-size:10pt; left:391; top:219; width:382; height:266; z-index:4; visibility:hidden">
+<img src="../images/popups/quickfind/quickfind_suggested_route.gif" width="382" height="266" border="0">
+</div>
+<div id="routeT" style="position:absolute; font-family:Arial; font-size:10pt; left:413; top:262; width:352; z-index:5; visibility:hidden">
+Work your way down the sections in the order shown in the suggested route below by clicking an item. Once you've successfully completed a task, you can then move on to the next task.
+</div>
+<div id="routeL" style="position:absolute; font-family:Arial; font-size:10pt; background-color:white; overflow-x:none; overflow-y:scroll; left:413; top:332; width:349; height:132; z-index:5; padding-left:5; padding-top:3; visibility:hidden; border:1px solid black">
+</div>
+
+<div id="exitL" style="position:absolute; width:62px; height:18px; left:6px; top:450px; cursor:pointer; z-index:5" onClick="exit()" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" onfocus="this.blur()"><img id="exitImg" name="exitImg" src="../images/popups/quickfind/quickfind_close_n.gif" width="62" height="18" border="0"></div>
+<div id="helpL" style="position:absolute; width:55px; height:18px; left:254px; top:450px; cursor:pointer; z-index:5" onClick="parent.showHelp()" onmouseover="changeImage('help_h')" onmouseout="changeImage('help_n')" onfocus="this.blur()"><img id="helpImg" name="helpImg" src="../images/popups/quickfind/quickfind_help_n.gif" width="55" height="18" border="0"></div>
+
+<div id="popupLayer" style="background:url(../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="parent.hidePopupLayer();" onmouseover="parent.changeImage('popupClose_h')" onmouseout="parent.changeImage('popupClose_n')"><img alt="close" width="62" border="0" height="18" id="popupCloseImg" name="popupCloseImg" src="../images/content/close_btn_n.gif"></a></div>
+	<div id="popupContent">
+		<div align="left"><img src="../images/content/popup_titles/help.gif" alt="Help"/></div>
+		<div style="position:absolute; left:16px; top:55px; overflow: auto; padding:5px; width:340px; height:222px"></div>
+	</div>
+</div>
+<div id="popupMask"><img width="773" height="442" src="../images/content/white1px.gif"></div>
+
+</body>
+</html>

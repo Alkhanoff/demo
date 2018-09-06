@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Fair value or revaluation</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/tabbedscreen.css">
+<script language="JavaScript" src="../../../../js/content/tabbedscreen.js"></script>
+<script language="JavaScript">
+var transparentImage = "../../../../images/content/trans.gif";
+
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+imagePath = "../../../../images/content/";
+var initialAudioFile = "";
+var noOfTabs = 2;
+
+var hotTypeOnThisTab = new Array()
+hotTypeOnThisTab[1] = 0;
+hotTypeOnThisTab[2] = 0;
+
+var theInstructionText = "Click <b>Next</b> to continue.";
+
+var audioOnPage = false;
+var theInitialInstructionText = "Click each tab to find out more.";
+
+var tabTypesArray = new Array();
+
+
+
+tabTypesArray[1] = "Text with small graphic";
+
+
+
+tabTypesArray[2] = "Text with small graphic";
+
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/coachme/cm_main.gif"></div>
+			<div id="titleLayer" name="titleLayer" class="titleText">Fair value or revaluation</div>
+			
+			
+			<div id="mainTabDiv" class="mainTabNoInitialText">
+		<div id="tabBottomImage" name="tabBottomImage" class="tabBottomImageNoInitialText"><img border="0" src="../../../../images/content/tabbedscreen/coachme/tabbottom.gif"></div>
+		<div id="tabBackgroundImage" name="tabBackgroundImage" class="tabBackgroundImageNoInitialText" style="background-image:url(../../../../images/content/tabbedscreen/coachme/tabbackground1px.gif);"><img border="0" src="../../../../images/content/trans.gif"></div>
+		<div id="tabTitles" name="tabTitles">
+<table cellpadding="10" cellspacing="0" border="0" height="55"><tr>
+<td class="tabTitles" id="tabTitle1" width="99">Deemed cost</td>
+<td class="tabTitles" id="tabTitle2" width="99">Also applies to</td>
+</tr></table></div>
+		<div id="tabTitlesClickableImages" name="tabTitlesClickableImages">
+<table cellpadding="0" cellspacing="0" border="0" height="55"><tr>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(1);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(2);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+</tr></table></div>
+		
+		<div class="tabBars" id="tab1topBarDIV" style="visibility:visible;"><img border="0" width="598" height="55" id="tab1topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_1h.gif"></div>
+<div class="graphicWithTextLeftArea" id="tab1mainText" style="visibility:visible;">
+<p>A first-time adopter may elect to:</p><ul><li>measure an item of property, plant and equipment at the date of transition to IFRS at its fair value and use that fair value as its <a href="javascript:appTop.showGlossaryPopup('deemed cost');">deemed cost</a> at that date.</li><li>use a previous GAAP revaluation of an item of property, plant and equipment at, or before, the date of transition to IFRS as deemed cost at the date of the revaluation, if the revaluation was, at the date of the revaluation, broadly comparable to <a href="javascript:appTop.showGlossaryPopup('fair value');">fair value</a> or  cost or depreciated cost under <i>IFRS 1</i>.</li></ul><span class="instructionText" id="tab1ieOnlyInstructionText"></span></div>
+<div id="tab1mainGraphic" class="graphicWithTextRightArea" style="visibility:visible;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab1graphic" src="images/ifrs1_cm20_005_tab1.gif"></td></tr></table>
+</div>
+		<div class="tabBars" id="tab2topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab2topBarIMG" src="../../../../images/content/tabbedscreen/coachme/2_tab_2h.gif"></div>
+<div class="graphicWithTextLeftArea" id="tab2mainText" style="visibility:hidden;">
+<p>These elections are also available for:</p><ul><li>investment property if an entity elects to use the cost model in IAS 40, Investment Property; and</li><li>intangible assets that meet the recognition criteria in IAS 38, Intangible Assets (including reliable measurement of original cost) and the criteria in IAS 38 for revaluation (including the existence of an active market).</li></ul><p>An entity shall not use these elections for other assets.</p><span class="instructionText" id="tab2ieOnlyInstructionText"></span></div>
+<div id="tab2mainGraphic" class="graphicWithTextRightArea" style="visibility:hidden;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab2graphic" src="images/ifrs1_cm20_005_tab2.gif"></td></tr></table>
+</div>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

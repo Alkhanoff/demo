@@ -1,0 +1,45 @@
+.initialText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	left:15px; 
+	top:30px; 
+	width:644px; 
+	height:50px; 
+	padding:5px 5px 5px 5px;
+}
+
+.mainText {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	position:absolute; 
+	z-index:2; 
+	left:355px; 
+	top:90px; 
+	width:300px; 
+	height:325px;
+	overflow-y:auto;
+}
+
+.inputBox {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	z-index:3; 
+	padding:5px 5px 5px 5px; 
+	border:1px solid #A2A9C1;
+}
+
+.datafromOtherSceen {
+	font-family: Calibri, Arial; 
+	font-size: 11pt; 
+	z-index:2; 
+	padding:5px 5px 5px 5px; 
+	border:1px solid #B3B3B3; 
+	overflow:auto; 
+	position:absolute; 
+	z-index:2; 
+	left:20px; 
+	top:90px; 
+	width:320px; 
+	height:325px;
+}

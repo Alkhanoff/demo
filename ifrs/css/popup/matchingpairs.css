@@ -1,0 +1,45 @@
+
+.dragItemLayer {font-family:Verdana; font-size:8pt; position:absolute; left:404px; width:200px; height:36px; z-index:11; padding:0px 0px 0px 20px; cursor:pointer; visibility:visible; background-image:url(../../images/content/matchingpairsitem.gif);}
+#drag1Div {top:100px;}
+#drag2Div {top:143px;}
+#drag3Div {top:186px;}
+#drag4Div {top:229px;}
+#drag5Div {top:272px;}
+#drag6Div {top:315px;}
+
+.option {font-family: Verdana; font-size: 8pt; position:absolute; left:10px; width:180px; height:30px; z-index:11; visibility:visible; padding:0px 0px 0px 5px;}
+#option1Div {top:100px;}
+#option2Div {top:143px;}
+#option3Div {top:186px;}
+#option4Div {top:227px;}
+#option5Div {top:272px;}
+#option6Div {top:315px;}
+
+.targetDivs{position:absolute; left:197px; width:200px; height:30px; z-index:2;visibility:visible; /*background-color:#F0F0FA;*/}
+#target1Div {top:100px;}
+#target2Div {top:143px;}
+#target3Div {top:186px;}
+#target4Div {top:229px;}
+#target5Div {top:272px;}
+#target6Div {top:315px;}
+
+.markDivs {position:absolute; left:400px; width:20px; height:20px; z-index:2;}
+#mark1Div {top:104px;}
+#mark2Div {top:148px;}
+#mark3Div {top:192px;}
+#mark4Div {top:236px;}
+#mark5Div {top:280px;}
+#mark6Div {top:324px;}
+
+#targetZoneBackgroundLayer{position:absolute; left:11px; top:100px; width:200; height:205px; z-index:1; visibility:visible;}
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold; position:absolute; left:10px; top:10; width:580px; height:20px;}
+#questionArea {position:absolute; left:10px; top:30px; z-index:2; width:614px; z-index:2; height:60px; padding:5px;background-color:#CEE6E6;}
+.confirmButton {position:absolute; left:504; top:325; width:90px; height:30px; z-index:10;}
+.question {font-family: Verdana; font-size: 9pt; padding:3px;}
+.instructionText {font-family: Verdana; font-size: 9pt; color:#663366; z-index:2;}
+.feedbackStyle { position:absolute; left:5px; top:435px; z-index:20; width:660; height:50; visibility:hidden; font-family: Verdana; font-size: 9pt }
+#feedbackText {font-family: Verdana; font-size: 9pt; padding:5px 5px 5px 10px; position:absolute; top:100px; left:415px; width:200px; height:200px; overflow-y:auto;}
+
+.dragItem {font-family: Verdana; font-size: 8pt; padding:3; cursor:pointer; border: 1px solid #666666;}
+.dropArea {background-color: #CCCCCC; layer-background-color: #CCCCCC; border: 1px solid #999999;}
+.instructionText {font-family: Verdana; font-size: 9pt; color:#663366; }

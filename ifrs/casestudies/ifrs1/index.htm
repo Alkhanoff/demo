@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Examples</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../../js/apptop.js"></script>
+<script language="JavaScript" src="../../js/constants.js"></script>
+<script language="JavaScript" src="../../js/casestudy.js"></script>
+<script language="JavaScript" src="../../js/casestudyobjects.js"></script>
+<script language="JavaScript" src="../../js/popupwindowpopuplayers.js"></script>
+<script language="JavaScript" src="casestudystructure.js"></script>
+<script language="JavaScript" src="cs05navdata.js"></script>
+<script language="JavaScript" src="cs10navdata.js"></script>
+<script language="JavaScript" src="cs15navdata.js"></script>
+<script language="JavaScript" src="cs20navdata.js"></script>
+<script language="JavaScript">
+objOpener = window.opener;
+objOpenerTop = objOpener.appTop;
+
+if ((!objOpenerTop.booFromQuickFind) && (!objOpenerTop.booFromKeyword))
+{
+	objCurrentUnit = objOpenerTop.objCurrentState.objUnit;
+	booDoFilter = true;
+}
+</script>
+</head>
+<frameset rows="438, 47" border="0" frameborder="NO" framespacing="0" onload="initialise()">
+	<frameset cols="136, 637,0" border="0" frameborder="NO" framespacing="0">
+		<frame name="menuF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+			<frameset rows="60,378" border="0" frameborder="NO" framespacing="0">
+				<frame name="titleF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+				<frame name="contentF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+			</frameset>
+			<frame name="printF" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="auto" noresize frameborder="NO" framespacing="0" />
+	</frameset>
+	<frame name="nav" src="../../generichtm/white.htm" marginwidth="0" marginheight="0" scrolling="no" noresize frameborder="NO" framespacing="0" />
+</frameset>
+<noframes>
+<body bgcolor="#000000">
+</body>
+</noframes>
+</html>

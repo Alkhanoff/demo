@@ -1,0 +1,85 @@
+.initialText {font-family: Arial; font-size: 10pt; position:absolute; left:10; top:30; width:580px; height:30px;z-index:5;}
+
+a.hotText:link
+, a.hotText:visited
+, a.hotTextHighlight:link
+, a.hotTextVisited:link
+{
+	font-family: Arial; 
+	font-size: 10pt; 
+	text-decoration: underline; 
+	color:#932617;
+}
+
+a.hotTextHighlight:visited
+, a.hotTextVisited:visited
+, a.hotText:hover
+{
+	font-family: Arial; 
+	font-size: 10pt; 
+	text-decoration: underline; 
+	color:#15377E;
+}
+
+.linePadder {padding:0px 0px 10px 0px;}
+.postTextLayer { font-family: Arial; font-size: 10pt; z-index:1; width:360px; color:black;}
+.hotTextDisplayText {font-family: Arial; font-size: 10pt; position:absolute; left:350px; top:160px; width:270px; height:350px;  z-index:3;}
+.hotTextDisplayTextAtTop {font-family: Arial; font-size: 10pt; position:absolute; left:350px; top:90px; width:260px; height:350px;  z-index:3;}
+#hotTextArea {z-index:3;}
+.hotTextAreaSpanning {position:absolute; left:35px; top:80px; width:670px; height:350px; z-index:3;}
+.hotTextArea {position:absolute; left:50px; top:90px; width:290px; z-index:3;}
+.hotTextRows {width:330px;}
+.hotTextinitialTextLayer { font-family: Arial; font-size: 10pt; z-index:1; padding:0px 0px 10px 0px;}
+
+.tabTitles{font-family: Arial; font-size: 10pt; color:#FFFFFF; font-weight:bold; line-height:95%;}
+.mainText {font-family: Arial; font-size: 10pt;}
+
+.mainTabWithInitialText {position:absolute; left:-15px; top:50px; z-index:1; visibility:visible; width:700px; height:400px;}
+.mainTabNoInitialText {position:absolute; left:-15px; top:5px; z-index:1; visibility:visible; width:700px; height:400px;}
+.tabBackgroundImageWithInitialText {position:absolute; left:30px; top:85px; z-index:1; visibility:visible; width:598px; height:200px;}
+.tabBackgroundImageNoInitialText {position:absolute; left:30px; top:85px; z-index:1; visibility:visible; width:598px; height:240px;}
+.tabBottomImageWithInitialText {position:absolute; left:30px; top:285px; width:598px; height:23px; z-index:1; visibility:visible;}
+.tabBottomImageNoInitialText {position:absolute; left:30px; top:325px; width:598px; height:23px; z-index:1; visibility:visible;}
+
+.tabInitialText {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:90px; width:570px; height:40px; z-index:3;}
+.tabInitialTextAtBottom {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:250px; width:570px; height:40px; z-index:3;}
+
+.graphicWithTextLeftArea { font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:85px; width:325px; height:50; z-index:3;}
+.graphicWithTextRightArea {font-family: Arial; font-size: 10pt; position:absolute; left:395px; top:85px; width:213px; z-index:3; }
+.graphicWithTextLeftAreaAndInitialText {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:130px; width:280px; height:220; z-index:3;}
+.graphicWithTextRightAreaAndInitialText {font-family: Arial; font-size: 10pt; position:absolute; left:395px; top:130px; width:260px; height:220; z-index:3;}
+
+.graphicOnlyTab {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:90px; width:310; height:220; z-index:3;}
+
+.rightArea {font-family: Arial; font-size: 10pt; position:absolute; left:395px; top:85px; width:300; height:250; z-index:3;}
+.baseArea {font-family: Arial; font-size: 10pt; position:absolute; left:35px; top:400px; width:550px; height:50px; z-index:3;}
+.topArea {font-family: Arial; font-size: 10pt; position:absolute; left:35px; top:80px; width:550px; height:50px; z-index:3;}
+.leftArea {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:85px; width:330; height:300; z-index:3;}
+.tRightArea {font-family: Arial; font-size: 10pt; position:absolute; left:290px; top:85px; width:330; height:280; z-index:3;}
+.tLeftArea {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:85px; width:330; height:280; z-index:3;}
+.gRightArea {font-family: Arial; font-size: 10pt; position:absolute; left:395px; top:85px; width:300; height:250; z-index:3;}
+.gLeftArea {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:85px; width:300; height:250; z-index:3;}
+p {font-family:Arial; font-size:10pt; margin-top: 0px; margin-bottom: 8px;}
+
+
+#tabTitles{position:absolute; left:30; top:22; height:55px; z-index:2; visibility:visible; }
+.#tabTitlesClickableImages {position:absolute; left:30; top:30; height:55px; z-index:99; visibility:visible;}
+.tabBars{position:absolute; left:30px; top:30	px; 	width:598px; height:55px; z-index:1;}
+
+/*text only - 2 columns*/
+.textCol1 {font-family: Arial; font-size: 10pt; position:absolute; left:50px; top:90px; width:270px; height:220px; z-index:3; }
+.textCol2 {font-family: Arial; font-size: 10pt; position:absolute; left:340px; top:90px; width:270px; height:220px; z-index:3; }
+
+UL { margin-bottom:0 }
+
+/*
+	Firefox Specific Rules
+*/
+
+@-moz-document url-prefix() {
+	.textCol1 {left:50px; top:110px; height: 190px;}
+	.textCol2 {left:340px; top:110px; height: 190px;}
+	.tabBars {top:30px;}
+	#tabTitlesClickableImages {position: absolute; top:30px; left: 30px; height: 43px; z-index: 5;}
+	
+}

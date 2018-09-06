@@ -1,0 +1,12 @@
+.titleText {font-family: Calibri, Verdana; font-size: 13pt; font-weight: 900;}
+.initialText {font-family: Calibri, Verdana; font-size: 10pt; padding:3px;}
+.instructionText {font-family: Calibri, Verdana; font-size: 10pt; color:#663366;  z-index:2;}
+#mainAreaDiv {position:absolute; left:7px; top:25px; width:650px; height:300px; z-index:1;}
+#titlePos {position:absolute; left:-5; top:5; width:600px; height:20px;}
+.tableHeading {font-family: Calibri, Verdana; font-size: 10pt; font-weight: bold; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.tableBody {font-family: Calibri, Verdana; font-size: 10pt; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.bodyText {font-family: Calibri, Verdana; font-size: 10pt; padding:3px;}
+#bodyText {width:50%}
+#tableTD {width:50%;}
+.tableStyle {border-style:solid; border-color:#ffffff; background-color:#999999;}
+
