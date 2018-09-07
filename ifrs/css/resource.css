@@ -1,0 +1,11 @@
+
+#backgroundL {position:absolute; left:0; top:0; width:630px; height:51px; z-index:0; background-image:URL(../images/popups/resource/resource_nav.gif); border-top:1px solid #999999}
+
+#exitL {position:absolute; left:12px; top:22px; width:71px; z-index:5; cursor:hand; visibility:visible;}
+#refReturnL {position:absolute; left:95px; top:22px; width:180px; z-index:5; cursor:hand; visibility:hidden;}
+#returnL {position:absolute; left:100px; top:22px; width:180px; z-index:5; cursor:hand; visibility:hidden;}
+#helpL {position:absolute; left:300px; top:22px; width:71px; z-index:5; cursor:hand; visibility:visible;}
+#printL {position:absolute; left:380px; top:22px; width:71px; z-index:5; cursor:hand; visibility:visible;}
+#backL {position:absolute; width:30px; height:32px; left:465px; top:22px; cursor:hand; z-index:5; visibility:hidden;}
+#nextL {position:absolute; width:27px; height:32px; left:570px; top:22px; cursor:hand; z-index:5; visibility:hidden;}
+#pageNum {position:absolute; font-family: Verdana, Arial, Sans-Serif; font-size: 10pt; font-weight:bold; color:white; top:22px; left:527px; width:37px; z-index:5; visibility:visible}

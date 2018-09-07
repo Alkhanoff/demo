@@ -1,0 +1,32 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../../js/comms/commonnav.js"></script>
+<script language="JavaScript" src="../../js/comms/memonav.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="background" style="position:absolute; left:0; top:0; width:1; height:1; z-index:0; visibility:visible">
+<img src="../../images/popups/comms/comms_nav.gif" border="0">
+</div>
+
+<div id="pageNum" align="center" style="position:absolute; font-family: Arial; font-size: 10pt; font-weight:bold; color:#000000; top:20px; left:523px; width:37px; z-index:5; visibility:visible"></div>
+
+<!--
+<div id="pageNumBg" align="center" style="position:absolute; top:10px; left:507px; width:75px; z-index:3; visibility:visible"><img id="backImg" name="backImg" src="../../images/popups/comms/nav_buttons/page_number_box.gif" border="0"></div>
+-->
+
+<div id="backL" name="back" style="position:absolute; width:37px; height:51px; left:462px; top:20px; cursor:pointer; z-index:5; visibility:hidden" onClick="goBack()" onmouseover="changeImage('back_h')" onmouseout="changeImage('back_n')" onfocus="this.blur()"><img id="backImg" name="backImg" src="../../images/popups/comms/nav_buttons/back_n.gif" border="0"></div>
+
+<div id="nextL" name="next" style="position:absolute; width:37px; height:51px; left:565px; top:20px; cursor:pointer; z-index:5; visibility:hidden" onClick="goNext()" onmouseover="changeImage('next_h')" onmouseout="changeImage('next_n')" onfocus="this.blur()"><img id="nextImg" name="nextImg" src="../../images/popups/comms/nav_buttons/next_n.gif" border="0"></div>
+
+<div id="exitL" name="exit" style="position:absolute; width:73px; height:51px; left:13px; top:20px; cursor:pointer; z-index:5; visibility:visible" onClick="exit()" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" onfocus="this.blur()"><img id="exitImg" name="exitImg" src="../../images/popups/comms/nav_buttons/close_n.gif" border="0"></div>
+
+<div id="refReturnL" name="refReturn" style="position:absolute; width:187px; height:51px; left:95px; top:20px; cursor:pointer; z-index:5; visibility:hidden" onClick="refReturn()" onmouseover="changeImage('refReturn_h')" onmouseout="changeImage('refReturn_n')" onfocus="this.blur()"><img id="refReturnImg" name="refReturnImg" src="../../images/popups/comms/nav_buttons/return_n.gif" border="0"></div>
+
+<div id="helpL" name="help" style="position:absolute; width:58px; height:51px; left:295px; top:20px; cursor:pointer; z-index:5; visibility:visible" onClick="parent.showHelp()" onmouseover="changeImage('help_h')" onmouseout="changeImage('help_n')" onfocus="this.blur()"><img id="helpImg" name="helpImg" src="../../images/popups/comms/nav_buttons/help_n.gif" border="0"></div>
+
+<div id="printL" name="print" style="position:absolute; width:67px; height:51px; left:372px; top:20px; cursor:pointer; z-index:5; visibility:visible" onClick="parent.doPrint()" onmouseover="changeImage('print_h')" onmouseout="changeImage('print_n')" onfocus="this.blur()"><img id="printImg" name="printImg" src="../../images/popups/comms/nav_buttons/print_n.gif" border="0"></div>
+</body>
+</html>

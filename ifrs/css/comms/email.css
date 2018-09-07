@@ -1,0 +1,18 @@
+.emailHolder {position:absolute; left:35; top:15; width:559px; height:197px; border:1px solid black; overflow-y:auto}
+.headerText {font-family: Calibri, Arial; font-size: 11pt; }
+.bodyText {font-family: Calibri, Arial; font-size: 11pt; }
+#background {position:absolute; top:0px; left:0px; width:630px; height:220px;}
+
+/*popup layer styles*/
+#popupLayer { position:absolute; top:5px; left:68px;width:496px;height:200px;visibility:hidden; z-index:51; border:1px solid #999999}
+#closeButton {position:absolute; top:171px; left:13px;width:89px;height:21px; z-index:53;}
+#popupContent {position:absolute; top:0px; left:0px;width:496px;height:250px; z-index:52;font-family: Calibri, Arial; font-size: 11pt;}
+#popupMask {position:absolute; top:0px; left:0px;width:664px;height:442px;visibility:hidden; z-index:50;filter:alpha(opacity=50);
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+
+p {
+	margin-top:0px;
+}

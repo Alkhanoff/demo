@@ -1,0 +1,18 @@
+
+.titleText {font-family: Calibri, Arial; font-size: 13pt; font-weight: bold;}
+.mainText {font-family: Calibri, Arial; font-size: 11pt}
+.initialText {font-family: Calibri, Arial; font-size: 11pt}
+.bodyText {font-family: Calibri, Arial; font-size: 11pt}
+
+#background{position:absolute; left:0px; top:0px; width:300px; height:1px; z-index:0}
+
+#faxPage1 {position:absolute; left:80px; top:2px; width:300px; height:1px; z-index:1}
+#faxPage1Text {position:absolute; left:80px; top:2px; width:300px; height:1px; z-index:2}
+	#faxPage1Logo {position:absolute; left:280px; top:27px; width:157px; height:67px; z-index:2}
+	#faxPage1To {position:absolute; left:100px; top:107px; width:300px; height:1px; z-index:2}
+	#faxPage1From {position:absolute; left:265px; top:107px; width:300px; height:1px; z-index:2}
+	#faxPage1Subject {position:absolute; left:100px; top:143px; width:300px; height:1px; z-index:2}
+	#faxPage1Body {position:absolute; left:80px; top:190px; width:307px; height:147px; z-index:2; overflow-y:auto;}
+
+#faxPage2 {position:absolute; left:80px; top:2px; width:300px; height:1px; z-index:1; visibility:hidden;}
+#faxPage2Text {position:absolute; left:160px; top:40px; width:300px; height:1px; z-index:2; visibility:hidden;}

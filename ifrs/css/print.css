@@ -1,0 +1,12 @@
+
+body, table, tr {font-family:Arial; font-size: 10pt;}
+td {font-family:Arial; font-size: 10pt; vertical-align:top;}
+.instructionText {visibility:hidden;}
+select {font-family: verdana; font-size: 7pt;}
+
+.title {font-family:Verdana; font-size: 12pt; font-weight:900;}
+.bold {font-family:Arial; font-size: 10pt; font-weight:bold;}
+.text {font-family:Arial; font-size: 10pt;}
+
+.wmgraphic {position:absolute; left:5px; top:130px; width:442px; height:296px; z-index:3;}
+.wmtext2 {position:absolute; left:5px; top:430px; height:10px; z-index:3;}

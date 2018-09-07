@@ -1,0 +1,103 @@
+body, select {
+	font-family: Calibri, Arial; 
+	font-size:11pt;
+	color:#333333;
+}
+
+.blueC {
+	color:#15377E
+}
+
+a#homeLink {
+	color:#932617;
+	font-weight:800;
+	text-decoration:underline
+}
+
+a:hover#homeLink {
+	color:#042238;
+	font-weight:800;
+	text-decoration:underline
+}
+
+.homelinkBgOn
+{
+	background: #FFFF00;	
+}
+
+#background {
+	position:absolute; 
+	left:0; 
+	top:0;
+	width:800px;
+	height:111px; 
+	z-index:0; 
+	background-image:URL(../../images/top_bar.gif);
+}
+
+#pathL {
+	position:absolute; 
+	left:20px; 
+	top:78px; 
+	z-index:5;
+}
+
+#bookmark {
+	position:absolute; 
+	left:302px; 
+	top:78px; 
+	width:81; 
+	z-index:4; 
+}
+
+#viewL {
+	position:absolute; 
+	left:376px; 
+	top:78px; 
+	width:37px; 
+	z-index:5; 
+}
+
+#addL {
+	position:absolute; 
+	left:418px; 
+	top:78px; 
+	width:35;
+	z-index:5; 
+}
+
+#quickfind {
+	position:absolute; 
+	left:463px; 
+	top:78px; 
+	width:81; 
+	z-index:4; 
+}
+
+#goL {
+	position:absolute; 
+	left:530px; 
+	top:78px; 
+	width:27; 
+	z-index:5; 
+}
+
+#keyword {
+	position:absolute; 
+	left:580px; 
+	top:78px; 
+	width:52; 
+	z-index:4; 
+}
+
+#keywords {
+	position:absolute; 
+	left:635px; 
+	top:76px; 
+	width:162; 
+	z-index:4; 
+}
+
+img {
+	border:0px;
+}

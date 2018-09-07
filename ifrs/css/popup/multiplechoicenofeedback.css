@@ -1,0 +1,6 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;;}
+.question {font-family: Arial; font-size: 10pt;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+.pageNumText {font-family: Arial; font-size: 10pt;}
+.option {font-family: Arial; font-size: 10pt; text-decoration:none; color:black}
+#questionDiv {position:absolute; left:10px; top:10px; width:600px; height:300px; z-index:1;}

@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>A question of timing</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/storyboardthree.css">
+<script language="JavaScript" src="../../../../js/content/storyboardthree.js"></script>
+<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+var firstSymbol = "More";
+var secondSymbol = "More";
+var initialAudioFile = "";
+
+imagePath = "../../../../images/content/";
+timedReveal = true;
+var revealTime = 4;
+var noOfCells = 3;
+initialAudio = false;
+
+var revealOnAudioEnd = false;
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">A question of timing</div>
+<div class="initialText" id="initialTextLayer"><b>Monday afternoon<br></b>You're back at your desk after being bombarded with questions on <i>IFRS 1</i> by the Board that morning. Out of nowhere, your boss, the CFO, Garrett appears at your office doorway, looking like a man on a mission.<span class="instructionText" id="initialInstructionText"> </span></div>
+<div class="cells" id="storyBoardCell1"><span> <!-- [orkhan] <img border="0" name="cellImage1" src="images/ifrs1_s10_t05_005_1.jpg"> --> </span><br><br><span>&#147;Are you clear about identifying the <b>voluntary exemptions </b>that could affect the adoption of IFRS?&#148;</span></div>
+<div id="moreButton1"><a onfocus="this.blur();" onclick="return true;" class="captionText" href="javascript:revealNextCell(2);">More</a></div>
+<div class="cells" id="storyBoardCell2"><span> <!-- [orkhan] <img border="0" name="cellImage2" src="images/ifrs1_s10_t05_005_2.jpg"> --> </span><br><br><span>&#147;We need to consider the voluntary exemptions from compliance with each IFRS in our first-time adoption. All our subsidiaries must analyse these exemptions for us to decide which exemptions to apply and how we will apply them.&#148;</span></div>
+<div id="moreButton2"><a onfocus="this.blur();" onclick="return true;" class="captionText" href="javascript:revealNextCell(3);">More</a></div>
+<div class="cells" id="storyBoardCell3"><span> <!-- [orkhan] <img border="0" name="cellImage3" src="images/ifrs1_s10_t05_005_3.jpg"> --> </span><br><br><span><p>&#147;We&#146;ll explain all the voluntary exemptions to our subsidiaries and then ask how these will affect their business. Please compose an email to this effect. I want to see the findings by mid-week at the latest...&#148;</p></span></div>
+<div id="finalInstruction">Click <b>Next</b> to continue.</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

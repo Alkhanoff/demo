@@ -1,0 +1,55 @@
+
+#bgrnd {
+	position:absolute; 
+	left:0; 
+	top:0; 
+	width:137px;
+	height:442px;
+	background-image:URL(../images/toolkit_bgrnd.gif);
+	z-index:0; 
+}
+
+#background
+, #backgroundD
+{
+	position:absolute; 
+	left:11; 
+	top:142; 
+	z-index:5; 
+	visibility:hidden
+}
+
+#caseStudy {position:absolute; left:16; top:193; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#caseStudyD {position:absolute; left:16; top:193; width:1; height:1; z-index:5; visibility:hidden}
+
+#coachMe {position:absolute; left:81; top:140; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#coachMeD {position:absolute; left:81; top:140; width:1; height:1; z-index:5; visibility:hidden}
+
+#ref {position:absolute; left:74; top:195; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#refD {position:absolute; left:74; top:195; width:1; height:1; z-index:5; visibility:hidden}
+
+#clue {position:absolute; left:27; top:242; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#clueD {position:absolute; left:27; top:242; width:1; height:1; z-index:5; visibility:hidden}
+
+#calc {position:absolute; left:15; top:335; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#calcD {position:absolute; left:15; top:335; width:1; height:1; z-index:5; visibility:hidden}
+#doc1 {position:absolute; left:84; top:335; width:1; height:1; z-index:5; cursor:pointer; visibility:visible}
+#doc2 {position:absolute; left:23; top:385; width:1; height:1; z-index:5; cursor:pointer; visibility:visible}
+
+#email {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#fax {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#post {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#memo {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#phonecall {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#voicemail {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#interruption {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#meeting {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#postit {position:absolute; left:11; top:33; width:1; height:1; z-index:5; cursor:pointer; visibility:hidden}
+#ticker {position:absolute; left:11; top:75; width:116; height:18; z-index:5; visibility:hidden}
+#hlpMsg {position:absolute; left:113; top:8; width:17; height:17; z-index:6; cursor:pointer; visibility:visible;}
+#hlpTool {position:absolute; left:113; top:106; width:17; height:17; z-index:6; cursor:pointer; visibility:visible;}
+#hlpAccessories {position:absolute; left:113; top:299; width:17; height:17; z-index:6; cursor:pointer; visibility:visible;}
+
+a img {
+	border:0px;
+}

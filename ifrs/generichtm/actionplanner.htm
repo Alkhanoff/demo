@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+var plannerPath = "file://C:/DTT/planners/"+top.standard+"/";
+var imageToLoad = plannerPath + "planner.gif";
+var zipToLoad = top.baseURL+"/"+top.standard+"/action_planner.zip";
+var docToLoad = plannerPath + "action_planner.doc";
+var count = 0;
+function findPlanner()
+{
+	count++;
+	if (count == 1)
+		setTimeout("document.images['img'].src = imageToLoad",0);
+	else if (count == 2)
+		plannerNotFound();
+}
+
+function plannerFound()
+{
+	window.open(docToLoad,"plannerWin","width=800,height=600,left=0,top=0,toolbar=yes,menubar=yes,status=yes,scrollbars=yes,resizable=yes,fullscreen=no");
+}
+
+function plannerNotFound()
+{
+	var x = (screen.width - 600) / 2;
+	var y = (screen.height - 450) / 2;
+	window.open("plannerinst.htm","plannerInstWin","width=600,height=450,left="+x+",top="+y+",toolbar=no,menubar=no,status=no,scrollbars=no,resizable=no,fullscreen=no");
+}
+
+function downloadZip()
+{
+	window.open(zipToLoad,"zipWin","width=100,height=100,left=0,top=0,toolbar=yes,menubar=yes,status=yes,scrollbars=yes,resizable=yes,fullscreen=no");
+}
+
+
+function tryFileLoad()
+{
+	var file = new Image();
+	file.src = imageToLoad;
+	if(file.complete) //Firefox will always return 'true', but the width & height will be 0
+	{
+		if(file.width > 0 && file.height > 0)
+		{
+			plannerFound();
+		}
+		else {
+			plannerNotFound();
+		}
+	}
+	else {
+		plannerNotFound();
+	}
+}
+
+
+
+
+</script>
+</head>
+
+<body bgcolor="#000000" onload="tryFileLoad();">
+<!--<img id="img" onerror="plannerNotFound()" onload="plannerFound()" src=""> -->
+<img id="img" src="">
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+.dragItemLayer {font-family:Arial; font-size:10pt; position:absolute; left:424px; width:200px; height:30px; z-index:11; background-color:#F0F0FA; border: 1px solid #CECFEE; padding:0px 0px 0px 20px; cursor:pointer; visibility:visible}
+#drag1Div {top:170px;}
+#drag2Div {top:205px;}
+#drag3Div {top:240px;}
+#drag4Div {top:275px;}
+#drag5Div {top:310px;}
+#drag6Div {top:345px;}
+
+.option {font-family: Arial; font-size: 10pt; position:absolute; left:20px; width:200px; height:30px; z-index:11; visibility:visible;}
+#option1Div {top:170px;}
+#option2Div {top:205px;}
+#option3Div {top:240px;}
+#option4Div {top:275px;}
+#option5Div {top:310px;}
+#option6Div {top:345px;}
+
+.targetDivs{position:absolute; left:220px; width:200px; height:30px; z-index:2;visibility:visible; /*background-color:#F0F0FA;*/}
+#target1Div {top:170;}
+#target2Div {top:205px;}
+#target3Div {top:240px;}
+#target4Div {top:275px;}
+#target5Div {top:310px;}
+#target6Div {top:345px;}
+
+.markDivs {position:absolute; left:430px; width:20px; height:20px; z-index:2;}
+#mark1Div {top:175px;}
+#mark2Div {top:210px;}
+#mark3Div {top:245px;}
+#mark4Div {top:280px;}
+#mark5Div {top:315px;}
+#mark6Div {top:350px;}
+
+#targetZoneBackgroundLayer{position:absolute; left:20px; top:170px; width:200; height:205px; z-index:1; visibility:visible;border: 1px #CECFEE solid;}
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;; position:absolute; left:20px; top:20px; width:620px; height:20px;}
+#questionArea {position:absolute; left:20px; top:40px; z-index:2; width:555px; z-index:2; height:60px; padding:3px;background-color:#CEE6E6;}
+.confirmButton {position:absolute; left:535; top:390; width:90px; height:30px; z-index:10;}
+.question {font-family: Arial; font-size: 10pt; padding:3px;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; z-index:2;}
+.feedbackStyle { position:absolute; left:17px; top:435px; z-index:20; width:660; height:50; visibility:hidden; font-family: Arial; font-size: 10pt }
+#feedbackText {font-family: Arial; font-size: 10pt; padding:5px;position:absolute; top:107px; left:20px; width:555px; height:10px;}
+
+.dragItem {font-family: Arial; font-size: 10pt; padding:3; cursor:pointer; border: 1px solid #666666;}
+.dropArea {background-color: #CCCCCC; layer-background-color: #CCCCCC; border: 1px solid #999999;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }

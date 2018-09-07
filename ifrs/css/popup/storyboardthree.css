@@ -1,0 +1,14 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;;; position:absolute; left:10; top:10; width:720px; height:20px;}
+.initialText {font-family: Arial; font-size: 10pt; position:absolute; left:10; top:35; width:610px; height:30px;}
+.captionText {font-family: Arial; font-size: 10pt; padding:0px 1px 0px 1px;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+.pageNumText {font-family: Arial; font-size: 10pt;}
+A.clickableAudioImage:link, A.clickableAudioImage:visited, A.clickableAudioImage:active {font-family: Arial; font-size: 10pt; text-decoration: none; color:blue}
+.numbering {font-family: Verdana; font-size: 18pt; font-weight:bold;}
+.cells {font-family: Arial; font-size: 10pt;}
+#storyBoardCell1 {position:absolute; left:10; top:85; width:185px; height:250px;}
+#storyBoardCell2 {position:absolute; left:210; top:85; width:185px; height:250px; visibility:hidden;}
+#storyBoardCell3 {position:absolute; left:420; top:85; width:185px; height:250px; visibility:hidden;}
+#moreButton1 {position:absolute; left:200; top:340; width:230px; height:250px; z-index:5;}
+#moreButton2 {position:absolute; left:440; top:340; width:230px; height:250px; z-index:5; visibility:hidden;}
+#finalInstruction {font-family: Arial; font-size: 10pt; color:#663366; position:absolute; left:25px; top:353px; width:600px; z-index:5; text-align:right; visibility:hidden;}

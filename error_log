@@ -1,0 +1,484 @@
+[23-Dec-2012 23:25:59] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/ControlPanel/login.php on line 8
+[23-Dec-2012 23:26:11] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/ControlPanel/login.php on line 8
+[23-Dec-2012 23:51:04] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/ControlPanel/login.php on line 8
+[24-Dec-2012 02:13:24] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/galleries.php on line 8
+[24-Dec-2012 02:13:40] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 04:02:07] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 04:03:10] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 04:03:14] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 04:03:54] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:04:54] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:07:05] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:07:18] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:10:07] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:10:35] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:39:51] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:40:08] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:40:20] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:40:26] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 04:53:23] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 05:00:11] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 05:01:54] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 05:03:58] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 05:07:09] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 05:08:40] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/system/application/controllers/events.php on line 8
+[24-Dec-2012 05:13:26] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 05:21:29] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/system/application/controllers/about.php on line 60
+[24-Dec-2012 06:17:11] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/application/controllers/about.php on line 60
+[24-Dec-2012 06:17:15] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/application/controllers/about.php on line 60
+[24-Dec-2012 06:46:44] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/application/controllers/about.php on line 60
+[24-Dec-2012 06:47:15] PHP Fatal error:  Call to undefined method About::getPaging() in /home2/huseynov/public_html/ion/application/controllers/about.php on line 60
+[29-Dec-2012 03:00:08] PHP Fatal error:  Call to undefined method Footer_model::set() in /home2/huseynov/public_html/ion/application/controllers/contacts.php on line 46
+[29-Dec-2012 03:00:17] PHP Fatal error:  Call to undefined method Footer_model::set() in /home2/huseynov/public_html/ion/application/controllers/index.php on line 48
+[01-Jan-2013 04:07:52] PHP Parse error:  syntax error, unexpected '"' in /home2/huseynov/public_html/ion/application/models/user_model.php on line 655
+[01-Jan-2013 04:07:58] PHP Parse error:  syntax error, unexpected '"' in /home2/huseynov/public_html/ion/application/models/user_model.php on line 655
+[01-Jan-2013 04:36:10] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/user.php on line 8
+[01-Jan-2013 04:36:11] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/user.php on line 8
+[22-Jan-2013 10:56:51] PHP Fatal error:  Call to a member function editor() on a non-object in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/content.php on line 238
+[23-Jan-2013 00:20:22] PHP Fatal error:  Call to a member function getArticleDetails() on a non-object in /home2/huseynov/public_html/ion/application/controllers/about.php on line 58
+[24-Jan-2013 05:33:43] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/logout.php on line 8
+[24-Jan-2013 05:40:22] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/reminder.php on line 8
+[24-Jan-2013 05:40:24] PHP Fatal error:  Class 'Controller' not found in /home2/huseynov/public_html/ion/application/controllers/ControlPanel/reminder.php on line 8
+[30-Jan-2013 13:59:17] PHP Fatal error:  Call to undefined function  xss_clean() in /home/ion/public_html/application/models/user_model.php on line 132
+[30-Jan-2013 14:04:17] PHP Fatal error:  Call to undefined function  xss_clean() in /home/ion/public_html/application/models/user_model.php on line 132
+[30-Jan-2013 23:43:25] PHP Fatal error:  Call to undefined function  xss_clean() in /home/ion/public_html/application/models/user_model.php on line 132
+[08-Feb-2013 05:08:06] PHP Fatal error:  Call to undefined method Section_model::getName() in /home2/huseynov/public_html/bt/application/controllers/about.php on line 41
+[08-Feb-2013 05:10:52] PHP Fatal error:  Call to undefined method Section_model::getName() in /home2/huseynov/public_html/bt/application/controllers/about.php on line 41
+[08-Feb-2013 05:11:15] PHP Fatal error:  Call to undefined method Section_model::getName() in /home2/huseynov/public_html/bt/application/controllers/about.php on line 41
+[20-Feb-2013 01:53:04] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/section_model.php on line 464
+[20-Feb-2013 01:53:05] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/section_model.php on line 464
+[21-Feb-2013 06:14:47] PHP Fatal error:  Call to a member function add() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/news.php on line 211
+[21-Feb-2013 06:26:13] PHP Fatal error:  Call to undefined method News_model::getArticleDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/news.php on line 98
+[21-Feb-2013 06:26:14] PHP Fatal error:  Call to undefined method News_model::getArticleDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/news.php on line 98
+[21-Feb-2013 06:26:40] PHP Fatal error:  Call to undefined method News_model::getArticleDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/news.php on line 98
+[21-Feb-2013 06:26:41] PHP Fatal error:  Call to undefined method News_model::getArticleDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/news.php on line 98
+[22-Feb-2013 02:57:50] PHP Fatal error:  Call to a member function getArticleDetails() on a non-object in /home2/huseynov/public_html/bt/application/controllers/about.php on line 67
+[25-Feb-2013 03:45:12] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:45:12] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:45:16] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:45:17] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:46:08] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:46:09] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:46:37] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:46:38] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:47:35] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:47:35] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:49:50] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:49:51] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:50:25] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:50:26] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:50:53] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:50:54] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:26] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:27] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:50] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:51] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:52] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:55:55] PHP Parse error:  syntax error, unexpected T_ELSE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 540
+[25-Feb-2013 03:56:59] PHP Fatal error:  Call to undefined method Section_model::get_dashed_section_name() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 541
+[25-Feb-2013 03:57:00] PHP Fatal error:  Call to undefined method Section_model::get_dashed_section_name() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 541
+[27-Feb-2013 00:11:16] PHP Fatal error:  Can't use method return value in write context in /home2/huseynov/public_html/bt/application/models/section_model.php on line 481
+[27-Feb-2013 00:11:17] PHP Fatal error:  Can't use method return value in write context in /home2/huseynov/public_html/bt/application/models/section_model.php on line 481
+[12-Mar-2013 02:21:34] PHP Fatal error:  Class 'Case_studies_model' not found in /home2/huseynov/public_html/bt/system/core/Loader.php on line 303
+[12-Mar-2013 02:21:35] PHP Fatal error:  Class 'Case_studies_model' not found in /home2/huseynov/public_html/bt/system/core/Loader.php on line 303
+[12-Mar-2013 02:21:41] PHP Fatal error:  Class 'Case_studies_model' not found in /home2/huseynov/public_html/bt/system/core/Loader.php on line 303
+[12-Mar-2013 02:21:42] PHP Fatal error:  Class 'Case_studies_model' not found in /home2/huseynov/public_html/bt/system/core/Loader.php on line 303
+[12-Mar-2013 04:36:34] PHP Fatal error:  Call to a member function add() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 234
+[13-Mar-2013 00:37:15] PHP Fatal error:  Call to a member function getArticleDetails() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 65
+[13-Mar-2013 02:34:20] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:34:21] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:34:31] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:41:09] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:41:10] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:43:15] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:43:16] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:43:37] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:43:38] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:44:24] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 62
+[13-Mar-2013 02:44:52] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 62
+[13-Mar-2013 02:45:04] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:45:05] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:48:11] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:48:11] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:49:54] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:49:55] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:53:48] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:53:48] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:53:59] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:54:00] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:54:21] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:54:21] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:54:34] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:54:35] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:56:50] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:56:50] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 02:57:15] PHP Fatal error:  Call to undefined method Case_studies_model::getJSONList() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 62
+[13-Mar-2013 03:01:45] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 407
+[13-Mar-2013 03:01:46] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/models/section_model.php on line 407
+[13-Mar-2013 03:12:12] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:13] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:15] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:47] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:48] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:49] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:12:50] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:14:06] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:14:07] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:15:51] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 62
+[13-Mar-2013 03:17:08] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:17:08] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:17:21] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[13-Mar-2013 03:17:22] PHP Fatal error:  Cannot redeclare Case_studies_model::$tagline_en in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 14
+[14-Mar-2013 05:54:49] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 199
+[14-Mar-2013 05:54:50] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 199
+[14-Mar-2013 05:54:53] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 199
+[14-Mar-2013 06:01:12] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 199
+[14-Mar-2013 06:01:13] PHP Parse error:  syntax error, unexpected T_STRING in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 199
+[14-Mar-2013 06:01:42] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 126
+[15-Mar-2013 02:13:09] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:13:10] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:13:18] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:13:19] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:13:56] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:13:57] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:14:43] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:14:44] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:14:55] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:14:56] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:14] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:15] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:25] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:26] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:54] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:15:55] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 152
+[15-Mar-2013 02:16:19] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:16:20] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:16:31] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:16:32] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:16:42] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:16:43] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:17:07] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 127
+[15-Mar-2013 02:17:43] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 127
+[15-Mar-2013 02:17:45] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 127
+[15-Mar-2013 02:18:53] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:18:57] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:19:17] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:19:29] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 127
+[15-Mar-2013 02:20:49] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:21:51] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:22:42] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:23:52] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:25:48] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:26:50] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:27:24] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:27:47] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:27:56] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:29:48] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:29:59] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:32:49] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:33:03] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:33:13] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:33:26] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:34:04] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:34:15] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:37:36] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:37:42] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:37:43] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:37:54] PHP Fatal error:  Call to a member function get_featured_case_studies() on a non-object in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 127
+[15-Mar-2013 02:39:09] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 02:40:38] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:40:39] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:40:44] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:40:44] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:41:08] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:41:09] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:41:22] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:41:26] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:41:59] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:42:00] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:42:49] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:42:50] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:43:06] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:43:07] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:43:25] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:43:26] PHP Parse error:  syntax error, unexpected T_AS in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:44:24] PHP Fatal error:  Can't use method return value in write context in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:44:25] PHP Fatal error:  Can't use method return value in write context in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 281
+[15-Mar-2013 02:45:55] PHP Fatal error:  Call to undefined method Case_studies_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 131
+[15-Mar-2013 03:07:11] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 262
+[15-Mar-2013 03:07:11] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/case_studies_model.php on line 262
+[15-Mar-2013 03:10:23] PHP Parse error:  syntax error, unexpected '?' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 149
+[15-Mar-2013 03:10:24] PHP Parse error:  syntax error, unexpected '?' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 149
+[19-Mar-2013 00:18:11] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 62
+[19-Mar-2013 00:20:50] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 62
+[19-Mar-2013 00:21:21] PHP Fatal error:  Call to a member function add() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 243
+[19-Mar-2013 00:27:34] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 99
+[19-Mar-2013 00:27:35] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 99
+[19-Mar-2013 02:33:16] PHP Fatal error:  Call to a member function get_most_viewed() on a non-object in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 66
+[19-Mar-2013 03:35:19] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:35:19] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:35:38] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:35:38] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:35:52] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:35:53] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:37:11] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 03:37:11] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 75
+[19-Mar-2013 06:06:12] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:06:13] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:06:29] PHP Fatal error:  Call to a member function get_most_viewed() on a non-object in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 67
+[19-Mar-2013 06:06:41] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:06:42] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:07:07] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:07:07] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:07:46] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:07:47] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:08:41] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:08:42] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:09:03] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:09:03] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:09:15] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[19-Mar-2013 06:09:16] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 212
+[22-Mar-2013 02:32:39] PHP Fatal error:  Call to undefined function  str_pos() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 148
+[22-Mar-2013 02:32:57] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 148
+[22-Mar-2013 02:32:58] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 148
+[22-Mar-2013 02:33:12] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 148
+[22-Mar-2013 02:33:12] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 148
+[24-Mar-2013 06:14:40] PHP Parse error:  syntax error, unexpected ':' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 240
+[24-Mar-2013 06:14:41] PHP Parse error:  syntax error, unexpected ':' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/case_studies.php on line 240
+[24-Mar-2013 07:51:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 230
+[24-Mar-2013 07:51:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/publications_and_views.php on line 230
+[24-Mar-2013 12:07:25] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:07:35] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:07:39] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:07:41] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:08:15] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:08:16] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:08:42] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:08:43] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:09:57] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:09:58] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:10:45] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:10:45] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:11:45] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:11:46] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 354
+[24-Mar-2013 12:12:17] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 356
+[24-Mar-2013 12:12:18] PHP Parse error:  syntax error, unexpected '/' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 356
+[24-Mar-2013 12:12:32] PHP Parse error:  syntax error, unexpected '>' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 384
+[24-Mar-2013 12:12:33] PHP Parse error:  syntax error, unexpected '>' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 384
+[25-Mar-2013 02:03:21] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_research_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 79
+[25-Mar-2013 02:03:58] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_research_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 79
+[25-Mar-2013 02:04:14] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_research_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 79
+[25-Mar-2013 02:05:40] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_research_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 79
+[25-Mar-2013 02:42:05] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 283
+[25-Mar-2013 02:42:07] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 283
+[25-Mar-2013 02:42:38] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 285
+[25-Mar-2013 02:42:39] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 285
+[25-Mar-2013 02:43:33] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 373
+[25-Mar-2013 02:43:33] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 373
+[25-Mar-2013 02:43:51] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 373
+[25-Mar-2013 02:43:52] PHP Parse error:  syntax error, unexpected '<' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 373
+[25-Mar-2013 03:18:32] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_ss_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 189
+[25-Mar-2013 03:18:33] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_ss_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 189
+[25-Mar-2013 03:31:18] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_ss_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 189
+[25-Mar-2013 03:31:19] PHP Fatal error:  Call to undefined method Publications_and_views_model::get_ss_list() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 189
+[25-Mar-2013 04:06:38] PHP Parse error:  syntax error, unexpected '`' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 440
+[25-Mar-2013 04:06:39] PHP Parse error:  syntax error, unexpected '`' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 440
+[25-Mar-2013 04:09:18] PHP Parse error:  syntax error, unexpected '`' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 440
+[25-Mar-2013 04:09:21] PHP Parse error:  syntax error, unexpected '`' in /home2/huseynov/public_html/bt/application/models/publications_and_views_model.php on line 440
+[25-Mar-2013 05:47:18] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:47:18] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:47:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:47:36] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:27] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:59] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 05:48:59] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 230
+[25-Mar-2013 06:13:05] PHP Fatal error:  Call to undefined method Publications_and_views_model::increase_times_viewed() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 156
+[25-Mar-2013 06:13:06] PHP Fatal error:  Call to undefined method Publications_and_views_model::increase_times_viewed() in /home2/huseynov/public_html/bt/application/controllers/publications_and_views.php on line 156
+[30-Mar-2013 03:36:04] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:36:05] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:37:19] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:37:19] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:37:55] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:37:56] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:38:32] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:38:32] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:39:04] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 03:39:05] PHP Fatal error:  Call to undefined method News_model::get_count() in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 278
+[30-Mar-2013 05:33:30] PHP Fatal error:  Call to undefined method Events_model::getNewsDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/events.php on line 98
+[30-Mar-2013 05:33:31] PHP Fatal error:  Call to undefined method Events_model::getNewsDetails() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/events.php on line 98
+[30-Mar-2013 06:36:04] PHP Fatal error:  Call to a member function get_search_list() on a non-object in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 389
+[30-Mar-2013 06:36:08] PHP Fatal error:  Call to a member function get_search_list() on a non-object in /home2/huseynov/public_html/bt/application/controllers/media_and_events.php on line 389
+[30-Mar-2013 08:29:03] PHP Fatal error:  Call to a member function initialize() on a non-object in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 232
+[30-Mar-2013 08:29:04] PHP Fatal error:  Call to a member function initialize() on a non-object in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 232
+[01-Apr-2013 04:43:43] PHP Fatal error:  Call to undefined method News_model::get_whatsnew_lits() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 69
+[02-Apr-2013 01:22:19] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 73
+[02-Apr-2013 01:22:20] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 73
+[02-Apr-2013 01:26:48] PHP Fatal error:  Call to undefined function  search_extract() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 74
+[02-Apr-2013 01:26:49] PHP Fatal error:  Call to undefined function  search_extract() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 74
+[02-Apr-2013 01:27:17] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 145
+[02-Apr-2013 01:27:17] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 145
+[02-Apr-2013 01:28:20] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 160
+[02-Apr-2013 01:28:20] PHP Fatal error:  Call to undefined function  search_highlight() in /home2/huseynov/public_html/bt/application/models/search_model.php on line 160
+[02-Apr-2013 03:59:37] PHP Parse error:  syntax error, unexpected '{' in /home2/huseynov/public_html/bt/application/views/header_view.php on line 187
+[03-Apr-2013 05:43:42] PHP Fatal error:  Call to undefined function  set_cookie() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 87
+[03-Apr-2013 05:43:43] PHP Fatal error:  Call to undefined function  set_cookie() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 87
+[03-Apr-2013 05:58:14] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/models/content_model.php on line 369
+[03-Apr-2013 06:15:00] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:15:11] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:15:50] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:16:36] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:16:48] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:16:49] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/controllers/index.php on line 144
+[03-Apr-2013 06:17:43] PHP Fatal error:  Call to undefined method Index::input_post() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 104
+[03-Apr-2013 06:17:58] PHP Fatal error:  Call to undefined method Index::input_post() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 104
+[03-Apr-2013 06:18:05] PHP Fatal error:  Call to undefined method Index::input_post() in /home2/huseynov/public_html/bt/application/controllers/index.php on line 104
+[03-Apr-2013 06:37:58] PHP Parse error:  syntax error, unexpected '=' in /home2/huseynov/public_html/bt/application/views/header_view.php on line 193
+[04-Apr-2013 01:52:27] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 224
+[04-Apr-2013 03:08:52] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 232
+[04-Apr-2013 03:21:08] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 232
+[04-Apr-2013 05:21:42] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 232
+[04-Apr-2013 05:24:06] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 232
+[04-Apr-2013 05:26:07] PHP Fatal error:  Call to undefined function  get_cookie() in /home2/huseynov/public_html/bt/application/models/section_model.php on line 232
+[06-Apr-2013 03:19:19] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 168
+[06-Apr-2013 03:19:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/huseynov/public_html/bt/application/controllers/case_studies.php on line 168
+[06-Apr-2013 05:21:24] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:21:35] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:24:35] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:24:36] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:25:06] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:25:07] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:25:28] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:25:29] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:26:13] PHP Fatal error:  Call to a member function result_array() on a non-object in /home2/huseynov/public_html/bt/application/models/events_model.php on line 200
+[06-Apr-2013 05:26:14] PHP Fatal error:  Call to a member function result_array() on a non-object in /home2/huseynov/public_html/bt/application/models/events_model.php on line 200
+[06-Apr-2013 05:26:46] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/models/events_model.php on line 197
+[06-Apr-2013 05:26:46] PHP Parse error:  syntax error, unexpected ')' in /home2/huseynov/public_html/bt/application/models/events_model.php on line 197
+[06-Apr-2013 05:27:00] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/models/events_model.php on line 197
+[06-Apr-2013 05:27:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/models/events_model.php on line 197
+[06-Apr-2013 05:27:20] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:27:21] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:27:45] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:27:46] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:29:42] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:29:42] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:02] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:03] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:26] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:27] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:42] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:30:43] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:21] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:22] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:34] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:34] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:50] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:31:51] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:32:09] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:32:09] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:32:49] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:32:49] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:34:23] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:34:23] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:34:43] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:34:44] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:35:02] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:35:03] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:35:37] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:35:37] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:36:17] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:36:17] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:38:11] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[06-Apr-2013 05:38:11] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/views/media_and_events_events_details_view.php on line 16
+[22-Jun-2013 02:07:47] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 70
+[22-Jun-2013 02:09:06] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 70
+[22-Jun-2013 02:09:29] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 70
+[22-Jun-2013 02:09:33] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 70
+[22-Jun-2013 02:10:01] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 65
+[22-Jun-2013 02:10:56] PHP Parse error:  syntax error, unexpected T_DEFAULT, expecting T_STRING in /home2/huseynov/public_html/bt/application/controllers/index.php on line 63
+[30-Jun-2013 05:21:29] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home2/huseynov/public_html/bt/application/controllers/sectors.php on line 1270
+[01-Jul-2013 04:21:50] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home2/huseynov/public_html/bt/application/controllers/services.php on line 543
+[02-Jul-2013 00:32:10] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/controllers/about.php on line 207
+[02-Jul-2013 00:35:34] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/controllers/about.php on line 207
+[02-Jul-2013 00:37:36] PHP Parse error:  syntax error, unexpected ';' in /home2/huseynov/public_html/bt/application/controllers/about.php on line 207
+[02-Jul-2013 03:53:32] PHP Parse error:  syntax error, unexpected T_ECHO in /home2/huseynov/public_html/bt/application/views/default_view.php on line 9
+[02-Jul-2013 03:54:13] PHP Parse error:  syntax error, unexpected T_ECHO in /home2/huseynov/public_html/bt/application/views/default_view.php on line 9
+[17-Jul-2013 03:06:53] PHP Fatal error:  Call to undefined method Careers::build_registered_disabled_values() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 357
+[17-Jul-2013 03:58:07] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 61
+[17-Jul-2013 04:42:35] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 61
+[17-Jul-2013 05:10:53] PHP Fatal error:  Call to a member function add() on a non-object in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 457
+[17-Jul-2013 05:12:49] PHP Fatal error:  Call to a member function add() on a non-object in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 457
+[18-Jul-2013 01:52:22] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 61
+[18-Jul-2013 01:52:53] PHP Fatal error:  Call to a member function getJSONList() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 61
+[19-Jul-2013 01:08:45] PHP Fatal error:  Call to a member function get_statuses_values() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 110
+[19-Jul-2013 01:17:56] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 242
+[19-Jul-2013 03:13:57] PHP Fatal error:  Call to undefined function  r() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 503
+[19-Jul-2013 03:39:31] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 258
+[19-Jul-2013 03:40:34] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 258
+[19-Jul-2013 03:41:27] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 258
+[19-Jul-2013 03:42:37] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 258
+[19-Jul-2013 03:43:38] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 258
+[21-Jul-2013 23:26:53] PHP Fatal error:  Call to undefined function  valid_email() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 629
+[21-Jul-2013 23:28:20] PHP Fatal error:  Call to undefined function  valid_email() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 629
+[21-Jul-2013 23:29:09] PHP Fatal error:  Call to undefined function  valid_email() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 628
+[21-Jul-2013 23:32:15] PHP Fatal error:  Call to undefined function  valid_email() in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 628
+[08-Aug-2013 23:27:12] PHP Parse error:  syntax error, unexpected '[' in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 63
+[08-Aug-2013 23:27:40] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 63
+[08-Aug-2013 23:28:21] PHP Parse error:  syntax error, unexpected '[' in /home2/huseynov/public_html/bt/application/models/applications_model.php on line 65
+[09-Aug-2013 00:14:00] PHP Fatal error:  Call to a member function get_form_values() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 103
+[09-Aug-2013 01:06:27] PHP Fatal error:  Call to undefined function  xlsbof() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:07:21] PHP Fatal error:  Call to undefined function  xlsbof() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:07:26] PHP Fatal error:  Call to undefined function  xlsbof() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:08:29] PHP Fatal error:  Call to undefined function  xlsbof() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:13:45] PHP Parse error:  syntax error, unexpected '[' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 335
+[09-Aug-2013 01:14:16] PHP Parse error:  syntax error, unexpected '[' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 335
+[09-Aug-2013 01:17:22] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::use_table() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:18:24] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::use_table() in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 334
+[09-Aug-2013 01:21:54] PHP Parse error:  syntax error, unexpected '*' in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 340
+[09-Aug-2013 02:05:30] PHP Fatal error:  Call to a member function result_array() on a non-object in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 299
+[09-Aug-2013 23:52:56] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home2/huseynov/public_html/bt/application/controllers/ControlPanel/applications.php on line 301
+[10-Aug-2013 01:32:58] PHP Parse error:  syntax error, unexpected $end in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 805
+[10-Aug-2013 01:34:15] PHP Fatal error:  Call to a member function recaptcha_check_answer() on a non-object in /home2/huseynov/public_html/bt/application/controllers/careers.php on line 704
+[24-Sep-2013 08:02:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/baker/public_html/phpinfo.php on line 3
+[24-Sep-2013 08:09:21 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/baker/public_html/application/models/section_model.php on line 465
+[24-Sep-2013 08:10:52 UTC] PHP Fatal error:  Call to undefined function ereg_match() in /home/baker/public_html/application/models/section_model.php on line 299
+[24-Sep-2013 08:10:59 UTC] PHP Fatal error:  Call to undefined function ereg_match() in /home/baker/public_html/application/models/section_model.php on line 299
+[25-Sep-2013 08:15:30 UTC] PHP Fatal error:  Call to undefined method Section_model::getName() in /home/baker/public_html/application/controllers/sectors.php on line 46
+[25-Sep-2013 08:15:41 UTC] PHP Fatal error:  Call to undefined method Section_model::get_name() in /home/baker/public_html/application/controllers/sectors.php on line 46
+[02-Jul-2014 13:14:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:14:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:14:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:14:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:21:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:22:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:22:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:22:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[02-Jul-2014 13:22:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[23-Apr-2018 09:01:47 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:48 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:49 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:50 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:52 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:53 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:54 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Apr-2018 09:01:57 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Apr-2018 20:12:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php54/root/usr/lib64/php/modules/curl.so' - /opt/cpanel/ea-openssl/lib64/libcrypto.so.1.0.0: version `libcrypto.so.10' not found (required by /usr/lib64/libssh2.so.1) in Unknown on line 0
+[12-Aug-2018 16:15:48 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:15:50 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:15:52 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:15:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:15:56 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:15:58 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:16:00 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:16:01 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Aug-2018 16:16:03 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0

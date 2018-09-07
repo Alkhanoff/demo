@@ -1,0 +1,92 @@
+#background {
+	position:absolute; 
+	left:0; 
+	top:0;
+	width:800px;
+	height:48px; 
+	z-index:0; 
+	background-image:URL(../images/btm_bar.gif);
+}
+
+#exit {
+	position:absolute; 
+	width:55px; 
+	height:18px; 
+	left:17px; 
+	top:14px; 
+	z-index:5; 
+}
+
+#help {
+	position:absolute; 
+	width:55px; 
+	height:18px; 
+	left:81px; 
+	top:15px; 
+	z-index:5;
+}
+
+#print {
+	position:absolute; 
+	width:55px; 
+	height:18px; 
+	left:145px; 
+	top:15px; 
+	z-index:5;
+}
+
+#actionPlanner {
+	position:absolute; 
+	width:125px; 
+	height:18px; 
+	left:247px; 
+	top:15px; 
+	z-index:5; 
+}
+
+#back {
+	position:absolute; 
+	width:30px; 
+	height:18px; 
+	left:612px; 
+	top:15px; 
+	z-index:5; 
+	visibility:hidden;
+}
+
+#next {
+	position:absolute; 
+	width:27px; 
+	height:18px; 
+	left:725px; 
+	top:15px; 
+	z-index:5; 
+	visibility:hidden;
+}
+
+#navBack {
+	position:absolute; 
+	left:624px; 
+	top:0px; 
+	width:176px;
+	height:36px;
+	background-image:URL(../images/nav_box_bgrnd.gif);
+	z-index:1; 
+}
+
+#pageNum { 
+	position:absolute; 
+	top:17px; 
+	left:675px; 
+	width:42px; 
+	z-index:5; 
+	font-family: Arial; 
+	font-size: 9pt; 
+	font-weight:800; 
+	text-align:center;
+	color:#FFFFFF 
+}
+
+a img {
+	border:0px;
+}

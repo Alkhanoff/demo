@@ -1,0 +1,102 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.button {
+	cursor:pointer;
+	position:absolute; 
+	background-color:#ffffff; 
+	filter:alpha(opacity=0);
+	opacity: 0;
+	-moz-opacity:0;
+	font-family:Arial;
+	font-size:10px; 
+	padding:5px; 
+	height:23px;
+}
+
+#calcMain {
+	position: relative;
+	left:0px; 
+	top:0px; 
+	width:176px; 
+	height:201px; 
+	font-family:Arial; 
+	font-size:14px; 
+	font-weight:800; 
+	background-image:url("../images/toolsandcomms/calculator_bgrnd.gif");
+}
+
+#calcDisplay {
+	position:absolute; 
+	left:16px; 
+	top:18px; 
+	width:143px; 
+	height:25px; 
+	text-align:right; 
+	font-size:14px; 
+	font-family:Arial; 
+	color:#00ff00; 
+}
+
+#btn7
+, #btn8
+, #btn9
+, #btnClear
+, #btnCE
+{
+	top:57px; 
+	width:23px;
+}
+
+#btn7 {left:12px }
+#btn8 {left:42px }
+#btn9 {left:72px }
+#btnClear {left:108px }
+#btnCE {left:137px }
+
+#btn4
+, #btn5
+, #btn6
+, #btnAdd
+, #btnMinus
+{
+	top:87px; 
+	width:23px;
+}
+
+#btn4 {left:12px }
+#btn5 {left:42px }
+#btn6 {left:72px }
+#btnAdd {left:108px }
+#btnMinus {left:137px }
+
+#btn1
+, #btn2
+, #btn3
+, #btnMultiply
+, #btnDivide
+{
+	top:117px; 
+	width:23px;
+}
+
+#btn1 {left:12px }
+#btn2 {left:42px }
+#btn3 {left:72px }
+#btnMultiply {left:108px }
+#btnDivide {left:137px }
+
+#btn0
+, #btnPoint
+, #btnEquals
+{
+	top:147px; 
+	width:53px;
+}
+
+#btn0 {left:12px }
+#btnPoint {left:72px }	
+#btnEquals {left:108px }

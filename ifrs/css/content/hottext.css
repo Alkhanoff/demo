@@ -1,0 +1,84 @@
+
+.postTextLayer { font-family: Arial; font-size: 10pt; z-index:1; width:320px;}
+
+
+.initialTextLayer {
+	padding:0px 0px 10px 0px;
+}
+
+#displayTextArea
+, .initialTextLayer
+, #hotTextArea
+{
+	font-family: Arial;
+	font-size: 10pt;
+	z-index:1;
+}
+
+.hotTextDisplayText {
+	position:absolute;
+	left:350px;
+	top:110px;
+	width:300px;
+	height:350px;
+}
+
+.hotTextDisplayTextAtTop {
+	position:absolute;
+	left:350px;
+	top:30px;
+	width:300px;
+	height:350px;
+}
+
+.hotTextAreaSpanning {
+	position:absolute;
+	left:19px;
+	top:30px;
+	width:620px;
+	height:350px;
+}
+
+.hotTextArea {
+	position:absolute;
+	left:19px;
+	top:30px;
+	width:300px;
+}
+
+.hotTextRows {
+	width:300px;
+}
+
+a.hotText:link
+, a.hotText:visited
+, a.hotTextHighlight:link
+, a.hotTextVisited:link
+{
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: underline;
+	color:#932617;
+}
+
+a.hotTextHighlight:visited
+, a.hotTextVisited:visited
+, a.hotText:hover
+{
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: underline;
+	color:#15377E;
+}
+
+.linePadder {
+	padding:0px 0px 10px 0px;
+}
+
+.hotText ul
+, .hotTextHighlight ul
+, .hotTextVisited ul
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title>Topic Navigation page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/nav.css">
+<script language="JavaScript" src="../js/presnav.js"></script>
+</head>
+
+<body leftmargin="0" bgcolor="#FFFFFF" onload="initialise()">
+<div id="background"></div>
+<div id="navBack"></div>
+<div id="exit"><a href="JavaScript:exitProgram()" onfocus="changeImage('exit_h')" onblur="changeImage('exit_n')"><img id="exitImg" name="exitImg" src="../images/exit_btn_n.gif" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" alt="Exit"></a></div>
+<div id="help"><a href="JavaScript:showHelp()" onfocus="changeImage('help_h')" onblur="changeImage('help_n')"><img id="helpImg" name="helpImg" src="../images/help_btn_n.gif" onmouseover="changeImage('help_h')" onmouseout="changeImage('help_n')" alt="Help"></a></div>
+<div id="print"><a href="JavaScript:doPrint()" onfocus="changeImage('print_h')" onblur="changeImage('print_n')"><img id="printImg" name="printImg" src="../images/prnt_btn_n.gif" onmouseover="changeImage('print_h')" onmouseout="changeImage('print_n')" alt="Print"></a></div>
+<div id="actionPlanner"><a href="JavaScript:top.loadActionPlanner()" onfocus="changeImage('actionPlanner_h')" onblur="changeImage('actionPlanner_n')"><img id="actionPlannerImg" src="../images/atpln_btn_n.gif" onmouseover="changeImage('actionPlanner_h')" onmouseout="changeImage('actionPlanner_n')" alt="Action Planner"></a></div>
+<div id="back"><a href="JavaScript:goBack()" onfocus="changeImage('back_h')" onblur="changeImage('back_n')"><img id="backImg" name="backImg" src="../images/back_btn_n.gif"onmouseover="changeImage('back_h')" onmouseout="changeImage('back_n')" alt="Back"></a></div>
+<div id="pageNum"></div>
+<div id="next"><a href="JavaScript:goNext()" onfocus="changeImage('next_h')" onblur="changeImage('next_n')"><img id="nextImg" name="nextImg" src="../images/next_btn_n.gif" onmouseover="changeImage('next_h')" onmouseout="changeImage('next_n')" alt="Next"></a></div>
+</body>
+</html>

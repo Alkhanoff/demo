@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/popup/common.css">
+<script language="JavaScript">
+var strImagePath = parent.strImagePath + "popups/bookmark/"; // The path of the image directory relative to the page 
+var delete_h = new Image();
+var delete_n = new Image();
+
+function initialise()
+{
+	preloadImages();
+	parent.showBookmark();
+	parent.booContentLoaded = true;
+}
+
+function preloadImages()
+{
+    delete_h.src = strImagePath + "delete_h.gif";
+    delete_n.src = strImagePath + "delete_n.gif";
+}
+
+function changeImage(_strState)
+{
+    var _arrImg = _strState.split("_");
+
+	if (parent.booContentLoaded) {
+		document.getElementById(_arrImg[0] + "Img").src = eval("delete_" + _arrImg[1]).src;
+	}
+	
+    return;
+}
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="backgroundL" style="position:absolute; left:0px; top:0px; width:630; height:363; z-index:0; visibility:visible">
+<img src="../images/popups/bookmark/book_main.gif" width="630" height="363" border="0">
+</div>
+<div id="bookmarkL" style="position:absolute; left:35px; top:50px; width:571; height:285; background-color:white; border:1px solid black; overflow-x:none; overflow-y:scroll; z-index:1; visibility:visible">
+</div>
+
+<div id="popupLayer" style="background:url(../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="parent.hidePopupLayer();" onmouseover="parent.changeImage('popupClose_h')" onmouseout="parent.changeImage('popupClose_n')"><img alt="close" width="62" border="0" height="18" id="popupCloseImg" name="popupCloseImg" src="../images/content/close_btn_n.gif"></a></div>
+	<div id="popupContent">
+		<div align="left"><img src="../images/content/popup_titles/help.gif" alt="Help"/></div>
+		<div style="position:absolute; left:16px; top:55px; overflow: auto; padding:5px; width:340px; height:222px"></div>
+	</div>
+</div>
+<div id="popupMask"><img width="773" height="442" src="../images/content/white1px.gif"></div>
+</body>
+</html>

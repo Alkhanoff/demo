@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Identifying mandatory exceptions</title>
+		<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/draganddropbycolumn.css">
+		<script language="JavaScript" src="../../../../js/content/draganddropbycolumn.js"></script>
+		<script language="JavaScript" src="../../../../js/content/dynlayer.js"></script>
+		<script language="JavaScript" src="../../../../js/content/createmouseevents.js"></script>
+		<script language="JavaScript" src="../../../../js/content/dragdrop.js"></script>
+		<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+		<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+			var initialAudioFile = "";
+			maxAttempts = 2;
+			var imagePath = "../../../../images/content/";
+			var initialInstruction = "Click and drag each option into the correct column and click <b>Submit</b>.";
+			var finalInstruction = "Click <b>Next</b> to continue.";
+			var correctFeedback= "<p><i>IFRS 1</i> prohibits retrospective application of some aspects of other IFRS relating to derecognition of financial assets and financial liabilities, hedge accounting, estimates and assets classified as held for sale and discontinued operations.</p>";	
+			var finalIncorrectFeedback= "<p><i>IFRS 1</i> prohibits retrospective application of some aspects of other IFRS relating to derecognition of financial assets and financial liabilities, hedge accounting, estimates and assets classified as held for sale and discontinued operations.</p>";	
+			var retryFeedbackOptional= "";	
+			var instructionOnIncorrectAttempt = "<p>Before you can make your second and final attempt at this question, ask about <a href=\"javascript:appTop.launchIntoCoachMe(\'cm45\');\">Derecognition</a>, <a href=\"javascript:appTop.launchIntoCoachMe(\'cm50\');\">Hedge accounting</a>, <a href=\"javascript:appTop.launchIntoCoachMe(\'cm55\');\">Estimates</a> and <a href=\"javascript:appTop.launchIntoCoachMe(\'cm60\');\">Held for sale and discontinued operations</a>  in <b>Coach me</b>.</p>";
+			var instructionOnFinalIncorrectAttempt = "Click <b>Show Me</b> to see the correct order, or click <b>Next</b> to continue.";
+			var afterModelAnswerInstruction = "Click <b>Your Answer</b> to see what you chose, or click <b>Next</b> to continue.";
+		</script>
+		</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise()" onunload="pageUnload()">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Identifying mandatory exceptions</div>
+		<div id="questionArea" name="questionArea"><span id="questionText" name="questionText" style="position:relative; visibility:inherit"><font class="question"><p><b>Garrett: </b>&#147;Hi there. Let&#146;s get started. We haven&#146;t got long to cover mandatory exceptions before this meeting at 2pm. Seeing as you&#146;re the one with all the expertise, can you confirm that these are the mandatory exceptions as defined by <i>IFRS 1</i>?&#148;</p><p>Garrett holds out his list. He thinks all of the items below are mandatory exceptions (prohibited retrospective application of some aspects of other IFRS). Is he right?</p></font></span><span class="instructionText" id="initialInstructionText">Click and drag each option into the correct column and click <b>Submit</b>.</span></div>
+		<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+		<div class="dragDivs" id="drag1Div">Derecognition of financial assets/ liabilities</div>
+<div class="dragDivs" id="drag2Div">Impairment of assets</div>
+<div class="dragDivs" id="drag3Div">Non-controlling interests</div>
+<div class="dragDivs" id="drag4Div">Hedge accounting</div>
+<div class="dragDivs" id="drag5Div">Estimates</div>
+<div class="dragDivs" id="drag6Div">Employee benefits</div>
+<div id="col1Heading">Mandatory exceptions</div>
+<div id="markCol1" name="markCol1">
+<table cellpadding="2" cellspacing="0" border="0" width="100%"><tr>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol11img" name="markCol11img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol12img" name="markCol12img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol13img" name="markCol13img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol14img" name="markCol14img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol15img" name="markCol15img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol16img" name="markCol16img"></td>
+</tr></table>
+</div>
+<div id="col2Heading">Not exceptions</div>
+<div id="markCol2" name="markCol2">
+<table cellpadding="2" cellspacing="0" border="0" width="100%"><tr>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol21img" name="markCol21img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol22img" name="markCol22img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol23img" name="markCol23img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol24img" name="markCol24img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol25img" name="markCol25img"></td>
+<td><img border="0" width="17" height="17" src="../../../../images/content/trans.gif" id="markCol26img" name="markCol26img"></td>
+</tr></table>
+</div>
+<div id="feedbackText" name="feedbackText" class="feedback"></div>
+<div id="target1Div" class="targetDivs" name="target1Div"><img src="../../../images/trans.gif" width="1"></div>
+<div id="target2Div" class="targetDivs" name="target2Div"><img src="../../../images/trans.gif" width="1"></div>
+<div id="instructionLayer" class="instructionStyle">
+<form name="optionsForm"><input type="hidden" name="cqid" value="1_2_1_1_1_2"></form>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

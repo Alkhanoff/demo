@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title>Enter your name.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+label {
+	font-family:font-family:Verdana;
+	font-size: 12pt;
+}
+
+.holderC {
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:300px;
+}
+
+</style>
+<script>
+function setUsername()
+{
+	window.returnValue = document.forms[0].elements[0].value;
+	closeWindow();
+}
+
+function cancel()
+{
+	window.returnValue = "cancelled";
+	closeWindow();
+}
+
+function closeWindow()
+{
+	window.close()
+}
+
+</script>
+</head>
+
+<body bgcolor="#EFEFFA">
+<div class="holderC">
+<form onsubmit="return false">
+<label for="userName">Please enter your name: </label><input type="text" name="userName" id="userName" value=""><br/><br/>
+<center><input type="button" onclick="setUsername()" value="Ok">&nbsp;&nbsp;<input type="button" onclick="cancel()" value="Cancel"></center>
+</form>
+</div>
+</body>
+</html>

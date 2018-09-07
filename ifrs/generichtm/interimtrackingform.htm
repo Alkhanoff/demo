@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+function initialise()
+{
+	var formObj = document.forms['trackingForm'];
+
+	formObj.elements['loginName'].value = top.loginName;
+	formObj.elements['courseID'].value = top.courseID;
+	formObj.elements['startDate'].value = top.trackingStartDate;
+	formObj.elements['endDate'].value = top.trackingEndDate;
+	formObj.elements['score'].value = top.percentage;
+	formObj.elements['passed'].value = top.passed;
+	formObj.action = "../asp/saveinterimtracking.asp?dummy="+new Date().getTime();
+	formObj.submit();
+}
+</script>
+</head>
+
+<body bgcolor="#000000" onload="initialise()">
+<form name="trackingForm" method="POST">
+<input name="loginName" type="hidden" value="">
+<input name="courseID" type="hidden" value="">
+<input name="startDate" type="hidden" value="">
+<input name="endDate" type="hidden" value="">
+<input name="score" type="hidden" value="">
+<input name="passed" type="hidden" value="">
+</form>
+</body>
+</html>

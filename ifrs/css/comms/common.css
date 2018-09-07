@@ -1,0 +1,29 @@
+
+
+a {
+	color:#932617;
+	text-decoration:underline; 
+	font-weight:800;
+}
+
+a:hover {
+	color:#15377E;
+	text-decoration:underline;
+	font-weight:800;
+}
+
+.indented {padding: 0px 10px 0px 10px;}
+
+/*popup layer styles*/
+#popupLayer { position:absolute; top:15px; left:125px;width:376px;height:333px;visibility:hidden; z-index:51; border:1px solid #999999}
+#closeButton {position:absolute; top:300px; left:10px;width:89px;height:21px; z-index:53;}
+#popupContent {position:absolute; top:0px; left:0px;width:376px;height:250px; z-index:52;font-family: Calibri, Arial; font-size: 11pt;}
+#popupMask {position:absolute; top:0px; left:0px;width:664px;height:442px;visibility:hidden; z-index:50;filter:alpha(opacity=50);
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+
+p {
+	margin-top:0px;
+}

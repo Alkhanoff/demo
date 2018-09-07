@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Correcting an error</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/wordmatch.css">
+
+<script language="JavaScript" src="../../../../js/content/wordmatch.js"></script>
+<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+<script language="javaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+var correctFeedbackText = "<p>Both the impacts of the correction of error due to the change in estimates and the impact of the use of a different accounting policy shall be adjusted for in retained earnings of the opening IFRS statement of financial position.</p>";	
+
+var finalIncorrectFeedback= "<p>Both the impacts of the correction of error due to the change in estimates and the impact of the use of a different accounting policy shall be adjusted for in retained earnings of the opening IFRS statement of financial position.</p>";	
+var retryFeedbackOptional= "";	
+var instructionOnIncorrectAttempt = "<p>Before you can make your second and final attempt at this question, ask about <a href=\"javascript:appTop.launchIntoCoachMe(\'cm55\');\">Estimates</a> in <b>Coach me</b>.</p>";
+var instructionOnFinalIncorrectAttempt = "Click <b>Show Me</b> to see the correct order, or click <b>Next</b> to continue.";
+var afterModelAnswerInstruction = "Click <b>Your Answer</b> to see what you chose, or click <b>Next</b> to continue.";
+var instructionText = "Click <b>Next</b> to continue.";
+var numOfDropDowns = 5;
+var numOfAttemps = 2;
+var imagePath = "../../../../images/content/";
+
+</script></head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleText" class="titleText">Correcting an error</div>
+<div id="mainContent">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td colspan="2" width="100%" class="spacerRow"><img border="0" src="../../../../images/content/trans.gif"></td></tr>
+<tr><td colspan="2" width="100%" class="question" id="question"><p><b>Garrett:</b> &#147;Right. That&#146;s the basics out of the way. Now, how about accounting for the correction of an error, if that error occurred prior to the date of transition to IFRS. How do we do that?&#148;</p><p>This question is a bit more involved than his last one. Lucky for you though, Garrett&#146;s personal assistant has called him away to his scheduled meeting. It&#146;s agreed you&#146;ll email him immediately with an answer to his question. Complete the email below to answer Garrett&#146;s question.</p><span class="instructionText" id="initialInstructionText"> Select the correct answers from the drop-down boxes.</span></td></tr>
+<tr><td colspan="2" width="100%" class="spacerRow"><img border="0" src="../../../../images/content/trans.gif"></td></tr>
+<tr>
+<td width="70%" class="listBox" valign="top">
+<form name="mainForm" id="mainForm">In answer to your question regarding the correction of an error that occurred prior to the date of transition to IFRS, my research confirms that:<br>&#147;If estimates were in error <select id="selectList_1" onchange="javascript:updateAnswerArray(this,'W1',1)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">prior to</option><option value="opt_2">at the same time of</option><option value="opt_3">later than</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_1" name="markImg_1" style="position:relative; top:2px;">&nbsp; the date of transition, both the impacts of the correction of error due to the change in estimates and the impact of the use of a different accounting policy, if any, shall be adjusted for in <select id="selectList_2" onchange="javascript:updateAnswerArray(this,'W2',2)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">statement of comprehensive income</option><option value="opt_2">retained earnings</option><option value="opt_3">expenses</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_2" name="markImg_2" style="position:relative; top:2px;">&nbsp;of the opening IFRS statement of financial position. In addition, correction of these errors <select id="selectList_3" onchange="javascript:updateAnswerArray(this,'W1',3)" class="option" style="position:relative; top:2px; z-index:1"><option value=""></option><option value="opt_1">shall be separately</option><option value="opt_2">shall not be</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_3" name="markImg_3" style="position:relative; top:2px;">&nbsp;disclosed as required by <i>IFRS 1.</i> This disclosure shall be on a <select id="selectList_4" onchange="javascript:updateAnswerArray(this,'W2',4)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">net</option><option value="opt_2">gross</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_4" name="markImg_4" style="position:relative; top:2px;">&nbsp;basis - that is, presentation of net errors <select id="selectList_5" onchange="javascript:updateAnswerArray(this,'W2',5)" class="option" style="position:relative; top:2px; z-index:2"><option value=""></option><option value="opt_1">are</option><option value="opt_2">are not</option></select>&nbsp;<img src="../../../../images/content/wm_emptybox.gif" border="0" alt="" id="markImg_5" name="markImg_5" style="position:relative; top:2px;">&nbsp;allowed.&#148;</form>
+</td>
+<td width="30%" valign="top">
+<div id="feedbackText"></div>
+</td>
+</tr>
+</table>
+</div>
+<div style="position:absolute; left:0; top:0; visibility:hidden;" id="spare" name="spare"></div>
+<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

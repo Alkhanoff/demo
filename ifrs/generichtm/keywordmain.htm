@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../js/keywordmain.js"></script>
+<link rel="stylesheet" href="../css/popup/common.css">
+<style>
+#popupLayer { position:absolute; top:80px; left:140px;width:376px;height:333px;visibility:hidden; z-index:51; border:1px solid #999999}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="topL" style="position:absolute; width:630; height:71; left:0px; top:0px; z-index:0">
+<img src="../images/popups/keyword/key_top.gif" width="630" height="71" border="0">
+</div>
+<div id="backgroundL" style="position:absolute; width:630; height:363; left:0px; top:71px; z-index:0">
+<img src="../images/popups/keyword/key_main.gif" width="630" height="363" border="0">
+</div>
+<div id="navL" style="position:absolute; width:630; height:51; left:0px; top:434px; z-index:0; visibility:visible">
+<img src="../images/popups/keyword/key_nav.gif" width="630" height="51" border="0">
+</div>
+
+<div id="currentWordL" style="position:absolute; font-family:Arial; font-size:10pt; left:37px; top:102px; width:571; z-index:0">
+</div>
+
+<div id="resultsL" style="position:absolute; left:37px; top:125px; width:567; height:279; background-color:#FFFFFF; border:1px solid black; overflow-x:none; overflow-y:scroll; z-index:1">
+</div>
+
+<div id="exitL" style="position:absolute; width:62px; height:18px; left:9px; top:455px; cursor:pointer; z-index:5" onClick="exit()" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" onfocus="this.blur()"><img id="exitImg" name="exitImg" src="../images/popups/keyword/close_n.gif" width="62" height="18" border="0"></div>
+<div id="helpL" style="position:absolute; width:55px; height:18px; left:262px; top:455px; cursor:pointer; z-index:5" onClick="parent.showHelp()" onmouseover="changeImage('help_h')" onmouseout="changeImage('help_n')" onfocus="this.blur()"><img id="helpImg" name="helpImg" src="../images/popups/keyword/help_n.gif" width="55" height="18" border="0"></div>
+
+<div id="popupLayer" style="background:url(../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="parent.hidePopupLayer();" onmouseover="parent.changeImage('popupClose_h')" onmouseout="parent.changeImage('popupClose_n')"><img alt="close" width="62" border="0" height="18" id="popupCloseImg" name="popupCloseImg" src="../images/content/close_btn_n.gif"></a></div>
+	<div id="popupContent">
+		<div align="left"><img src="../images/content/popup_titles/help.gif" alt="Help"/></div>
+		<div style="position:absolute; left:16px; top:55px; overflow: auto; padding:5px; width:340px; height:222px"></div>
+	</div>
+</div>
+<div id="popupMask"><img width="773" height="442" src="../images/content/white1px.gif"></div>
+
+</body>
+</html>

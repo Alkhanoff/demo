@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../js/coachmenav.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+
+<div id="backgroundL" style="position:absolute; left:0; top:0; width:773px; height:47px; background-image:URL(../images/popups/coachme/cm_nav.gif); background-repeat:no-repeat; z-index:0; visibility:visible"></div>
+
+<div id="exitL" style="position:absolute; width:62px; height:18px; left:14px; top:17px; cursor:pointer; z-index:5; visibility:visible" onClick="exit()" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" onfocus="this.blur()"><img id="exitImg" name="exitImg" src="../images/popups/coachme/close_n.gif" border="0" alt="Close"></div>
+
+<div id="returnL" style="position:absolute; width:72px; height:27px; left:94px; top:17px; cursor:pointer; z-index:5; visibility:hidden" onClick="returnToQuickFind()" onmouseover="changeImage('return_h')" onmouseout="changeImage('return_n')" onfocus="this.blur()"><img id="returnImg" name="returnImg" src="../images/popups/coachme/return_n.gif" border="0" alt="Return to QuickFind"></div>
+<div id="return2L" style="position:absolute; width:72px; height:27px; left:94px; top:17px; cursor:pointer; z-index:5; visibility:hidden" onClick="returnToKeyword()" onmouseover="changeImage('return2_h')" onmouseout="changeImage('return2_n')" onfocus="this.blur()"><img id="return2Img" name="return2Img" src="../images/popups/coachme/return_keyword_n.gif" border="0" alt="Return to Keyword"></div>
+
+<div id="helpL" style="position:absolute; width:55px; height:18px; left:294px; top:17px; cursor:pointer; z-index:5; visibility:visible" onClick="showHelp()" onmouseover="changeImage('help_h')" onmouseout="changeImage('help_n')" onfocus="this.blur()"><img id="helpImg" name="helpImg" src="../images/popups/coachme/help_n.gif" border="0" alt="Help"></div>
+
+<div id="printL" style="position:absolute; width:55px; height:18px; left:377px; top:17px; cursor:pointer; z-index:5; visibility:visible" onClick="doPrint()" onmouseover="changeImage('print_h')" onmouseout="changeImage('print_n')" onfocus="this.blur()"><img id="printImg" name="printImg" src="../images/popups/coachme/print_n.gif" border="0" alt="Print"></div>
+
+<div id="backL" style="position:absolute; width:32px; height:32px; left:605px; top:17px; cursor:pointer; z-index:5; visibility:hidden" onClick="goBack()" onmouseover="changeImage('back_h')" onmouseout="changeImage('back_n')" onfocus="this.blur()"><img id="backImg" name="backImg" src="../images/popups/coachme/back_n.gif" border="0" alt="Back"></div>
+
+<div id="nextL" style="position:absolute; width:32px; height:32px; left:710px; top:17px; cursor:pointer; z-index:5; visibility:hidden" onClick="goNext()" onmouseover="changeImage('next_h')" onmouseout="changeImage('next_n')" onfocus="this.blur()"><img id="nextImg" name="nextImg" src="../images/popups/coachme/next_n.gif" border="0" alt="Next"></div>
+
+<div id="pageNum" align="center" style="position:absolute; font-family: Arial; font-size: 10pt; font-weight:bold; color:#000000; top:17px; left:667px; width:37px; z-index:5; visibility:visible"></div>
+
+</body>
+</html>

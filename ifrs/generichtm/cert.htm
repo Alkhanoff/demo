@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+function initialise()
+{
+	document.all['nameL'].innerHTML = "<center>"+parent.strUserName+"</center>";
+	if (parent.strCourseID.indexOf("ifric",0) != -1)
+	{
+		document.all['standardL'].innerHTML = "<center>"+parent.strCourseID.replace(/ifric/,"")+"</center>";
+		document.images['certImg'].src = "../images/certificate3.gif";
+	}
+	else if (parent.strCourseID.indexOf("ifrs",0) != -1)
+	{
+		document.all['standardL'].innerHTML = "<center>"+parent.strCourseID.replace(/ifrs/,"")+"</center>";
+		document.images['certImg'].src = "../images/certificate2.gif";
+	}
+	else
+	{
+		document.all['standardL'].innerHTML = "<center>"+parent.strCourseID.replace(/ias/,"")+"</center>";
+	}
+	document.all['scoreL'].innerHTML = "<center>"+parent.intPercentage+"</center>";
+	parent.printCert();
+}
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="backgoundL" style="position:absolute; left:0; top:0; z-index:0; visibility:visible">
+<img id="certImg" src="../images/certificate.gif" width="550" height="750" border="0">
+</div>
+<div id="nameL" style="position:absolute; font-family:arial; font-size:14pt; left:126; top:256; width:300; z-index:2; visibility:visible">
+</div>
+<div id="standardL" style="position:absolute; font-family:arial; font-size:12pt; left:165; top:366; width:30; z-index:2; visibility:visible">
+</div>
+<div id="scoreL" style="position:absolute; font-family:arial; font-size:12pt; left:408; top:366; width:32; z-index:2; visibility:visible">
+</div>
+</body>
+</html>

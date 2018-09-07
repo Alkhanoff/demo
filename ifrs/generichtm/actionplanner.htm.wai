@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+var imagePath = "../images/popups/action_planner/"; // The path of the image directory relative to the page 
+var ok_h = new Image();
+var ok_n = new Image();
+var contentLoaded = false;
+
+function initialise()
+{
+	preloadImages()
+	contentLoaded = true;
+}
+
+function preloadImages()
+{
+    ok_h.src = imagePath + "action_planner_ok_h.gif";
+    ok_n.src = imagePath + "action_planner_ok_n.gif";
+}
+
+function changeImage(imgState)
+{
+    var imgObj;
+    var img = imgState.split("_");
+  
+    imgObj = eval("document.images['"+img[0]+"Img']");
+    
+    if (contentLoaded)
+    {
+        newImage = eval(imgState);
+        imgObj.src = newImage.src;
+    }
+    return;
+}
+
+function launchDoc()
+{
+	var docToLoad = "c:\\DTT\\planners\\"+window.opener.top.standard+"\\action_planner.doc";
+
+	window.open(docToLoad,"plannerWin","width=800,height=600,left=0,top=0,toolbar=yes,menubar=yes,status=yes,scrollbars=yes,resizable=yes,fullscreen=no");
+	window.close();
+}
+
+function launchInstruction()
+{
+	document.location = "plannerinst.htm";
+}
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="backgroundL" style="position:absolute; left:0; top:0; width:600; height:450; z-index:0; visibility:visible">
+<img src="../images/popups/action_planner/action_planner_bg.gif" width="600" height="450" border="0">
+</div>
+<div id="textL" style="font-family:Arial; font-size:10pt; position:absolute; padding:10; left:40; top:74; width:520; height:310; z-index:5; visibility:visible; overflow-y:auto;">
+<p>Click <a href="JavaScript:launchDoc()">here</a> to launch document.</p>
+<p>Click <a href="JavaScript:launchInstruction()">here</a> to launch instruction.</p>
+</div>
+<div id="okL" style="position:absolute; width:81px; height:26px; left:465px; top:400px; cursor:pointer; z-index:5; visibility:visible" onClick="downloadZip()" onmouseover="changeImage('ok_h')" onmouseout="changeImage('ok_n')" onfocus="this.blur()"><img id="okImg" src="../images/popups/action_planner/action_planner_ok_n.gif" border="0" alt="Ok"></div>
+</body>
+</html>

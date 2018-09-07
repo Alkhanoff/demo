@@ -1,0 +1,11 @@
+.initialText { font-family: Arial; font-size: 10pt; z-index:1; padding:5px;}
+#mainAreaDiv {position:absolute; left:7px; top:25px; width:605px; height:300px; z-index:1;}
+.tableHeading {font-family: Arial; font-size: 10pt; font-weight: bold; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.tableBody {font-family: Arial; font-size: 10pt; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.bodyText {font-family: Arial; font-size: 10pt; padding:3px;}
+#bodyText {width:50%}
+#tableTD {width:50%;}
+.tableStyle {margin-top: 2px; border-style:solid; border-color:#ffffff; background-color:#999999;}
+
+
+

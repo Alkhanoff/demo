@@ -1,0 +1,7 @@
+
+/*.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold; position:absolute; left:10px; top:10; width:580px; height:20px;}*/
+.initialText {font-family: Arial; font-size: 10pt; position:absolute; left:10px; top:40; width:580px; height:30px;}
+.instructionText {font-family: Arial; font-size: 10pt; color:#663366; }
+.captionText {font-family: Arial; font-size: 10pt;}
+.mainTextNoInitialText {font-family: Arial; font-size: 10pt; top: 40px;}
+.mainTextWithInitialText {font-family: Arial; font-size: 10pt; top: 60px;}

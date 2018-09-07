@@ -1,0 +1,7 @@
+body { font-family: Verdana, Arial, Sans-Serif; font-size: 12pt }
+
+.exitStyle { position:absolute; left:20; top:570; z-index:1; visibility:visible; font-family: Verdana, Arial, Sans-Serif; font-size: 12pt }
+.titleStyle { position:absolute; left:20; top:15; z-index:1; visibility:visible; font-family: Verdana, Arial, Sans-Serif; font-size: 14pt; font-weight:bold }
+.level1MenuStyle { position:absolute; left:50; top:150; width:300; z-index:1; visibility:visible; font-family: Verdana, Arial, Sans-Serif; font-size: 12pt }
+.level2MenuStyle { position:absolute; left:400; top:150; width:300; z-index:1; visibility:visible; font-family: Verdana, Arial, Sans-Serif; font-size: 12pt }
+

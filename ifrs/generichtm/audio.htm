@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script language="JavaScript">
+function loadAudio(audioFile)
+{
+	mediaPlayer.FileName = audioFile;
+}
+
+function stopAudio()
+{
+	mediaPlayer.Stop();
+}
+
+function playAudio()
+{
+	mediaPlayer.Play();
+}
+</script>
+</head>
+<body>
+<OBJECT ID="mediaPlayer" width=0 height=0 classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" type="application/x-oleobject">
+<PARAM NAME="FileName" VALUE="../audio/content/silence.asf">
+<PARAM NAME="animationatStart" VALUE="false">
+<PARAM NAME="transparentatStart" VALUE="false">
+<PARAM NAME="autoStart" VALUE="true">
+<PARAM NAME="showControls" VALUE="false">
+</OBJECT>
+</body>
+</html>

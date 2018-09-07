@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Deemed cost of assets and liabilities - business combinations</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/tabbedscreen.css">
+<script language="JavaScript" src="../../../../js/content/tabbedscreen.js"></script>
+<script language="JavaScript">
+var transparentImage = "../../../../images/content/trans.gif";
+
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+imagePath = "../../../../images/content/";
+var initialAudioFile = "";
+var noOfTabs = 4;
+
+var hotTypeOnThisTab = new Array()
+hotTypeOnThisTab[1] = 1;
+hotTypeOnThisTab[2] = 0;
+hotTypeOnThisTab[3] = 0;
+hotTypeOnThisTab[4] = 0;
+
+var theInstructionText = "That completes this <b>Example</b>. Click on another <b>Example</b> or click <b>Close</b>.";
+	
+var audioOnPage = false;
+var theInitialInstructionText = "Click each tab to find out more.";
+
+var tabTypesArray = new Array();
+
+
+
+tabTypesArray[1] = "Hot text";
+
+
+var tab1GraphicsInFeedback = false;
+
+var tab1theInitialText = "";
+var tab1numberOfHotTexts=4;
+var tab1displayTextOverwritesInitialText = false;
+
+var tab1theInitialInstructionText = "Click the bullet points to find out more.";
+var tab1displayTextArray = new Array();
+
+tab1displayTextArray[1] = "<p>Aibelts Machines is the parent company of a Group consisting of itself and its subsidiary Bower Manufacturing. It adopts IFRS for the first time in 2007. Its opening IFRS statement of financial position date is 1 January 2006.</p><p>At 1 January 2001 Aibelts acquired Bower.</p>";
+tab1displayTextArray[2] = "<p>Under local GAAP the business combination was treated as an acquisition.</p>";
+tab1displayTextArray[3] = "<p>The carrying amounts of assets and liabilities of Bower in the consolidated financial statements immediately after the business combination were equal to the pre-acquisition carrying amounts in the statement of financial position of the acquiree, Bower.</p>";
+tab1displayTextArray[4] = "<p>Aibelts selected 1 January 2006 (its date of transition to IFRSs) as the day from which business combinations will be treated in accordance with <i>IFRS 3.  </i>The requirements of IFRS 1 relating to Business Combinations <i>(contained in Appendix C)</i> will be applied on business combinations before that date including the acquisition of Bower on 1 January 2001.</p>";
+
+
+tabTypesArray[2] = "Text with small graphic";
+
+
+
+tabTypesArray[3] = "Text with large graphic";
+
+
+
+tabTypesArray[4] = "Text only";
+
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/../popups/examples/ex_main.gif"></div>
+			<div id="titleLayer" name="titleLayer" class="titleText">Deemed cost of assets and liabilities - business combinations</div>
+			
+			
+			<div id="mainTabDiv" class="mainTabNoInitialText">
+		<div id="tabBottomImage" name="tabBottomImage" class="tabBottomImageNoInitialText"><img border="0" src="../../../../images/content/tabbedscreen/example/tabbottom.gif"></div>
+		<div id="tabBackgroundImage" name="tabBackgroundImage" class="tabBackgroundImageNoInitialText" style="background-image:url(../../../../images/content/tabbedscreen/example/tabbackground1px.gif);"><img border="0" src="../../../../images/content/trans.gif"></div>
+		<div id="tabTitles" name="tabTitles">
+<table cellpadding="10" cellspacing="0" border="0" height="55"><tr>
+<td class="tabTitles" id="tabTitle1" width="99">Background</td>
+<td class="tabTitles" id="tabTitle2" width="99">Bower</td>
+<td class="tabTitles" id="tabTitle3" width="99">Equipment</td>
+<td class="tabTitles" id="tabTitle4" width="99">Conclusion</td>
+</tr></table></div>
+		<div id="tabTitlesClickableImages" name="tabTitlesClickableImages">
+<table cellpadding="0" cellspacing="0" border="0" height="55"><tr>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(1);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(2);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(3);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+<td width="119"><a onfocus="this.blur()" href="#" onclick="selectTab(4);"><img border="0" width="119" height="55" src="../../../../images/content/trans.gif"></a></td>
+</tr></table></div>
+		
+		<div class="tabBars" id="tab1topBarDIV" style="visibility:visible;"><img border="0" width="598" height="55" id="tab1topBarIMG" src="../../../../images/content/tabbedscreen/example/4_tab_1h.gif"></div>
+<div id="tab1hotTextArea" class="hotTextArea" style="visibility:visible;">
+<table cellpadding="0" cellspacing="0" align="left" border="0" width="100%">
+<tr>
+<td class="hotTextinitialTextLayer" id="tab1HotTextInitialTextLayer">This example illustrates how to determine the amount of equipment to be recorded in the opening IFRS statement of financial position at 1 January 2006 based on the following information.<br><span class="instructionText" id="tab1initialInstructionText"> Click the bullet points to find out more.</span></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(1)" id="tab1hotTextLink1"><ul><li>Aibelts Machines</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(2)" id="tab1hotTextLink2"><ul><li>Business combination</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(3)" id="tab1hotTextLink3"><ul><li>Consolidated financial statements</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(4)" id="tab1hotTextLink4"><ul><li><i>IFRS 3</i></li></ul></a></td>
+</tr>
+</table></div>
+<div id="tab1displayTextArea" class="hotTextDisplayTextAtTop" style="visibility:visible;"></div>
+		<div class="tabBars" id="tab2topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab2topBarIMG" src="../../../../images/content/tabbedscreen/example/4_tab_2h.gif"></div>
+<div class="graphicWithTextLeftArea" id="tab2mainText" style="visibility:hidden;">
+<p>Bower has produced the majority of its equipment, excluding leased equipment. Production overheads were not included in the cost of the equipment under local GAAP. The overheads are 50% of direct costs. </p><p>The equipment was acquired in 1999 for &euro;20 million at direct cost and depreciated using the straight-line method over 10 years under both local GAAP as well as IFRS. The <a href="javascript:appTop.showGlossaryPopup('fair value');">fair value</a> as of 1 January 2001 is &euro;26 million.</p><span class="instructionText" id="tab2ieOnlyInstructionText"></span></div>
+<div id="tab2mainGraphic" class="graphicWithTextRightArea" style="visibility:hidden;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab2graphic" src="images/ifrs1_cs10_005_tab2.gif"></td></tr></table>
+</div>
+		<div class="tabBars" id="tab3topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab3topBarIMG" src="../../../../images/content/tabbedscreen/example/4_tab_3h.gif"></div>
+<div class="tabInitialTextAtBottom" id="tab3initialText" style="visibility:hidden;">
+<p>This table shows the carrying amounts of equipment as of the end of each fiscal year under various accounting scenarios.</p><span class="instructionText" id="tab3ieOnlyInstructionText"></span></div>
+<div id="tab3mainGraphic" class="graphicWithTextLeftArea" style="visibility:hidden;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" valign="middle"><tr><td><img border="0" name="tab3graphic" src="images/ifrs1_cs10_005_tab3.gif"></td></tr></table>
+</div>
+		<div class="tabBars" id="tab4topBarDIV" style="visibility:hidden;"><img border="0" width="598" height="55" id="tab4topBarIMG" src="../../../../images/content/tabbedscreen/example/4_tab_4h.gif"></div>
+<div class="mainText" id="tab4textColumn1" style="position:absolute; left:50px; top:100px; width:555px; height:220px; z-index:3; 		visibility:hidden;">
+<p>Amount in the opening IFRS statement of financial position at 1 January 2006 is &euro;<b>10.</b></p><p>The carrying amount under local GAAP of the equipment immediately after the business combination is <a href="javascript:appTop.showGlossaryPopup('deemed cost');">deemed cost</a> , in terms of the requirements of IFRS 1 relating to Business Combinations <i>(contained in Appendix C)</i>, which is &euro;16. The fact that this amount is not in compliance with IFRS (production overheads not included in the cost) does not alter the result. </p><p>As equipment requires a cost-based measurement, the deemed cost shall be the basis for amortisation under IFRS from the date of the business combination. </p><p>As the assessment of the useful life has not changed, the depreciation under IFRS would be equal to the depreciation under local GAAP as well as the carrying amount as at the date of transition.</p><span class="instructionText" id="tab4ieOnlyInstructionText"></span></div>
+</div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

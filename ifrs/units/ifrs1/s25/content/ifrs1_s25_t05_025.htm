@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Question 5</title>
+<link rel="stylesheet" href="../../../../css/content/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/content/selectfromlistnofeedback.css">
+
+<script language="JavaScript" src="../../../../js/content/selectfromlistnofeedback.js"></script>
+<script language="JavaScript" src="../../../../js/content/questionresponses.js"></script>
+<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+taskQuestion = true;
+isScenario= true;
+	
+isOpenInput = false;
+
+var imagePath = "../../../../images/content/";
+
+var relatedUnit = "cm20";
+scoreWeight = 1;
+
+maxAttempts = 1;
+var refNum = 123;
+
+var graphicFileNameArray = new Array();
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titlePos"><table cellpadding="0" cellspacing="0" border="0" width="650"><tr><td width="650" class="titleText" id="titleLayer">Question 5</td></tr></table></div>
+<div id="questionDiv">
+<table cellpadding="0" cellspacing="3" border="0" width="100%">
+<tr><td colspan="2" width="100%" class="question" id="question">To measure an item of property, plant and equipment at the date of transition to IFRS, a first-time adopter may elect to:<br><br><span class="instructionText" id="initialInstructionText"> Select one or more options and click <b>Submit</b>.</span></td></tr>
+<tr><td width="65%" valign="top" id="optionsTop">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:2px solid white;">
+<tr style="cursor:pointer;" onclick="optionClicked(1)" onmouseover="optionOver(1)" onmouseout="optionOut(1)">
+<td valign="middle" align="center" id="optionTD_1_img"><img border="0" width="34" height="13" id="option1" name="option1" src="../../../../images/content/checkbox_d.gif"></td>
+<td valign="middle" width="100%" height="38" class="option" id="optionTD_1_main">Measure it at its fair value</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:2px solid white;">
+<tr style="cursor:pointer;" onclick="optionClicked(2)" onmouseover="optionOver(2)" onmouseout="optionOut(2)">
+<td valign="middle" align="center" id="optionTD_2_img"><img border="0" width="34" height="13" id="option2" name="option2" src="../../../../images/content/checkbox_d.gif"></td>
+<td valign="middle" width="100%" height="38" class="option" id="optionTD_2_main">Use a previous GAAP revaluation, if the revaluation is comparable to fair value</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:2px solid white;">
+<tr style="cursor:pointer;" onclick="optionClicked(3)" onmouseover="optionOver(3)" onmouseout="optionOut(3)">
+<td valign="middle" align="center" id="optionTD_3_img"><img border="0" width="34" height="13" id="option3" name="option3" src="../../../../images/content/checkbox_d.gif"></td>
+<td valign="middle" width="100%" height="38" class="option" id="optionTD_3_main">Use a previous GAAP revaluation, if the revaluation is comparable to cost or depreciated cost under IFRS</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:2px solid white;">
+<tr style="cursor:pointer;" onclick="optionClicked(4)" onmouseover="optionOver(4)" onmouseout="optionOut(4)">
+<td valign="middle" align="center" id="optionTD_4_img"><img border="0" width="34" height="13" id="option4" name="option4" src="../../../../images/content/checkbox_d.gif"></td>
+<td valign="middle" width="100%" height="38" class="option" id="optionTD_4_main">Use a previous GAAP revaluation in any case</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:2px solid white;">
+<tr style="cursor:pointer;" onclick="optionClicked(5)" onmouseover="optionOver(5)" onmouseout="optionOut(5)">
+<td valign="middle" align="center" id="optionTD_5_img"><img border="0" width="34" height="13" id="option5" name="option5" src="../../../../images/content/checkbox_d.gif"></td>
+<td valign="middle" width="100%" height="38" class="option" id="optionTD_5_main">Do all of the above</td>
+</tr>
+</table>
+</td>
+<td width="35%" valign="top">
+<div id="feedbackText"></div>
+</td>
+</tr>
+</table>
+</div>
+<div style="position:absolute; left:0; top:0; visibility:hidden;" id="spare" name="spare"></div>
+<div id="confirm" name="confirm" class="confirmButton"><img style="cursor:pointer;" onClick="javascript:checkAnswer();" onfocus="this.blur();" onmouseover="changeImage('confirm_r');" onmouseout="changeImage('confirm_n');" id="confirmImg" name="confirmImg" border="0" src="../../../../images/content/cnfrm_btn_n.jpg"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+<div id="feedbackImage">&nbsp;</div>
+</body>
+</html>

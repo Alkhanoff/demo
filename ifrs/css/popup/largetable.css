@@ -1,0 +1,11 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: bold;}
+#titlePos {position:absolute; left:10; top:10; width:580px; height:20px;}
+.initialText { font-family: Arial; font-size: 9pt; z-index:1; padding:5px;}
+.instructionText {font-family: Arial; font-size: 9pt; color:#663366; z-index:2;}
+#mainAreaDiv {position:absolute; left:7px; top:25px; width:605px; height:300px; z-index:1;}
+.tableHeading {font-family: Arial; font-size: 9pt; font-weight: bold; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.tableBody {font-family: Arial; font-size: 9pt; padding:3px; border-style:solid; border-color:#ffffff; background-color:#ffffff;}
+.tableStyle {border-style:solid; border-color:#ffffff; background-color:#999999;}
+
+
+

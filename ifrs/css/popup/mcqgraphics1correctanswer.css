@@ -1,0 +1,9 @@
+.titleText {font-family: Verdana; font-size: 12pt; font-weight: 900;}
+#titlePos {position:absolute; left:10; top:10; width:580px; height:20px;}
+.question {font-family: Arial; font-size: 9pt; padding:5px 5px 5px 5px;}
+.instructionText {font-family: Arial; font-size: 9pt; color:#663366;  z-index:2;}
+.option {font-family: Arial; font-size: 9pt; text-decoration:none; color:black; z-index:5; padding:5px;}
+#feedbackText {font-family: Arial; font-size: 9pt; padding:5px; height:250px; overflow-y:auto; }
+.confirmButton {position:absolute; left:504; top:325; width:90px; height:30px; z-index:10;}
+#questionDiv {position:absolute; left:7px; top:25px; width:605px; height:415px; z-index:1;}
+#fedbackImage {position:absolute; left:10px; top:0px; width: 422px; height:260px; z-index:10;visibility:hidden; background-color:#ffffff;}

@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Meet the subsidiaries</title>
+<link rel="stylesheet" href="../../../../css/popup/common.css">
+		<script language="JavaScript" src="../../../../js/apptop.js"></script>
+		<script language="JavaScript" src="../../../../js/common.js"></script>
+		<link rel="stylesheet" href="../../../../css/popup/hottext.css">
+<script language="JavaScript" src="../../../../js/content/hottext.js"></script>
+<script language="JavaScript">
+commsArray = null;
+	hintText = "";
+	popupText = "";
+	
+	docsArray = new Array();
+	
+var graphicFileNameArray = new Array();
+graphicFileNameArray[1] = "ifrs1_b10_005_1.jpg";
+graphicFileNameArray[2] = "ifrs1_b10_005_2.jpg";
+graphicFileNameArray[3] = "ifrs1_b10_005_3.jpg";
+var initialAudioFile = "";
+var audioOnPage = false;
+var theInitialText = "Clover Manufacturing has three subsidiaries:<b></b>";
+var theInstructionText = "That completes this <b>Background</b>. Click <b>Close</b>.";
+var theInitialInstructionText = "Click their names to find out more.";
+var imagePath = "../../../../images/content/";
+var numberOfHotTexts=3;
+var displayTextArray = new Array();
+displayTextArray[1] = "<p><b>Subsidiary: </b>Clover Chemical AG - Basle, Switzerland. It&#146;s the smallest of the three subsidiaries, although it&#146;s been operating for longer than the others and has already adopted IFRS.</p><p><b>Chief Accounting Officer: </b>Rene Schwarz </p>";
+displayTextArray[2] = "<p><b>Subsidiary: </b>Clover France - Neuilly, France. A leading company in its field. Clover Manufacturing set up this subsidiary 12 years ago.</p><p><b>Chief Accounting Officer: </b>Nicole Lambert</p>";
+displayTextArray[3] = "<p><b>Subsidiary: </b>Clover Chemikalien &#150; Frankfurt, Germany. The Clover Corporation purchased 100% of this company two years ago and it is looking to increase its activity significantly in the forthcoming years.</p><p><b>Chief Accounting Officer: </b>Erik Zimmermann</p>";
+displayTextArray[4] = "";
+displayTextArray[5] = "";
+displayTextArray[6] = "";
+</script>
+</head>
+<body leftMargin="0" onscroll="scrollTo(0,0)" rightMargin="0" topMargin="0" bottomMargin="0" onload="initialise();" onunload="pageUnload();">
+<div id="backgroundImage" name="backgroundImage" style="position:absolute; left:0; top:0; width:1px; height:1px; z-index:0; visibility:visible"><img border="0" src="../../../../images/content/trans.gif"></div>
+<div id="titleLayer" name="titleLayer" class="titleText">Meet the subsidiaries</div>
+<div id="hotTextArea" class="hotTextArea">
+<table cellpadding="0" cellspacing="0" align="left" border="0" width="100%">
+<tr>
+<td class="initialTextLayer">Clover Manufacturing has three subsidiaries:<b></b></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(1)" id="hotText1"><ul><li>Clover Chemical AG</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(2)" id="hotText2"><ul><li>Clover France</li></ul></a></td>
+</tr>
+<tr>
+<td class="hotTextRows" height="30"><a onfocus="this.blur()" class="hotText" href="#" onclick="showText(3)" id="hotText3"><ul><li>Clover Chemikalien</li></ul></a></td>
+</tr>
+<tr>
+<td class="postTextLayer"><p class="indented"> </p><span class="instructionText" id="initialInstructionText"> Click their names to find out more.</span></td>
+</tr>
+</table></div>
+<div id="displayTextArea" class="hotTextDisplayTextAtTop"></div>
+<div id="popupLayer" style="background:url(../../../../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="appTop.hidePopupLayer();" onmouseover="appTop.changeImage('popupClose_h')" onmouseout="appTop.changeImage('popupClose_n')" onfocus="this.blur()"><img alt="close" border="0" id="popupCloseImg" name="popupCloseImg" src="../../../../images/content/close_btn_n.gif"></a></div>
+<div id="popupContent"></div>
+</div>
+<div id="popupMask"><img width="664" height="442" src="../../../../images/content/white1px.gif"></div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.titleText {font-family: Calibri, Verdana; font-size: 13pt; font-weight: 900;}
+.question {font-family: Calibri, Verdana; font-size: 10pt}
+.option {font-family: Calibri, Verdana; font-size: 10pt}
+.feedback {font-family: Calibri, Verdana; font-size: 10pt}
+.instructionText {font-family: Calibri, Verdana; font-size: 10pt; color:#663366; }
+.pageNumText {font-family: Calibri, Verdana; font-size: 10pt}
+.dragItem {background-color: #B7DBEC; layer-background-color: #B7DBEC; font-family: Calibri, Verdana; font-size: 10pt; padding:3; cursor:pointer; border: 1px solid #666666;}
+.dropArea {background-color: #CCCCCC; layer-background-color: #CCCCCC; border: 1px solid #999999;}

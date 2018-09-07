@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+	<head>
+		<title>Glossary</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" href="../css/popup/common.css">
+		<link rel="stylesheet" href="../css/glossary.css">
+		<script language="JavaScript" src="../js/apptop.js"></script>
+		<script language="JavaScript" src="../js/constants.js"></script>
+		<script language="JavaScript" src="../js/common.js"></script>
+		<script language="JavaScript" src="../js/glossaryfull.js"></script>
+		<script language="JavaScript" src="../js/popupwindowpopuplayers.js"></script>
+		<script language="JavaScript" src="glossary.js"></script>
+	</head>
+	<body bgcolor="#FFFFFF" onLoad="initialise();window.focus();">
+	
+		<div id="bgImage" name="bgImage"><img src="../images/popups/glossary/popup_glossary.gif"></div>
+		<div id="termsTitleL">Terms</div>
+		<div id="glossaryList"></div>
+		<div id="descriptionTitleL">Description</div>
+		<div id="displayItemText"></div>
+		
+		<div id="exitL" onmouseover="changeImage('exit_h');" onmouseout="changeImage('exit_n')" onclick="self.close()">
+		  <img id="exitImg" name="exitImg" src="../images/popups/glossary/close_n.gif" border="0" alt="Exit" >	
+		</div>
+
+		<div id="returnL" onmouseover="changeImage('return_h');" onmouseout="changeImage('return_n')" onclick="refReturn()">
+		  <img id="returnImg" name="returnImg" src="../images/popups/glossary/return_n.gif" border="0" alt="Return" >
+		</div>
+		
+		<div id="helpL" onmouseover="changeImage('help_h');" onmouseout="changeImage('help_n')" onClick="showHelp()">
+		  <img id="helpImg" name="helpImg" src="../images/popups/glossary/help_n.gif" border="0" alt="Help" >
+		</div>
+		
+		<div id="popupLayer" style="background:url(../images/content/popup_bg.gif);"><div id="closeButton"><a href="#" onclick="hidePopupLayer();" onmouseover="changeImage('popupClose_h')" onmouseout="changeImage('popupClose_n')"><img alt="close" width="62" border="0" height="18" id="popupCloseImg" name="popupCloseImg" src="../images/content/close_btn_n.gif"></a></div>
+			<div id="popupContent">
+				<div align="left"><img src="../images/content/popup_titles/help.gif" alt="Help"/></div><br />
+		<div style="position:absolute; left:16px; top:55px; overflow: auto; padding:5px; width:340px; height:222px"></div>
+			</div>
+		</div>
+		<div id="popupMask"><img width="664" height="442" src="../images/content/white1px.gif"></div>
+
+	</body>
+</html>

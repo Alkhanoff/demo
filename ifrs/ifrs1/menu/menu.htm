@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN">
+<html lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../css/menu.css">
+<script language="JavaScript" src="../../js/apptop.js"></script>
+<script language="JavaScript" src="../../js/menu.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="initialise()">
+<div id="titleL"></div>
+
+<div id="pathL" class="blueC"></div>
+
+<div id="bookmark" class="blueC">Bookmarks:</div>
+<div id="viewL"><a href="JavaScript:viewBookmark()" onfocus="changeImage('view_h')" onblur="changeImage('view_n')"><img id="viewImg" src="../../images/view_btn_n.gif" width="37" height="18" onmouseover="changeImage('view_h')" onmouseout="changeImage('view_n')" alt="View Bookmarks"></a></div>
+<div id="addDL"><img src="../../images/add_btn_d.gif" width="35" height="18" border="0"></div>
+
+<div id="quickfind" class="blueC">QuickFind:</div>
+<div id="goL"><a href="JavaScript:launchQuickfind()" onfocus="changeImage('go_h')" onblur="changeImage('go_n')"><img id="goImg" src="../../images/go_btn_n.gif" width="27" height="18" onmouseover="changeImage('go_h')" onmouseout="changeImage('go_n')" alt="Open QuickFind"></a></div>
+
+<div id="keyword" class="blueC">Keyword:</div>
+<div id="keywords"></div>
+
+<div id="welcomeL"></div>
+<div id="iasLinkL"><!-- <a href="http://www.iasplus.com/index.htm" target="iasPlus">IAS PLUS website</a> --></div>
+<div id="mainAreaL"></div>
+<div id="optionsL"></div>
+<img id="arrowImg" src="../../images/menu/rightarrow.gif" width="13" height="27" alt="">
+<div id="descriptionL"></div>
+<img id="imageL" src="../../images/trans.gif" alt="">
+
+<div id="navL"></div>
+<div id="exit"><a href="JavaScript:exit();" onfocus="changeImage('exit_h')" onblur="changeImage('exit_n')"><img id="exitImg" src="../../images/exit_btn_n.gif" onmouseover="changeImage('exit_h')" onmouseout="changeImage('exit_n')" alt="Exit"></a></div>
+<div id="actionPlanner"><a href="JavaScript:parent.loadActionPlanner()" onfocus="changeImage('actionPlanner_h')" onblur="changeImage('actionPlanner_n')"><img id="actionPlannerImg" src="../../images/atpln_btn_n.gif" onmouseover="changeImage('actionPlanner_h')" onmouseout="changeImage('actionPlanner_n')" alt="Action Planner"></a></div>
+<div id="printCert"><a href="JavaScript:parent.printCertificate()" onfocus="changeImage('cert_h')" onblur="changeImage('cert_n')"><img id="certImg" src="../../images/menu/print_cert_n.gif" onmouseover="changeImage('cert_h')" onmouseout="changeImage('cert_n')" onfocus="this.blur()" alt="Print Certificate"></a></div>
+
+</body>
+</html>
