@@ -220,16 +220,7 @@ class CI_Driver {
 		}
 	}
 
-	function _has_operator($str)
-	    {
-	        $str = trim($str);
-	        if ( ! preg_match("/(\s|<|>|!|=|is null|is not null)/i", $str))
-	        {
-	            return FALSE;
-	        }
 
-	        return TRUE;
-	    }
 	// --------------------------------------------------------------------
 
 }
