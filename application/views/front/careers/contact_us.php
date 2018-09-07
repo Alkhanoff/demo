@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="span-17 content news detail">
-          <form method="post" action="http://www.bakertilly.az/careers/contact/">
+          <form method="post" action="<?php echo site_url_lang('main/message'); ?>">
 				<table style="width:650px;">
 					<tr>
 						<td colspan="2" style="text-align:left;font-size:25px;">Contact with our Recruitment Team</td>
@@ -64,30 +64,21 @@ For all other enquiries please complete the form below</td>
 					</tr>
 					<tr>
 						<td style="width:50%;">Your name&nbsp;</td>
-						<td style="width:50%;padding-top:5px;"><input style="width:98%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="text" name="name" required/></td>
+						<td style="width:50%;padding-top:5px;"><input style="width:97%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="text" name="name" required/></td>
 					</tr>
 					<tr>
 						<td style="width:50%;">Your email address:&nbsp;</td>
-						<td style="width:50%;padding-top:5px;"><input style="width:98%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="email" name="email" required/></td>
+						<td style="width:50%;padding-top:5px;"><input style="width:97%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="email" name="mail" required/></td>
 					</tr>
 					<tr>
 						<td style="width:50%;">Your phone number:&nbsp;</td>
-						<td style="width:50%;padding-top:5px;"><input style="width:98%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="text" name="phone" /></td>
+						<td style="width:50%;padding-top:5px;"><input style="width:97%;height:20px;font-size:15px;border: 1px solid #bbb;" value="" type="text" name="phone" /></td>
 					</tr>
-						<tr>
-						<td style="width:50%;">Security code:&nbsp;<span class="form_error"></span></td>
-						<td style="text-align: left;padding-top:5px;width:50%;"><script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LcN7eUSAAAAAK6XfyRGiRj1sVPacvvYcVkr84kv"></script>
 
-            <noscript>
-                    <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcN7eUSAAAAAK6XfyRGiRj1sVPacvvYcVkr84kv" height="300" width="500" frameborder="0"></iframe><br/>
-                    <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-                    <input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
-            </noscript></td>
-					</tr>
 					<tr>
 						<td colspan="2" style="text-align: left;padding-top:8px;">
 						Please type your message here:&nbsp;<br /><br />
-						<textarea name="message" cols="123" rows="15"></textarea>
+						<textarea name="message" cols="100" rows="15"></textarea>
 						</td>
 					</tr>
 					<tr>

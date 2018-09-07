@@ -37,4 +37,23 @@ function delete($id, $where , $from){
   return $result;
 }
 
+function messageupdate($id , $data=array()){
+  $result = $this->db->where('id' , $id)->update('messages' , $data);
+  return $result;
+
+}
+
+function del_file($id , $data=array()){
+  $result = $this->db->where('ID' , $id)->update('cmspublicationsandviews' , $data);
+  return $result;
+
+}
+
+function messagescount(){
+    $result = $this->db->select('*')->from('messages')->where('status','0')->count_all_results();
+
+
+    return $result;
+}
+
 }

@@ -105,4 +105,26 @@ function site_map(){
 function search(){
   $this->load->view('front/search/search');
 }
+
+function message(){
+  $data= array(
+          'name'  => $name = $this->input->post('name'),
+          'mail'     => $mail = $this->input->post('mail'),
+          'message'   => $message = $this->input->post('message',true),
+          'phone'     => $phone = $this->input->post('phone',true),
+          'date'      => $date = date('d-m-Y'),
+          'status'    => 0
+
+        );
+        $result = $this->dtbs->add('messages', $data);
+        if ($result) {
+
+                $this->session->set_flashdata('success','Mesaj göndərildi! Ən qısa zamanda mesajınız mail vasitəsilə cavablandırılacaq');
+                redirect($_SERVER['HTTP_REFERER']);
+                    }
+                else{
+                $this->session->set_flashdata('error','	Mesaj göndərilə bilmədi	');
+                redirect($_SERVER['HTTP_REFERER']);
+                  }
+}
 }

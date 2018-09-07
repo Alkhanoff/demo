@@ -108,14 +108,14 @@
            <div class="card bg-gradient-x-orange-yellow">
                 <div class="card-content">
                     <div class="card-body">
-                           <a>
+                           <a href="<?php echo base_url("admin/messages"); ?>">
                         <div class="media d-flex">
                             <div class="align-self-top">
                                 <i class="ft-mail icon-opacity text-white font-large-4 float-left"></i>
                             </div>
                             <div class="media-body text-white text-right align-self-bottom mt-3">
                                 <span class="d-block mb-1 font-medium-1">Yeni Mesaj</span>
-                                <h1 class="text-white mb-0">0</h1>
+                                <h1 class="text-white mb-0"><?php echo $messagescount; ?></h1>
                             </div>
                         </div>
                       </a>

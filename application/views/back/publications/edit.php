@@ -71,7 +71,7 @@
 
                       <div class="col-sm-4 ">
                         <label for="">File</label>
-                      <div class="col-sm-10">  <p><?php echo base_url($item['file']);  ?></p> <button class="btn btn-danger mb-2" href="<?php echo base_url('admin/file_delete/'.$item['ID'].'/ID/cmsnews'); ?>">Sil</button></div>
+                      <div class="col-sm-10">  <p><?php echo base_url($item['file']);  ?></p> <a class="btn btn-danger mb-2" href="<?php echo base_url('admin/del_file/'.$item['ID'].''); ?>">Sil</a></div>
                         <input type="file" name="file" class="form-control" value="<?php echo base_url($item['file']);  ?>" id="file">
 
 
