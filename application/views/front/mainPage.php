@@ -75,9 +75,19 @@
                     <div class="inner">
                         <div class="flexslider-2">
 													<?php foreach ($pub as $pub) {	?>
-                          <p><?php echo $pub['title_'.$lang]; ?></p>
-																<?php } ?>
-                            <ul class="unstyled image-li slides"><li><a href="http://www.bakertilly.az/publications_and_views/details/40/"><img style="padding-right:10px;" height="68" width="90" src="<?php base_url(); ?>uploads/IMG_1194_new1.jpg" alt=""><div class="detail"><h3>Baker Tilly Azerbaijan held a meeting with&#8230;</h3><div class="date">21.06.2018</div></div></a><a href="http://www.bakertilly.az/publications_and_views/details/39/"><img style="padding-right:10px;" height="68" width="90" src="../../uploads/download.jpg" alt="Baker Tilly Azerbaijan invites you to the seminar on recent amendments to the Tax Code of Azerbaijan Republic"><div class="detail"><h3>Baker Tilly Azerbaijan invites you to the&#8230;</h3><div class="date">03.02.2018</div></div></a><a href="http://www.bakertilly.az/publications_and_views/details/38/"><img style="padding-right:10px;" height="68" width="90" src="../../uploads/tax.jpg" alt="Baker Tilly Azerbaijan's Tax & Legal Newsletter, Dec'15"><div class="detail"><h3>Baker Tilly Azerbaijan's Tax & Legal Newsletter,&#8230;</h3><div class="date">18.12.2015</div></div></a></li></ul>
+	<p><?php echo $pub['title_'.$lang]; ?></p>
+  <?php } ?>
+                            <ul class="unstyled image-li slides">
+															<li>
+																<a href="#">
+																	<img style="padding-right:10px;" height="68" width="90" src="<?php base_url(); ?>uploads/IMG_1194_new1.jpg" alt="">
+																	<div class="detail">
+
+																		<div class="date"><?php echo $pub['date']; ?></div>
+																	</div></a>
+																</li>
+																</ul>
+
 
 											  </div>
                     </div>
