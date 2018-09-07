@@ -73,23 +73,24 @@
                 <div class="callout-3-col">
                     <h2 ><?=label("main_publications")?></h2>
                     <div class="inner">
-                        <div class="flexslider-2">
 													<?php foreach ($pub as $pub) {	?>
-	<p><?php echo $pub['title_'.$lang]; ?></p>
-  <?php } ?>
-                            <ul class="unstyled image-li slides">
-															<li>
-																<a href="#">
-																	<img style="padding-right:10px;" height="68" width="90" src="<?php base_url(); ?>uploads/IMG_1194_new1.jpg" alt="">
-																	<div class="detail">
+                        <div class="flexslider-2">
 
-																		<div class="date"><?php echo $pub['date']; ?></div>
-																	</div></a>
-																</li>
-																</ul>
+																<ul class="unstyled image-li slides">
+		 	   <li>
+			      <a href="#">
+			         <img style="padding-right:10px;" height="68" width="90" src="<?php base_url(); ?><?php echo $pub['image']; ?>" alt="">
+			         <div class="detail">
+			            <h3><?php echo  word_limiter($pub['title_'.$lang],15);?>&#8230;</h3>
+			            <div class="date"><?php echo  $pub['date']; ?></div>
+			         </div>
+			      </a>
 
+			   </li>
+			</ul>
 
-											  </div>
+												  </div>
+														<?php } ?>
                     </div>
                 </div>
             </div>
