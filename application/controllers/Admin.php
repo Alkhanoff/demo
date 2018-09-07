@@ -1243,4 +1243,147 @@ public function message_delete($id, $where , $from){
 
 ////////////////////////////////////Mesajlar End////////////////////////////////////////////////
 
+
+//////////////////////////////////Vakansiyalar Start/////////////////////////////////////////
+
+public function sectorgroups(){
+  $result = $this->dtbs->getdatas('sector_groups');
+  $data['item'] =$result;
+  $this->load->view('back/sectors/sectorgroups' , $data);
+}
+
+public function sector_groups_create(){
+    $this->load->view('back/sectors/create' );
+}
+
+public function create_sector_group(){
+      if(strlen($_FILES['picture']['name']) > 0){
+        $config['upload_path']          = FCPATH.'images/sectors_general';
+                  $config['allowed_types']        = 'gif|jpg|jpeg|png';
+                  $config['encrypt_name']         = TRUE;
+                  $this->load->library('upload', $config);
+                   $this->upload->do_upload('picture');
+                    $image = $this->upload->data();
+                    $imagepath  = $image['file_name'];
+                    $imagesave  = 'images/sectors_general/'.$imagepath.'';
+
+                    $config['image_library']  = 'gd2';
+                    $config['source_image']   = 'images/sectors_general/'.$imagepath.'';
+
+                    $config['create_thumb']   = false;
+                    $config['maintain_ratio'] = false;
+                    $config['quality']        = '80%';
+
+
+                    $this->load->library('image_lib',$config);
+                    $this->image_lib->initialize($config);
+                    $this->image_lib->resize();
+                    $this->image_lib->clear();
+
+     $data = array(
+       'title_az'    => $title_az = $this->input->post('title_az'),
+       'title_en'    => $title_en = $this->input->post('title_en'),
+       'text_az'     =>  $text_az = $this->input->post('text_az'),
+       'text_en'     => $text_en = $this->input->post('text_en'),
+       'picture'     => $imagesave
+
+     );
+
+
+       $result = $this->dtbs->add('sector_groups' ,$data);
+       redirect('admin/sectorgroups');
+     } else{
+
+       $data = array(
+         'title_az'   => $title_az = $this->input->post('title_az'),
+         'title_en'   => $title_en = $this->input->post('title_en'),
+         'text_az'   => $text_az = $this->input->post('text_az'),
+         'text_en'     => $text_en = $this->input->post('text_en')
+
+
+       );
+
+
+        $result = $this->dtbs->add('sector_groups' ,$data);
+         redirect('admin/sectorgroups');
+     }
+}
+
+public function sector_groups_edit($id){
+        $result = $this->dtbs->getdatabyid($id,'sector_groups');
+        $data['item'] = $result;
+        $this->load->view('back/sectors/edit', $data);
+
+}
+
+public function update_sector_group(){
+      if(strlen($_FILES['picture']['name']) > 0){
+  $config['upload_path']          = FCPATH.'images/sectors_inside';
+  $config['allowed_types']        = 'gif|jpg|jpeg|png';
+  $config['encrypt_name']         = TRUE;
+  $this->load->library('upload', $config);
+   $this->upload->do_upload('picture');
+    $image = $this->upload->data();
+    $imagepath  = $image['file_name'];
+    $imagesave  = 'images/sectors_inside/'.$imagepath.'';
+
+
+    $config['image_library']  = 'gd2';
+    $config['source_image']   = 'images/sectors_inside/'.$imagepath.'';
+    $config['new_image']      = 'images/sectors_inside/'.	$imagepath.'';
+    $config['create_thumb']   = false;
+    $config['maintain_ratio'] = false;
+    $config['quality']        = '85%';
+
+
+    $this->load->library('image_lib',$config);
+    $this->image_lib->initialize($config);
+    $this->image_lib->resize();
+    $this->image_lib->clear();
+
+     $data = array(
+       'id'         => $id = $this->input->post('id'),
+       'title_az'   => $title_az = $this->input->post('title_az'),
+       'title_en'   => $title_en = $this->input->post('title_en'),
+       'text_az'    => $text_az = $this->input->post('text_az'),
+       'text_en'    => $text_en = $this->input->post('text_en'),
+       'picture'    => $imagesave
+
+     );
+
+      $result = $this->dtbs->update($data , $id , 'id' , 'sector_groups');
+
+       redirect('admin/sectorgroups');
+     }
+     else{
+       $data = array(
+         'id'         => $id = $this->input->post('id'),
+         'title_az'   => $title_az = $this->input->post('title_az'),
+         'title_en'   => $title_en = $this->input->post('title_en'),
+         'text_az'    => $text_az = $this->input->post('text_az'),
+         'text_en'    => $text_en = $this->input->post('text_en'),
+
+
+       );
+
+        $result = $this->dtbs->update($data , $id , 'id' , 'sector_groups');
+
+         redirect('admin/sectorgroups');
+
+     }
+
+}
+
+public function sectorgroups_delete($id , $where , $from){
+
+          $delete = $this->dtbs->delete($id , $where , $from);
+          redirect('admin/sectorgroups');
+
+}
+
+
+
+
+
+/////////////////////////////////Vakansiyalar End//////////////////////////////////////////////
 }

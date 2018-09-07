@@ -40,10 +40,9 @@
         <div class="side-1">
           <div id="quaternaryNavigation" class="full-width">
             <ul style="height:500px;">
-	        	<li><a href="http://www.bakertilly.az/careers/vacancies/">Vacancies</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/online_application/">Online application</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/selection_procedures/">Selection procedures</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/track_application_status/">Track application status</a></li>
+	        	<li><a href="<?php echo site_url_lang('main/vacancies'); ?>">Vacancies</a></li>
+	        	<li><a href="<?php echo site_url_lang('main/online_application'); ?>">Online application</a></li>
+	        	<li><a href="<?php echo site_url_lang('main/selection_procedures'); ?>">Selection procedures</a></li>
 	        	<li><a href="<?php echo site_url_lang('main/contact_us'); ?>">Contact with our Recruitment Team</a></li>
         	</ul>
           </div>

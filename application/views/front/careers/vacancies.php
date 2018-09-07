@@ -41,12 +41,11 @@
         <div class="side-1">
           <div id="quaternaryNavigation" class="full-width">
             <ul style="height:500px;">
-	        	<li class="active-li"><a href="http://www.bakertilly.az/careers/vacancies/">Vacancies</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/online_application/">Online application</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/selection_procedures/">Selection procedures</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/track_application_status/">Track application status</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/contact/">Contact with our Recruitment Team</a></li>
-        	</ul>
+            <li><a href="<?php echo site_url_lang('main/vacancies'); ?>">Vacancies</a></li>
+            <li><a href="<?php echo site_url_lang('main/online_application'); ?>">Online application</a></li>
+            <li><a href="<?php echo site_url_lang('main/selection_procedures'); ?>">Selection procedures</a></li>
+            <li><a href="<?php echo site_url_lang('main/contact_us'); ?>">Contact with our Recruitment Team</a></li>
+          </ul>
           </div>
         </div>
         <div class="span-17 content news detail">
@@ -61,6 +60,25 @@
 
         		<div>
         			<ul class="vacancies"></ul>
+
+
+              <h2>Salam</h2>
+              <div class="col-md-12">
+
+                        <ul style="margin:0;" class="unstyled ">
+																										<li style="margin-top:0;margin-bottom:10px;"><h3 style="display: inline">Vəzifə:    saassa</h3></li>
+                                                  	<li style="margin-top:0;margin-bottom:10px;"><h3 style="display: inline">Sektor:    saassa</h3></li>
+                                                  	<li style="margin-top:0;margin-bottom:10px;"><h3 style="display: inline">Əməkhaqqı:    saassa</h3></li>
+
+                                              </div>
+                                              <div class="col-md-6" style="width: 50%;">
+                                <p style="font-size: 14px;">saaaaaaaaaaaaaaaaaaaaaaaaa
+                          
+                     </p>
+                                                                              </div>
+
+							</ul>
+
         		</div>
 
         		<div class="pagination" style="display:none;">
