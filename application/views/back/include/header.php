@@ -250,9 +250,10 @@
           <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i class="ft-paperclip"></i><span>Online Müraciətlər</span></a>
 
           </li>
-          <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i class="ft-mail"></i><span>Mesajlar</span></a>
+          <li class=" nav-item" ><a class=" nav-link" href="<?php echo  base_url('admin/messages'); ?> "><i class="ft-mail"></i><span>Mesajlar</span></a>
 
           </li>
+        
         </ul>
       </div>
     </div>

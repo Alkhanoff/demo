@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Admin extends CI_Controller {
   public function index()
 	{
-		$this->load->view('back/home');
+    $data['messagescount'] = $this->dtbs->messagescount();
+		$this->load->view('back/home' ,$data);
 	}
 //////////////////////////////////Xidmətlər Start///////////////////////////////////////////////
   public function services()
@@ -761,6 +762,12 @@ public function publications_delete($id , $where , $from){
 
 }
 
+public function del_file($id){
+    $data = array('file' =>  'null');
+    $this->dtbs->del_file($id , $data);
+    redirect($_SERVER['HTTP_REFERER']);
+
+}
 
 
 
@@ -973,5 +980,56 @@ public function aboutgroups_delete($id , $where , $from){
 
 
 /////////////////////////////////////Haqqımızda End///////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////Mesajlar Start////////////////////////////////////////////////
+
+public function messages(){
+
+  $result = $this->dtbs->getdatas('messages');
+  $data['item'] = $result;
+  $this->load->view('back/messages/home', $data);
+}
+
+public function message_edit($id){
+
+$result =	$this->dtbs->getdatabyid($id , 'messages');
+  if($result){
+    $data['item'] =$result;
+    $this->load->view('back/messages/edit', $data);
+    $data = array('status' => 1);
+    $this->dtbs->messageupdate($result['id'] , $data);
+
+  }
+}
+
+public function message_delete($id, $where , $from){
+
+    $delete = $this->dtbs->delete($id , $where , $from);
+    if ($delete) {
+
+             $this->session->set_flashdata('update_datatable','<div class="alert alert-success text-center alert-dismissible">
+                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                       <h4><i class="icon fa fa-check"></i>Mesaj Silindi!</h4>
+                       </div>');
+             redirect('admin/messages');
+                 }
+             else{
+             $this->session->set_flashdata('update_datatable','<div class="alert alert-danger text-center alert-dismissible">
+                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                       <h4><i class="icon fa fa-ban"></i> Xəta baş verdi!</h4>
+                           Silmə uğursuz oldu.	</div>');
+             redirect('admin/messages');
+               }
+}
+
+
+
+
+
+
+////////////////////////////////////Mesajlar End////////////////////////////////////////////////
 
 }

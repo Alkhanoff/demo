@@ -80,13 +80,23 @@
                 </div>
                 <div class="card-content collapse show bg-hexagons-danger">
                     <div class="card-body">
+<<<<<<< HEAD
+=======
+                           <a href="<?php echo base_url("admin/messages"); ?>">
+>>>>>>> f6bc22466890f55a99ae9c7e13963dee6cda1bc3
                         <div class="media d-flex">
                             <div class="align-self-center width-100">
                                 <div id="Analytics-donut-chart" class="height-100 donutShadow"></div>
                             </div>
+<<<<<<< HEAD
                             <div class="media-body text-right mt-1">
                                 <h3 class="font-large-2 white">12,515</h3>
                                 <h6 class="mt-1"><span class="text-muted white">Analytics in the <a href="#" class="darken-2 white">last year.</a></span></h6>
+=======
+                            <div class="media-body text-white text-right align-self-bottom mt-3">
+                                <span class="d-block mb-1 font-medium-1">Yeni Mesaj</span>
+                                <h1 class="text-white mb-0"><?php echo $messagescount; ?></h1>
+>>>>>>> f6bc22466890f55a99ae9c7e13963dee6cda1bc3
                             </div>
                         </div>
                     </div>

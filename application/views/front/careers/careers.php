@@ -43,7 +43,7 @@
 	        	<li><a href="http://www.bakertilly.az/careers/online_application/">Online application</a></li>
 	        	<li><a href="http://www.bakertilly.az/careers/selection_procedures/">Selection procedures</a></li>
 	        	<li><a href="http://www.bakertilly.az/careers/track_application_status/">Track application status</a></li>
-	        	<li><a href="http://www.bakertilly.az/careers/contact/">Contact with our Recruitment Team</a></li>
+	        	<li><a href="<?php echo site_url_lang('main/contact_us'); ?>">Contact with our Recruitment Team</a></li>
         	</ul>
           </div>
         </div>
