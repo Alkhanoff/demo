@@ -15,7 +15,12 @@ class Main extends MY_Controller {
 //Main page
   function index()
   {
-
+    if(getLang() == 'az'){
+        $data['pub'] = $this->dtbs->homepub_az();
+    }
+    if(getLang() == 'en'){
+        $data['pub'] = $this->dtbs->homepub_en();
+    }
     $data['item'] = $this->dtbs->getdatas('sector_groups');
     $data['about'] = $this->dtbs->getdata('about');
     $this->load->view('front/mainPage' , $data);

@@ -74,9 +74,9 @@
         <textarea class="summernote2" name="text_en"></textarea>
 
           <button class="btn btn-primary mt-2" type="submit">Yadda Saxla</button>
-
+            <button class="btn btn-info mt-2 ml-3" href="<?php echo base_url('Admin/services'); ?>" >Geri Qayıt</button>
         </form>
-             <a class="btn btn-info mt-2 ml-3" href="<?php echo site_url('Admin/servicegroups'); ?>" >Geri Qayıt</a>
+
 					</div>
 				</div>
 			</div>

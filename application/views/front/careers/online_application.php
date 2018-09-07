@@ -22,7 +22,7 @@
               <?php $this->load->view('front/include/lang'); ?>
 
                 <div class="row wave">
-                    <div class="mainLogo"><a href="http://www.bakertilly.az/index/default_page/"><img src="http://www.bakertilly.az/images/logo.png" width="175" height="57" alt="Baker Tilly Azerbaijan"></a></div>
+                <?php $this->load->view('front/include/mainlogo'); ?>
                     <div class="span-12 pull-right">
                       <?php $this->load->view('front/include/search'); ?>
 

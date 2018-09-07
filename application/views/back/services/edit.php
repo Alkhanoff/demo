@@ -76,7 +76,7 @@
         <textarea class="summernote2" name="text_en" ><?php echo $item['text_en']; ?></textarea>
 
           <button class="btn btn-primary mt-2" type="submit">Dəyiş</button>
-            <a class="btn btn-info mt-2 ml-3" href="<?php echo base_url('Admin/servicegroups'); ?>" >Geri Qayıt</a>
+            <button class="btn btn-info mt-2 ml-3" href="<?php echo base_url('Admin/services'); ?>" >Geri Qayıt</button>
         </form>
 
 					</div>

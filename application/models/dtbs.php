@@ -36,6 +36,20 @@ function delete($id, $where , $from){
   $result = $this->db->delete($from, array($where=>$id));
   return $result;
 }
+//
+//HomePub
+function homepub_az(){
+  $result =$this->db->select('*')->from('cmspublicationsandviews')
+  ->where('title_az is not null', null)
+  ->order_by('ID','desc')->limit(3)->get()->result_array();
+  return $result;
+}
+function homepub_en(){
+  $result =$this->db->select('*')->from('cmspublicationsandviews')
+  ->where('title_en is not null', null)
+  ->order_by('ID','desc')->limit(3)->get()->result_array();
+  return $result;
+}
 
 function messageupdate($id , $data=array()){
   $result = $this->db->where('id' , $id)->update('messages' , $data);

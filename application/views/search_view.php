@@ -55,9 +55,9 @@
 
 
 <!--
-<div id="content-primary" class="content wide">             
-	<h1>Search results</h1> 
-           
+<div id="content-primary" class="content wide">
+	<h1>Search results</h1>
+
 	<div class="results-summary" style="{display_results}">
 		<div id="SRST" class="srch-WPBody"> <div class="srch-stats">Results <b>{results_from}-{results_to}</b> of about {count}.</div></div>
     </div>
@@ -70,21 +70,21 @@
 	</div>
 
 	<div class="results">
-		<div class="bestbets">           
+		<div class="bestbets">
 			<table toplevel="" border="0" cellpadding="0" cellspacing="0" width="100%">
 				<tbody><tr>
 					<td valign="top"><div haspers="true" id="WebPartWPQ1" width="100%" class="ms-WPBody" onlyformepart="true" allowdelete="false" style=""><div id="HCR" class="srch-WPBody"><span class="srch-BB-SpecialTerm" style="display:none;"></span></div></div></td>
 				</tr>
 			</tbody></table>
         </div>
-        <div id="CSR" class="srch-WPBody">			
+        <div id="CSR" class="srch-WPBody">
 			{search_list}
 		</div>
 		<div id="SRP" class="srch-WPBody ">
 			<div class="srch-Page srch-Page-bg">
 				{paging}
 			</div>
-		</div>              
-   </div> 
+		</div>
+   </div>
 </div>
 -->
